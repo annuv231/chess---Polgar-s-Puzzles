@@ -28,3 +28,7 @@ resource-pdf/
 *.njsproj
 *.sln
 *.sw?
+
+# Cloudflare / Wrangler
+.wrangler/
+.dev.vars

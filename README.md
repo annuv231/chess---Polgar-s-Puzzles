@@ -27,6 +27,14 @@ Build:
 npm run build
 ```
 
+## Deploy (Cloudflare)
+
+**Build command:** `npm run build`  
+**Output directory:** `dist`  
+**Deploy command:** leave empty for Pages, or `npx wrangler deploy` if using Workers Assets
+
+SPA routes (`/play/...`) are handled by `wrangler.jsonc` (`not_found_handling: single-page-application`). Do not add a `_redirects` catch-all to `/index.html` — that conflicts with Workers Assets.
+
 ## License
 
 App code is MIT. Puzzle positions originate from László Polgár’s *Chess: 5334 Problems, Combinations and Games*.
