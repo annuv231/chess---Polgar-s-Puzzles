@@ -14,6 +14,7 @@ import {
   tryMove,
   turnFromFen,
 } from '../lib/chessHelpers'
+import { playMoveSound, unlockMoveSounds } from '../lib/chessSounds'
 
 type Props = {
   puzzle: Puzzle
@@ -69,6 +70,12 @@ export function PuzzleBoard({
   const activeSide = turnFromFen(fen)
 
   useEffect(() => {
+    const unlock = () => unlockMoveSounds()
+    window.addEventListener('pointerdown', unlock, { once: true })
+    return () => window.removeEventListener('pointerdown', unlock)
+  }, [])
+
+  useEffect(() => {
     setFen(puzzle.fen)
     setPlyIndex(0)
     setSelected(null)
@@ -121,6 +128,8 @@ export function PuzzleBoard({
       const result = playLineMove(fenRef.current, attempt)
       if (!result) return false
 
+      playMoveSound(result.move)
+
       const ok = movesMatch(
         {
           from,
@@ -168,6 +177,7 @@ export function PuzzleBoard({
           onPlyChange?.(0)
           return
         }
+        playMoveSound(replyResult.move)
         setFen(replyResult.fen)
         setLastMove(reply)
         setFeedbackMove(null)
