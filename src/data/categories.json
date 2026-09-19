@@ -1,0 +1,34 @@
+[
+  {
+    "slug": "mate-in-one",
+    "title": "Mate in One",
+    "subtitle": "Find checkmate in a single move",
+    "count": 307,
+    "mateIn": 1,
+    "badge": "#1"
+  },
+  {
+    "slug": "mate-in-two",
+    "title": "Mate in Two",
+    "subtitle": "Force mate in two moves",
+    "count": 3412,
+    "mateIn": 2,
+    "badge": "#2"
+  },
+  {
+    "slug": "mate-in-three",
+    "title": "Mate in Three",
+    "subtitle": "Force mate in three moves",
+    "count": 743,
+    "mateIn": 3,
+    "badge": "#3"
+  },
+  {
+    "slug": "remix",
+    "title": "Remix",
+    "subtitle": "All puzzles in random order",
+    "count": 4462,
+    "mateIn": null,
+    "badge": "∞"
+  }
+]
