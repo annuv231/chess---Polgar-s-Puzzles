@@ -259,6 +259,11 @@ function StudySessionLive({ deck, mode: initialMode, lineId }: StudySessionProps
     showStep(rest);
   };
 
+  const hintFrom =
+    (mode === "practice" || hint) && phase === "input"
+      ? step?.movesUci[0]?.slice(0, 2)
+      : undefined;
+
   const chessboardOptions = useMemo(
     () => ({
       position: fen,
@@ -275,7 +280,15 @@ function StudySessionLive({ deck, mode: initialMode, lineId }: StudySessionProps
         square: string;
         children?: React.ReactNode;
       }) => (
-        <div style={{ position: "relative", width: "100%", height: "100%" }}>
+        <div
+          style={{
+            position: "relative",
+            width: "100%",
+            height: "100%",
+            backgroundColor:
+              square === hintFrom ? "rgba(255, 214, 74, 0.85)" : undefined,
+          }}
+        >
           {children}
           {square === wrongSquare && (
             <div
@@ -303,7 +316,7 @@ function StudySessionLive({ deck, mode: initialMode, lineId }: StudySessionProps
         </div>
       ),
     }),
-    [boardOrientation, fen, onPieceDrop, phase, wrongSquare],
+    [boardOrientation, fen, hintFrom, onPieceDrop, phase, wrongSquare],
   );
 
   const progress = Math.min(
@@ -354,12 +367,117 @@ function StudySessionLive({ deck, mode: initialMode, lineId }: StudySessionProps
 
   const lineName = findLineName(deck, current.stepId);
 
+  const lesson = showLesson ? (
+    <div className="rounded-xl bg-white px-4 py-3 text-zinc-900 shadow-sm">
+      {step.comment && <p className="text-sm leading-6">{step.comment}</p>}
+      <p className={`${step.comment ? "mt-2" : ""} text-sm font-semibold`}>
+        {describeMove(step.san)}
+      </p>
+    </div>
+  ) : (
+    <p className="text-sm text-zinc-400">Find the move.</p>
+  );
+
   return (
     <StudyFrame progress={progress} deckSlug={deck.slug}>
-      <div className="aspect-square w-[min(72vh,calc(100vw-400px))] min-w-[220px] max-w-[680px] shrink">
-        <Chessboard options={chessboardOptions} />
+      <div className="flex min-h-0 w-full flex-1 flex-col md:contents">
+        <div className="flex min-h-0 flex-1 flex-col gap-3 overflow-auto md:contents">
+          <div className="flex flex-col gap-3 md:hidden">
+            <div className="flex items-center gap-2 px-1 text-sm">
+              <span className="inline-flex shrink-0 items-center gap-1.5 font-semibold">
+                <BookIcon />
+                {mode === "practice" ? "Learn" : "Train"}
+              </span>
+              <span className="truncate text-zinc-200">{lineName}</span>
+              <span className="ml-auto shrink-0 text-zinc-400">
+                #{stepNumber(step.id)}
+              </span>
+            </div>
+            <div className="flex items-center gap-3 px-1">
+              <Link
+                to={`/repeat/decks/${deck.slug}`}
+                className="text-zinc-200"
+                aria-label="Back to deck"
+              >
+                <Chevron direction="left" />
+              </Link>
+              <div className="h-2.5 flex-1 overflow-hidden rounded-full bg-zinc-800">
+                <div
+                  className="h-full rounded-full bg-[#7c4dff] transition-all"
+                  style={{ width: `${Math.round(progress * 100)}%` }}
+                />
+              </div>
+            </div>
+            {lesson}
+            {phase === "wrong" && (
+              <button
+                type="button"
+                onClick={onTryAgain}
+                className="self-start rounded-full bg-white px-4 py-2 text-sm font-medium text-zinc-900"
+              >
+                Try again
+              </button>
+            )}
+          </div>
+
+          <div className="mx-auto aspect-square w-full max-w-[680px] shrink-0 md:w-[min(72vh,calc(100vw-420px))] md:min-w-[280px]">
+            <Chessboard options={chessboardOptions} />
+          </div>
+        </div>
+
+        <nav className="mt-2 flex items-end justify-between px-2 pb-3 text-zinc-300 md:hidden">
+          <Link
+            to="/repeat/settings"
+            className="flex w-14 flex-col items-center gap-1 text-[11px] text-zinc-400"
+            aria-label="Settings"
+          >
+            <GearIcon />
+          </Link>
+          <button
+            type="button"
+            onClick={() => setHint((value) => !value)}
+            className={`flex w-14 flex-col items-center gap-1 text-[11px] ${hint ? "text-amber-300" : ""}`}
+          >
+            <HintIcon />
+            Hint
+          </button>
+          <button
+            type="button"
+            onClick={() =>
+              setMode((currentMode) =>
+                currentMode === "practice" ? "train" : "practice",
+              )
+            }
+            className="flex w-14 flex-col items-center gap-1 text-[11px]"
+            aria-label={mode === "practice" ? "Switch to train" : "Switch to learn"}
+          >
+            <ModeIcon />
+            Mode
+          </button>
+          <div className="flex items-center gap-1">
+            <button
+              type="button"
+              onClick={goBack}
+              disabled={completed.length === 0 || phase === "autoplay"}
+              className="rounded-lg p-2 disabled:opacity-30"
+              aria-label="Previous move"
+            >
+              <Chevron direction="left" />
+            </button>
+            <button
+              type="button"
+              onClick={goForward}
+              disabled={phase === "autoplay"}
+              className="rounded-lg p-2 disabled:opacity-30"
+              aria-label="Next move"
+            >
+              <Chevron direction="right" />
+            </button>
+          </div>
+        </nav>
       </div>
-      <aside className="flex w-[320px] shrink-0 flex-col self-stretch rounded-2xl border border-zinc-800 bg-zinc-950 p-4">
+
+      <aside className="hidden w-[320px] shrink-0 flex-col self-stretch rounded-2xl border border-zinc-800 bg-zinc-950 p-4 md:flex">
         <div className="flex items-center gap-2 text-sm">
           <span className="inline-flex items-center gap-1.5 rounded-md bg-zinc-900 px-2 py-1 font-medium text-zinc-200">
             <BookIcon />
@@ -369,26 +487,7 @@ function StudySessionLive({ deck, mode: initialMode, lineId }: StudySessionProps
           <span className="ml-auto text-zinc-500">#{stepNumber(step.id)}</span>
         </div>
 
-        <div className="mt-4 flex-1">
-          {showLesson ? (
-            <div className="rounded-xl bg-white p-4 text-zinc-900 shadow-sm">
-              <div className="flex gap-3">
-                <span className="mt-0.5 text-lg" aria-hidden>
-                  ♟
-                </span>
-                <div>
-                  {step.comment && (
-                    <p className="text-sm leading-6">{step.comment}</p>
-                  )}
-                  <p className="mt-2 text-sm font-semibold">
-                    {describeMove(step.san)}
-                  </p>
-                </div>
-              </div>
-            </div>
-          ) : (
-            <p className="text-sm text-zinc-400">Find the move.</p>
-          )}
+        <div className="mt-4 flex-1">{lesson}
 
           {phase === "autoplay" && (
             <p className="mt-4 text-sm text-zinc-500">Opponent is replying…</p>
@@ -465,7 +564,7 @@ function StudyFrame({
 }) {
   return (
     <div className="fixed inset-0 z-30 flex flex-col bg-black text-zinc-100">
-      <header className="flex items-center gap-4 px-4 py-3 sm:px-6">
+      <header className="hidden items-center gap-4 px-4 py-3 sm:px-6 md:flex">
         <Link to="/repeat" className="flex shrink-0 items-center gap-2 font-semibold">
           <span className="text-lg" aria-hidden>
             ♟
@@ -492,7 +591,7 @@ function StudyFrame({
           <GearIcon />
         </Link>
       </header>
-      <div className="flex min-h-0 flex-1 items-center justify-center gap-6 overflow-auto px-4 pb-4 sm:px-6">
+      <div className="flex min-h-0 flex-1 flex-col items-stretch justify-start gap-3 overflow-hidden px-3 pb-1 pt-3 md:flex-row md:items-center md:justify-center md:gap-6 md:overflow-auto md:px-6 md:pb-4">
         {children}
       </div>
     </div>
