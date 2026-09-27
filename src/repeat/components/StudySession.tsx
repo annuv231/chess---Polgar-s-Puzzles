@@ -425,56 +425,6 @@ function StudySessionLive({ deck, mode: initialMode, lineId }: StudySessionProps
           </div>
         </div>
 
-        <nav className="mt-2 flex items-end justify-between px-2 pb-3 text-zinc-300 md:hidden">
-          <Link
-            to="/repeat/settings"
-            className="flex w-14 flex-col items-center gap-1 text-[11px] text-zinc-400"
-            aria-label="Settings"
-          >
-            <GearIcon />
-          </Link>
-          <button
-            type="button"
-            onClick={() => setHint((value) => !value)}
-            className={`flex w-14 flex-col items-center gap-1 text-[11px] ${hint ? "text-amber-300" : ""}`}
-          >
-            <HintIcon />
-            Hint
-          </button>
-          <button
-            type="button"
-            onClick={() =>
-              setMode((currentMode) =>
-                currentMode === "practice" ? "train" : "practice",
-              )
-            }
-            className="flex w-14 flex-col items-center gap-1 text-[11px]"
-            aria-label={mode === "practice" ? "Switch to train" : "Switch to learn"}
-          >
-            <ModeIcon />
-            Mode
-          </button>
-          <div className="flex items-center gap-1">
-            <button
-              type="button"
-              onClick={goBack}
-              disabled={completed.length === 0 || phase === "autoplay"}
-              className="rounded-lg p-2 disabled:opacity-30"
-              aria-label="Previous move"
-            >
-              <Chevron direction="left" />
-            </button>
-            <button
-              type="button"
-              onClick={goForward}
-              disabled={phase === "autoplay"}
-              className="rounded-lg p-2 disabled:opacity-30"
-              aria-label="Next move"
-            >
-              <Chevron direction="right" />
-            </button>
-          </div>
-        </nav>
       </div>
 
       <aside className="hidden w-[320px] shrink-0 flex-col self-stretch rounded-2xl border border-zinc-800 bg-zinc-950 p-4 md:flex">
