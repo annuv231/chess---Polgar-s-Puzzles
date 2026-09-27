@@ -189,11 +189,16 @@ function StudySessionLive({ deck, mode: initialMode, lineId }: StudySessionProps
         }
         setWrongSquare(targetSquare);
         setPhase("wrong");
-        if (landed) {
-          setPosition(landed);
-          return true;
-        }
-        return false;
+        const restoreFen = step.fenBefore;
+        const stepId = step.id;
+        if (landed) setPosition(landed);
+        later(() => {
+          if (queueRef.current[0]?.stepId !== stepId) return;
+          setWrongSquare(null);
+          setPosition(restoreFen);
+          setPhase("input");
+        }, 550);
+        return Boolean(landed);
       }
 
       const nextStore = gradeStep(store, step.id, Rating.Good);
@@ -222,13 +227,6 @@ function StudySessionLive({ deck, mode: initialMode, lineId }: StudySessionProps
     },
     [advanceQueue, fen, phase, step, store],
   );
-
-  const onTryAgain = () => {
-    if (!step) return;
-    setWrongSquare(null);
-    setPosition(step.fenBefore);
-    setPhase("input");
-  };
 
   const playAgain = () => {
     const nextQueue = buildStudyQueue(deck, store, loadSettings(), lineId);
@@ -400,15 +398,6 @@ function StudySessionLive({ deck, mode: initialMode, lineId }: StudySessionProps
               </div>
             </div>
             {lesson}
-            {phase === "wrong" && (
-              <button
-                type="button"
-                onClick={onTryAgain}
-                className="self-start rounded-full bg-white px-4 py-2 text-sm font-medium text-zinc-900"
-              >
-                Try again
-              </button>
-            )}
           </div>
 
           <div className="mx-auto aspect-square w-full max-w-[680px] shrink-0 md:w-[min(72vh,calc(100vw-420px))] md:min-w-[280px]">
@@ -432,16 +421,6 @@ function StudySessionLive({ deck, mode: initialMode, lineId }: StudySessionProps
 
           {phase === "autoplay" && (
             <p className="mt-4 text-sm text-zinc-500">Opponent is replying…</p>
-          )}
-
-          {phase === "wrong" && (
-            <button
-              type="button"
-              onClick={onTryAgain}
-              className="mt-4 rounded-full bg-white px-4 py-2 text-sm font-medium text-zinc-900"
-            >
-              Try again
-            </button>
           )}
         </div>
 
