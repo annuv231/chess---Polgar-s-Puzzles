@@ -1,0 +1,911 @@
+{
+  "id": "scandinavian",
+  "slug": "scandinavian",
+  "name": "Scandinavian Defense",
+  "color": "b",
+  "tags": [
+    "opening"
+  ],
+  "lines": [
+    {
+      "id": "qa5",
+      "name": "Main line — 3...Qa5",
+      "steps": [
+        {
+          "id": "scandinavian:qa5:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "d7d5"
+          ],
+          "opponentReplies": [
+            "e4d5"
+          ],
+          "san": "d5",
+          "comment": "Strike the center at once and open a path for the queen."
+        },
+        {
+          "id": "scandinavian:qa5:1",
+          "fenBefore": "rnbqkbnr/ppp1pppp/8/3P4/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 2",
+          "movesUci": [
+            "d8d5"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "Qxd5",
+          "comment": "Recapture. You accept an early queen move in return for a clean center."
+        },
+        {
+          "id": "scandinavian:qa5:2",
+          "fenBefore": "rnb1kbnr/ppp1pppp/8/3q4/8/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 3",
+          "movesUci": [
+            "d5a5"
+          ],
+          "opponentReplies": [
+            "d2d4"
+          ],
+          "san": "Qa5",
+          "comment": "The main retreat. The queen stays active and pins nothing yet, but she leaves the d-file."
+        },
+        {
+          "id": "scandinavian:qa5:3",
+          "fenBefore": "rnb1kbnr/ppp1pppp/8/q7/3P4/2N5/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "Nf6",
+          "comment": "Develop and attack the center. Do not grab pawns."
+        },
+        {
+          "id": "scandinavian:qa5:4",
+          "fenBefore": "rnb1kb1r/ppp1pppp/5n2/q7/3P4/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+          "movesUci": [
+            "c8f5"
+          ],
+          "opponentReplies": [
+            "f3e5"
+          ],
+          "san": "Bf5",
+          "comment": "Develop the light-squared bishop outside the pawn chain before ...e6."
+        },
+        {
+          "id": "scandinavian:qa5:5",
+          "fenBefore": "rn2kb1r/ppp1pppp/5n2/q3Nb2/3P4/2N5/PPP2PPP/R1BQKB1R b KQkq - 4 6",
+          "movesUci": [
+            "c7c6"
+          ],
+          "opponentReplies": [
+            "f1c4"
+          ],
+          "san": "c6",
+          "comment": "Blunt Bc4 and support a later ...Nbd7."
+        },
+        {
+          "id": "scandinavian:qa5:6",
+          "fenBefore": "rn2kb1r/pp2pppp/2p2n2/q3Nb2/2BP4/2N5/PPP2PPP/R1BQK2R b KQkq - 1 7",
+          "movesUci": [
+            "e7e6"
+          ],
+          "opponentReplies": [
+            "c1d2"
+          ],
+          "san": "e6",
+          "comment": "Close the a2-g8 diagonal and prepare ...Nbd7."
+        },
+        {
+          "id": "scandinavian:qa5:7",
+          "fenBefore": "rn2kb1r/pp3ppp/2p1pn2/q3Nb2/2BP4/2N5/PPPB1PPP/R2QK2R b KQkq - 1 8",
+          "movesUci": [
+            "a5c7"
+          ],
+          "opponentReplies": [
+            "d1e2"
+          ],
+          "san": "Qc7",
+          "comment": "Tuck the queen away. She has done her job on a5."
+        },
+        {
+          "id": "scandinavian:qa5:8",
+          "fenBefore": "rn2kb1r/ppq2ppp/2p1pn2/4Nb2/2BP4/2N5/PPPBQPPP/R3K2R b KQkq - 3 9",
+          "movesUci": [
+            "b8d7"
+          ],
+          "opponentReplies": [],
+          "san": "Nbd7",
+          "comment": "Challenge the knight on e5 and finish development."
+        }
+      ]
+    },
+    {
+      "id": "qd6",
+      "name": "3...Qd6",
+      "steps": [
+        {
+          "id": "scandinavian:qd6:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "d7d5"
+          ],
+          "opponentReplies": [
+            "e4d5"
+          ],
+          "san": "d5",
+          "comment": "Center strike."
+        },
+        {
+          "id": "scandinavian:qd6:1",
+          "fenBefore": "rnbqkbnr/ppp1pppp/8/3P4/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 2",
+          "movesUci": [
+            "d8d5"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "Qxd5",
+          "comment": "Recapture."
+        },
+        {
+          "id": "scandinavian:qd6:2",
+          "fenBefore": "rnb1kbnr/ppp1pppp/8/3q4/8/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 3",
+          "movesUci": [
+            "d5d6"
+          ],
+          "opponentReplies": [
+            "d2d4"
+          ],
+          "san": "Qd6",
+          "comment": "A modern retreat. The queen supports the center and is harder to harass than on a5."
+        },
+        {
+          "id": "scandinavian:qd6:3",
+          "fenBefore": "rnb1kbnr/ppp1pppp/3q4/8/3P4/2N5/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "Nf6",
+          "comment": "Develop."
+        },
+        {
+          "id": "scandinavian:qd6:4",
+          "fenBefore": "rnb1kb1r/ppp1pppp/3q1n2/8/3P4/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+          "movesUci": [
+            "c7c6"
+          ],
+          "opponentReplies": [
+            "f1c4"
+          ],
+          "san": "c6",
+          "comment": "Support d5 and keep the queen's diagonal free. ...a6 is the other plan."
+        },
+        {
+          "id": "scandinavian:qd6:5",
+          "fenBefore": "rnb1kb1r/pp2pppp/2pq1n2/8/2BP4/2N2N2/PPP2PPP/R1BQK2R b KQkq - 1 6",
+          "movesUci": [
+            "c8f5"
+          ],
+          "opponentReplies": [
+            "e1g1"
+          ],
+          "san": "Bf5",
+          "comment": "Bishop outside the chain."
+        },
+        {
+          "id": "scandinavian:qd6:6",
+          "fenBefore": "rn2kb1r/pp2pppp/2pq1n2/5b2/2BP4/2N2N2/PPP2PPP/R1BQ1RK1 b kq - 3 7",
+          "movesUci": [
+            "e7e6"
+          ],
+          "opponentReplies": [
+            "f1e1"
+          ],
+          "san": "e6",
+          "comment": "Solid. You will play ...Nbd7 and ...Be7."
+        },
+        {
+          "id": "scandinavian:qd6:7",
+          "fenBefore": "rn2kb1r/pp3ppp/2pqpn2/5b2/2BP4/2N2N2/PPP2PPP/R1BQR1K1 b kq - 1 8",
+          "movesUci": [
+            "b8d7"
+          ],
+          "opponentReplies": [],
+          "san": "Nbd7",
+          "comment": "Develop and prepare ...Be7 and ...O-O."
+        }
+      ]
+    },
+    {
+      "id": "qd8",
+      "name": "3...Qd8",
+      "steps": [
+        {
+          "id": "scandinavian:qd8:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "d7d5"
+          ],
+          "opponentReplies": [
+            "e4d5"
+          ],
+          "san": "d5",
+          "comment": "Center strike."
+        },
+        {
+          "id": "scandinavian:qd8:1",
+          "fenBefore": "rnbqkbnr/ppp1pppp/8/3P4/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 2",
+          "movesUci": [
+            "d8d5"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "Qxd5",
+          "comment": "Recapture."
+        },
+        {
+          "id": "scandinavian:qd8:2",
+          "fenBefore": "rnb1kbnr/ppp1pppp/8/3q4/8/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 3",
+          "movesUci": [
+            "d5d8"
+          ],
+          "opponentReplies": [
+            "d2d4"
+          ],
+          "san": "Qd8",
+          "comment": "The safest retreat. You lose time but the queen is no longer a target."
+        },
+        {
+          "id": "scandinavian:qd8:3",
+          "fenBefore": "rnbqkbnr/ppp1pppp/8/8/3P4/2N5/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "Nf6",
+          "comment": "Develop."
+        },
+        {
+          "id": "scandinavian:qd8:4",
+          "fenBefore": "rnbqkb1r/ppp1pppp/5n2/8/3P4/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+          "movesUci": [
+            "c8f5"
+          ],
+          "opponentReplies": [
+            "f1c4"
+          ],
+          "san": "Bf5",
+          "comment": "Get the bishop out before ...e6."
+        },
+        {
+          "id": "scandinavian:qd8:5",
+          "fenBefore": "rn1qkb1r/ppp1pppp/5n2/5b2/2BP4/2N2N2/PPP2PPP/R1BQK2R b KQkq - 4 6",
+          "movesUci": [
+            "e7e6"
+          ],
+          "opponentReplies": [
+            "e1g1"
+          ],
+          "san": "e6",
+          "comment": "Blunt the bishop."
+        },
+        {
+          "id": "scandinavian:qd8:6",
+          "fenBefore": "rn1qkb1r/ppp2ppp/4pn2/5b2/2BP4/2N2N2/PPP2PPP/R1BQ1RK1 b kq - 1 7",
+          "movesUci": [
+            "c7c6"
+          ],
+          "opponentReplies": [
+            "f1e1"
+          ],
+          "san": "c6",
+          "comment": "A small center. ...Be7 and ...O-O follow."
+        },
+        {
+          "id": "scandinavian:qd8:7",
+          "fenBefore": "rn1qkb1r/pp3ppp/2p1pn2/5b2/2BP4/2N2N2/PPP2PPP/R1BQR1K1 b kq - 1 8",
+          "movesUci": [
+            "f8e7"
+          ],
+          "opponentReplies": [
+            "c1f4"
+          ],
+          "san": "Be7",
+          "comment": "Develop and castle."
+        },
+        {
+          "id": "scandinavian:qd8:8",
+          "fenBefore": "rn1qk2r/pp2bppp/2p1pn2/5b2/2BP1B2/2N2N2/PPP2PPP/R2QR1K1 b kq - 3 9",
+          "movesUci": [
+            "e8g8"
+          ],
+          "opponentReplies": [],
+          "san": "O-O",
+          "comment": "King safety first. The position is a solid Caro-style structure."
+        }
+      ]
+    },
+    {
+      "id": "modern-d4",
+      "name": "Modern — 2...Nf6 3.d4",
+      "steps": [
+        {
+          "id": "scandinavian:modern-d4:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "d7d5"
+          ],
+          "opponentReplies": [
+            "e4d5"
+          ],
+          "san": "d5",
+          "comment": "Center strike."
+        },
+        {
+          "id": "scandinavian:modern-d4:1",
+          "fenBefore": "rnbqkbnr/ppp1pppp/8/3P4/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 2",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "d2d4"
+          ],
+          "san": "Nf6",
+          "comment": "Gambit the pawn for a move. You will regain it on d5."
+        },
+        {
+          "id": "scandinavian:modern-d4:2",
+          "fenBefore": "rnbqkb1r/ppp1pppp/5n2/3P4/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+          "movesUci": [
+            "f6d5"
+          ],
+          "opponentReplies": [
+            "c2c4"
+          ],
+          "san": "Nxd5",
+          "comment": "Recapture with the knight, which now sits in the center."
+        },
+        {
+          "id": "scandinavian:modern-d4:3",
+          "fenBefore": "rnbqkb1r/ppp1pppp/8/3n4/2PP4/8/PP3PPP/RNBQKBNR b KQkq - 0 4",
+          "movesUci": [
+            "d5b6"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "Nb6",
+          "comment": "Retreat. From b6 the knight eyes d5 and c4."
+        },
+        {
+          "id": "scandinavian:modern-d4:4",
+          "fenBefore": "rnbqkb1r/ppp1pppp/1n6/8/2PP4/5N2/PP3PPP/RNBQKB1R b KQkq - 2 5",
+          "movesUci": [
+            "g7g6"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "g6",
+          "comment": "Fianchetto. The bishop on g7 will press d4."
+        },
+        {
+          "id": "scandinavian:modern-d4:5",
+          "fenBefore": "rnbqkb1r/ppp1pp1p/1n4p1/8/2PP4/2N2N2/PP3PPP/R1BQKB1R b KQkq - 1 6",
+          "movesUci": [
+            "f8g7"
+          ],
+          "opponentReplies": [
+            "f1e2"
+          ],
+          "san": "Bg7",
+          "comment": "Develop the bishop onto the long diagonal."
+        },
+        {
+          "id": "scandinavian:modern-d4:6",
+          "fenBefore": "rnbqk2r/ppp1ppbp/1n4p1/8/2PP4/2N2N2/PP2BPPP/R1BQK2R b KQkq - 3 7",
+          "movesUci": [
+            "e8g8"
+          ],
+          "opponentReplies": [
+            "e1g1"
+          ],
+          "san": "O-O",
+          "comment": "Castle before choosing ...Nc6 or ...c5."
+        },
+        {
+          "id": "scandinavian:modern-d4:7",
+          "fenBefore": "rnbq1rk1/ppp1ppbp/1n4p1/8/2PP4/2N2N2/PP2BPPP/R1BQ1RK1 b - - 5 8",
+          "movesUci": [
+            "b8c6"
+          ],
+          "opponentReplies": [],
+          "san": "Nc6",
+          "comment": "Pressure d4. ...Bg4 or ...Bf5 comes next."
+        }
+      ]
+    },
+    {
+      "id": "modern-c4",
+      "name": "Modern — 2...Nf6 3.c4",
+      "steps": [
+        {
+          "id": "scandinavian:modern-c4:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "d7d5"
+          ],
+          "opponentReplies": [
+            "e4d5"
+          ],
+          "san": "d5",
+          "comment": "Center strike."
+        },
+        {
+          "id": "scandinavian:modern-c4:1",
+          "fenBefore": "rnbqkbnr/ppp1pppp/8/3P4/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 2",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "c2c4"
+          ],
+          "san": "Nf6",
+          "comment": "Gambit."
+        },
+        {
+          "id": "scandinavian:modern-c4:2",
+          "fenBefore": "rnbqkb1r/ppp1pppp/5n2/3P4/2P5/8/PP1P1PPP/RNBQKBNR b KQkq - 0 3",
+          "movesUci": [
+            "c7c6"
+          ],
+          "opponentReplies": [
+            "d5c6"
+          ],
+          "san": "c6",
+          "comment": "The Icelandic idea in a calmer form: chip at the pawn wedge."
+        },
+        {
+          "id": "scandinavian:modern-c4:3",
+          "fenBefore": "rnbqkb1r/pp2pppp/2P2n2/8/2P5/8/PP1P1PPP/RNBQKBNR b KQkq - 0 4",
+          "movesUci": [
+            "b8c6"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "Nxc6",
+          "comment": "Recapture with a piece and a lead in development."
+        },
+        {
+          "id": "scandinavian:modern-c4:4",
+          "fenBefore": "r1bqkb1r/pp2pppp/2n2n2/8/2P5/5N2/PP1P1PPP/RNBQKB1R b KQkq - 1 5",
+          "movesUci": [
+            "e7e5"
+          ],
+          "opponentReplies": [
+            "d2d3"
+          ],
+          "san": "e5",
+          "comment": "Grab the center while White is still uncastled."
+        },
+        {
+          "id": "scandinavian:modern-c4:5",
+          "fenBefore": "r1bqkb1r/pp3ppp/2n2n2/4p3/2P5/3P1N2/PP3PPP/RNBQKB1R b KQkq - 0 6",
+          "movesUci": [
+            "f8c5"
+          ],
+          "opponentReplies": [
+            "f1e2"
+          ],
+          "san": "Bc5",
+          "comment": "Develop against f2."
+        },
+        {
+          "id": "scandinavian:modern-c4:6",
+          "fenBefore": "r1bqk2r/pp3ppp/2n2n2/2b1p3/2P5/3P1N2/PP2BPPP/RNBQK2R b KQkq - 2 7",
+          "movesUci": [
+            "e8g8"
+          ],
+          "opponentReplies": [],
+          "san": "O-O",
+          "comment": "Castle. ...Bf5 or ...Re8 and ...e4 are the plans."
+        }
+      ]
+    },
+    {
+      "id": "portuguese",
+      "name": "Portuguese — 3...Bg4",
+      "steps": [
+        {
+          "id": "scandinavian:portuguese:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "d7d5"
+          ],
+          "opponentReplies": [
+            "e4d5"
+          ],
+          "san": "d5",
+          "comment": "Center strike."
+        },
+        {
+          "id": "scandinavian:portuguese:1",
+          "fenBefore": "rnbqkbnr/ppp1pppp/8/3P4/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 2",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "d2d4"
+          ],
+          "san": "Nf6",
+          "comment": "Gambit."
+        },
+        {
+          "id": "scandinavian:portuguese:2",
+          "fenBefore": "rnbqkb1r/ppp1pppp/5n2/3P4/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+          "movesUci": [
+            "c8g4"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "Bg4",
+          "comment": "Pin the knight that wants to come to f3, and keep the pressure."
+        },
+        {
+          "id": "scandinavian:portuguese:3",
+          "fenBefore": "rn1qkb1r/ppp1pppp/5n2/3P4/3P2b1/5N2/PPP2PPP/RNBQKB1R b KQkq - 2 4",
+          "movesUci": [
+            "d8d5"
+          ],
+          "opponentReplies": [
+            "f1e2"
+          ],
+          "san": "Qxd5",
+          "comment": "Now you take the pawn, with the pin already in place."
+        },
+        {
+          "id": "scandinavian:portuguese:4",
+          "fenBefore": "rn2kb1r/ppp1pppp/5n2/3q4/3P2b1/5N2/PPP1BPPP/RNBQK2R b KQkq - 1 5",
+          "movesUci": [
+            "b8c6"
+          ],
+          "opponentReplies": [
+            "e1g1"
+          ],
+          "san": "Nc6",
+          "comment": "Develop against d4."
+        },
+        {
+          "id": "scandinavian:portuguese:5",
+          "fenBefore": "r3kb1r/ppp1pppp/2n2n2/3q4/3P2b1/5N2/PPP1BPPP/RNBQ1RK1 b kq - 3 6",
+          "movesUci": [
+            "e8c8"
+          ],
+          "opponentReplies": [
+            "c2c4"
+          ],
+          "san": "O-O-O",
+          "comment": "Castle queenside and put a rook on the open d-file."
+        },
+        {
+          "id": "scandinavian:portuguese:6",
+          "fenBefore": "2kr1b1r/ppp1pppp/2n2n2/3q4/2PP2b1/5N2/PP2BPPP/RNBQ1RK1 b - - 0 7",
+          "movesUci": [
+            "d5f5"
+          ],
+          "opponentReplies": [],
+          "san": "Qf5",
+          "comment": "Keep the queen active. ...e5 is the break."
+        }
+      ]
+    },
+    {
+      "id": "mieses",
+      "name": "Mieses-Kotrč — 3.Nf3",
+      "steps": [
+        {
+          "id": "scandinavian:mieses:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "d7d5"
+          ],
+          "opponentReplies": [
+            "e4d5"
+          ],
+          "san": "d5",
+          "comment": "Center strike."
+        },
+        {
+          "id": "scandinavian:mieses:1",
+          "fenBefore": "rnbqkbnr/ppp1pppp/8/3P4/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 2",
+          "movesUci": [
+            "d8d5"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "Qxd5",
+          "comment": "Recapture."
+        },
+        {
+          "id": "scandinavian:mieses:2",
+          "fenBefore": "rnb1kbnr/ppp1pppp/8/3q4/8/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 3",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "d2d4"
+          ],
+          "san": "Nf6",
+          "comment": "Develop. White has not played Nc3, so the queen can stay central for a move."
+        },
+        {
+          "id": "scandinavian:mieses:3",
+          "fenBefore": "rnb1kb1r/ppp1pppp/5n2/3q4/3P4/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+          "movesUci": [
+            "c8f5"
+          ],
+          "opponentReplies": [
+            "f1e2"
+          ],
+          "san": "Bf5",
+          "comment": "Bishop out before ...e6."
+        },
+        {
+          "id": "scandinavian:mieses:4",
+          "fenBefore": "rn2kb1r/ppp1pppp/5n2/3q1b2/3P4/5N2/PPP1BPPP/RNBQK2R b KQkq - 2 5",
+          "movesUci": [
+            "e7e6"
+          ],
+          "opponentReplies": [
+            "e1g1"
+          ],
+          "san": "e6",
+          "comment": "Solid."
+        },
+        {
+          "id": "scandinavian:mieses:5",
+          "fenBefore": "rn2kb1r/ppp2ppp/4pn2/3q1b2/3P4/5N2/PPP1BPPP/RNBQ1RK1 b kq - 1 6",
+          "movesUci": [
+            "c7c6"
+          ],
+          "opponentReplies": [
+            "c2c4"
+          ],
+          "san": "c6",
+          "comment": "Support the center and prepare ...Nbd7."
+        },
+        {
+          "id": "scandinavian:mieses:6",
+          "fenBefore": "rn2kb1r/pp3ppp/2p1pn2/3q1b2/2PP4/5N2/PP2BPPP/RNBQ1RK1 b kq - 0 7",
+          "movesUci": [
+            "d5d8"
+          ],
+          "opponentReplies": [],
+          "san": "Qd8",
+          "comment": "The queen steps back now that c4 has arrived. ...Be7 and ...O-O follow."
+        }
+      ]
+    },
+    {
+      "id": "qa5-nf3",
+      "name": "Qa5 against 4.Nf3",
+      "steps": [
+        {
+          "id": "scandinavian:qa5-nf3:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "d7d5"
+          ],
+          "opponentReplies": [
+            "e4d5"
+          ],
+          "san": "d5",
+          "comment": "Center strike."
+        },
+        {
+          "id": "scandinavian:qa5-nf3:1",
+          "fenBefore": "rnbqkbnr/ppp1pppp/8/3P4/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 2",
+          "movesUci": [
+            "d8d5"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "Qxd5",
+          "comment": "Recapture."
+        },
+        {
+          "id": "scandinavian:qa5-nf3:2",
+          "fenBefore": "rnb1kbnr/ppp1pppp/8/3q4/8/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 3",
+          "movesUci": [
+            "d5a5"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "Qa5",
+          "comment": "Main retreat."
+        },
+        {
+          "id": "scandinavian:qa5-nf3:3",
+          "fenBefore": "rnb1kbnr/ppp1pppp/8/q7/8/2N2N2/PPPP1PPP/R1BQKB1R b KQkq - 3 4",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "f1c4"
+          ],
+          "san": "Nf6",
+          "comment": "Develop. White has delayed d4."
+        },
+        {
+          "id": "scandinavian:qa5-nf3:4",
+          "fenBefore": "rnb1kb1r/ppp1pppp/5n2/q7/2B5/2N2N2/PPPP1PPP/R1BQK2R b KQkq - 5 5",
+          "movesUci": [
+            "c8f5"
+          ],
+          "opponentReplies": [
+            "d2d3"
+          ],
+          "san": "Bf5",
+          "comment": "Develop the bishop and eye c2."
+        },
+        {
+          "id": "scandinavian:qa5-nf3:5",
+          "fenBefore": "rn2kb1r/ppp1pppp/5n2/q4b2/2B5/2NP1N2/PPP2PPP/R1BQK2R b KQkq - 0 6",
+          "movesUci": [
+            "e7e6"
+          ],
+          "opponentReplies": [
+            "c1d2"
+          ],
+          "san": "e6",
+          "comment": "Blunt Bc4."
+        },
+        {
+          "id": "scandinavian:qa5-nf3:6",
+          "fenBefore": "rn2kb1r/ppp2ppp/4pn2/q4b2/2B5/2NP1N2/PPPB1PPP/R2QK2R b KQkq - 1 7",
+          "movesUci": [
+            "c7c6"
+          ],
+          "opponentReplies": [
+            "a2a3"
+          ],
+          "san": "c6",
+          "comment": "Prepare ...Nbd7 and a home for the queen."
+        },
+        {
+          "id": "scandinavian:qa5-nf3:7",
+          "fenBefore": "rn2kb1r/pp3ppp/2p1pn2/q4b2/2B5/P1NP1N2/1PPB1PPP/R2QK2R b KQkq - 0 8",
+          "movesUci": [
+            "b8d7"
+          ],
+          "opponentReplies": [],
+          "san": "Nbd7",
+          "comment": "Finish the minor pieces. ...Be7 and ...O-O next."
+        }
+      ]
+    },
+    {
+      "id": "qa5-bc4",
+      "name": "Qa5 — 6.Bc4 instead of Ne5",
+      "steps": [
+        {
+          "id": "scandinavian:qa5-bc4:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "d7d5"
+          ],
+          "opponentReplies": [
+            "e4d5"
+          ],
+          "san": "d5",
+          "comment": "Center strike."
+        },
+        {
+          "id": "scandinavian:qa5-bc4:1",
+          "fenBefore": "rnbqkbnr/ppp1pppp/8/3P4/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 2",
+          "movesUci": [
+            "d8d5"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "Qxd5",
+          "comment": "Recapture."
+        },
+        {
+          "id": "scandinavian:qa5-bc4:2",
+          "fenBefore": "rnb1kbnr/ppp1pppp/8/3q4/8/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 3",
+          "movesUci": [
+            "d5a5"
+          ],
+          "opponentReplies": [
+            "d2d4"
+          ],
+          "san": "Qa5",
+          "comment": "Main retreat."
+        },
+        {
+          "id": "scandinavian:qa5-bc4:3",
+          "fenBefore": "rnb1kbnr/ppp1pppp/8/q7/3P4/2N5/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "Nf6",
+          "comment": "Develop."
+        },
+        {
+          "id": "scandinavian:qa5-bc4:4",
+          "fenBefore": "rnb1kb1r/ppp1pppp/5n2/q7/3P4/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+          "movesUci": [
+            "c8f5"
+          ],
+          "opponentReplies": [
+            "f1c4"
+          ],
+          "san": "Bf5",
+          "comment": "Bishop outside."
+        },
+        {
+          "id": "scandinavian:qa5-bc4:5",
+          "fenBefore": "rn2kb1r/ppp1pppp/5n2/q4b2/2BP4/2N2N2/PPP2PPP/R1BQK2R b KQkq - 4 6",
+          "movesUci": [
+            "e7e6"
+          ],
+          "opponentReplies": [
+            "c1d2"
+          ],
+          "san": "e6",
+          "comment": "Close the diagonal."
+        },
+        {
+          "id": "scandinavian:qa5-bc4:6",
+          "fenBefore": "rn2kb1r/ppp2ppp/4pn2/q4b2/2BP4/2N2N2/PPPB1PPP/R2QK2R b KQkq - 1 7",
+          "movesUci": [
+            "c7c6"
+          ],
+          "opponentReplies": [
+            "d1e2"
+          ],
+          "san": "c6",
+          "comment": "Prepare ...Qc7 or ...Bb4."
+        },
+        {
+          "id": "scandinavian:qa5-bc4:7",
+          "fenBefore": "rn2kb1r/pp3ppp/2p1pn2/q4b2/2BP4/2N2N2/PPPBQPPP/R3K2R b KQkq - 1 8",
+          "movesUci": [
+            "f8b4"
+          ],
+          "opponentReplies": [
+            "e1c1"
+          ],
+          "san": "Bb4",
+          "comment": "Pin the knight and speed up castling."
+        },
+        {
+          "id": "scandinavian:qa5-bc4:8",
+          "fenBefore": "rn2k2r/pp3ppp/2p1pn2/q4b2/1bBP4/2N2N2/PPPBQPPP/2KR3R b kq - 3 9",
+          "movesUci": [
+            "b8d7"
+          ],
+          "opponentReplies": [],
+          "san": "Nbd7",
+          "comment": "Develop. The pin on c3 is your counterplay."
+        }
+      ]
+    }
+  ]
+}

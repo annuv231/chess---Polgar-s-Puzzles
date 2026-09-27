@@ -1,0 +1,1251 @@
+{
+  "id": "sicilian-najdorf",
+  "slug": "sicilian-najdorf",
+  "name": "Sicilian Najdorf",
+  "color": "b",
+  "tags": [
+    "opening"
+  ],
+  "lines": [
+    {
+      "id": "be2",
+      "name": "6.Be2 — Opocensky 6...e5",
+      "steps": [
+        {
+          "id": "sicilian-najdorf:be2:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "c7c5"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "c5",
+          "comment": "Fight for d4 from the flank."
+        },
+        {
+          "id": "sicilian-najdorf:be2:1",
+          "fenBefore": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "movesUci": [
+            "d7d6"
+          ],
+          "opponentReplies": [
+            "d2d4"
+          ],
+          "san": "d6",
+          "comment": "Support a later ...e5 and open the light-squared bishop."
+        },
+        {
+          "id": "sicilian-najdorf:be2:2",
+          "fenBefore": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "movesUci": [
+            "c5d4"
+          ],
+          "opponentReplies": [
+            "f3d4"
+          ],
+          "san": "cxd4",
+          "comment": "Trade the c-pawn for White's d-pawn. You get the half-open c-file."
+        },
+        {
+          "id": "sicilian-najdorf:be2:3",
+          "fenBefore": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "Nf6",
+          "comment": "Develop and attack e4."
+        },
+        {
+          "id": "sicilian-najdorf:be2:4",
+          "fenBefore": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+          "movesUci": [
+            "a7a6"
+          ],
+          "opponentReplies": [
+            "f1e2"
+          ],
+          "san": "a6",
+          "comment": "The Najdorf. You control b5 and prepare ...e5 or ...b5."
+        },
+        {
+          "id": "sicilian-najdorf:be2:5",
+          "fenBefore": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP1BPPP/R1BQK2R b KQkq - 1 6",
+          "movesUci": [
+            "e7e5"
+          ],
+          "opponentReplies": [
+            "d4b3"
+          ],
+          "san": "e5",
+          "comment": "Kick the knight and claim central space."
+        },
+        {
+          "id": "sicilian-najdorf:be2:6",
+          "fenBefore": "rnbqkb1r/1p3ppp/p2p1n2/4p3/4P3/1NN5/PPP1BPPP/R1BQK2R b KQkq - 1 7",
+          "movesUci": [
+            "f8e7"
+          ],
+          "opponentReplies": [
+            "e1g1"
+          ],
+          "san": "Be7",
+          "comment": "Develop. The bishop will cover the holes on d5 after you castle."
+        },
+        {
+          "id": "sicilian-najdorf:be2:7",
+          "fenBefore": "rnbqk2r/1p2bppp/p2p1n2/4p3/4P3/1NN5/PPP1BPPP/R1BQ1RK1 b kq - 3 8",
+          "movesUci": [
+            "e8g8"
+          ],
+          "opponentReplies": [
+            "c1e3"
+          ],
+          "san": "O-O",
+          "comment": "King safety."
+        },
+        {
+          "id": "sicilian-najdorf:be2:8",
+          "fenBefore": "rnbq1rk1/1p2bppp/p2p1n2/4p3/4P3/1NN1B3/PPP1BPPP/R2Q1RK1 b - - 5 9",
+          "movesUci": [
+            "c8e6"
+          ],
+          "opponentReplies": [
+            "f2f4"
+          ],
+          "san": "Be6",
+          "comment": "Develop and fight for the d5-square."
+        },
+        {
+          "id": "sicilian-najdorf:be2:9",
+          "fenBefore": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4PP2/1NN1B3/PPP1B1PP/R2Q1RK1 b - - 0 10",
+          "movesUci": [
+            "e5f4"
+          ],
+          "opponentReplies": [
+            "e3f4"
+          ],
+          "san": "exf4",
+          "comment": "Trade before White builds a kingside pawn storm."
+        },
+        {
+          "id": "sicilian-najdorf:be2:10",
+          "fenBefore": "rn1q1rk1/1p2bppp/p2pbn2/8/4PB2/1NN5/PPP1B1PP/R2Q1RK1 b - - 0 11",
+          "movesUci": [
+            "b8c6"
+          ],
+          "opponentReplies": [],
+          "san": "Nc6",
+          "comment": "Develop and eye d4."
+        }
+      ]
+    },
+    {
+      "id": "english",
+      "name": "English Attack — 6.Be3 e5",
+      "steps": [
+        {
+          "id": "sicilian-najdorf:english:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "c7c5"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "c5",
+          "comment": "Sicilian."
+        },
+        {
+          "id": "sicilian-najdorf:english:1",
+          "fenBefore": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "movesUci": [
+            "d7d6"
+          ],
+          "opponentReplies": [
+            "d2d4"
+          ],
+          "san": "d6",
+          "comment": "Najdorf structure."
+        },
+        {
+          "id": "sicilian-najdorf:english:2",
+          "fenBefore": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "movesUci": [
+            "c5d4"
+          ],
+          "opponentReplies": [
+            "f3d4"
+          ],
+          "san": "cxd4",
+          "comment": "Open the c-file."
+        },
+        {
+          "id": "sicilian-najdorf:english:3",
+          "fenBefore": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "Nf6",
+          "comment": "Attack e4."
+        },
+        {
+          "id": "sicilian-najdorf:english:4",
+          "fenBefore": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+          "movesUci": [
+            "a7a6"
+          ],
+          "opponentReplies": [
+            "c1e3"
+          ],
+          "san": "a6",
+          "comment": "Najdorf."
+        },
+        {
+          "id": "sicilian-najdorf:english:5",
+          "fenBefore": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N1B3/PPP2PPP/R2QKB1R b KQkq - 1 6",
+          "movesUci": [
+            "e7e5"
+          ],
+          "opponentReplies": [
+            "d4b3"
+          ],
+          "san": "e5",
+          "comment": "Kick the knight. You accept a hole on d5 for space and the half-open c-file."
+        },
+        {
+          "id": "sicilian-najdorf:english:6",
+          "fenBefore": "rnbqkb1r/1p3ppp/p2p1n2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R b KQkq - 1 7",
+          "movesUci": [
+            "c8e6"
+          ],
+          "opponentReplies": [
+            "f2f3"
+          ],
+          "san": "Be6",
+          "comment": "Develop and control d5 and c4."
+        },
+        {
+          "id": "sicilian-najdorf:english:7",
+          "fenBefore": "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1BP2/PPP3PP/R2QKB1R b KQkq - 0 8",
+          "movesUci": [
+            "b8d7"
+          ],
+          "opponentReplies": [
+            "d1d2"
+          ],
+          "san": "Nbd7",
+          "comment": "The knight supports ...b5 and can go to b6 or c5. Do not rush ...Be7."
+        },
+        {
+          "id": "sicilian-najdorf:english:8",
+          "fenBefore": "r2qkb1r/1p1n1ppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/R3KB1R b KQkq - 2 9",
+          "movesUci": [
+            "b7b5"
+          ],
+          "opponentReplies": [
+            "e1c1"
+          ],
+          "san": "b5",
+          "comment": "Queenside expansion before White castles long and starts g4."
+        },
+        {
+          "id": "sicilian-najdorf:english:9",
+          "fenBefore": "r2qkb1r/3n1ppp/p2pbn2/1p2p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R b kq - 1 10",
+          "movesUci": [
+            "d7b6"
+          ],
+          "opponentReplies": [],
+          "san": "Nb6",
+          "comment": "Eye c4. ...Rc8 and ...Be7 follow."
+        }
+      ]
+    },
+    {
+      "id": "bg5-main",
+      "name": "6.Bg5 — main line 6...e6",
+      "steps": [
+        {
+          "id": "sicilian-najdorf:bg5-main:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "c7c5"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "c5",
+          "comment": "Sicilian."
+        },
+        {
+          "id": "sicilian-najdorf:bg5-main:1",
+          "fenBefore": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "movesUci": [
+            "d7d6"
+          ],
+          "opponentReplies": [
+            "d2d4"
+          ],
+          "san": "d6",
+          "comment": "Structure."
+        },
+        {
+          "id": "sicilian-najdorf:bg5-main:2",
+          "fenBefore": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "movesUci": [
+            "c5d4"
+          ],
+          "opponentReplies": [
+            "f3d4"
+          ],
+          "san": "cxd4",
+          "comment": "Open the c-file."
+        },
+        {
+          "id": "sicilian-najdorf:bg5-main:3",
+          "fenBefore": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "Nf6",
+          "comment": "Attack e4."
+        },
+        {
+          "id": "sicilian-najdorf:bg5-main:4",
+          "fenBefore": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+          "movesUci": [
+            "a7a6"
+          ],
+          "opponentReplies": [
+            "c1g5"
+          ],
+          "san": "a6",
+          "comment": "Najdorf."
+        },
+        {
+          "id": "sicilian-najdorf:bg5-main:5",
+          "fenBefore": "rnbqkb1r/1p2pppp/p2p1n2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R b KQkq - 1 6",
+          "movesUci": [
+            "e7e6"
+          ],
+          "opponentReplies": [
+            "f2f4"
+          ],
+          "san": "e6",
+          "comment": "The solid choice. You blunt the pin and prepare ...Be7."
+        },
+        {
+          "id": "sicilian-najdorf:bg5-main:6",
+          "fenBefore": "rnbqkb1r/1p3ppp/p2ppn2/6B1/3NPP2/2N5/PPP3PP/R2QKB1R b KQkq - 0 7",
+          "movesUci": [
+            "f8e7"
+          ],
+          "opponentReplies": [
+            "d1f3"
+          ],
+          "san": "Be7",
+          "comment": "Break the pin on f6. The bishop also eyes the kingside."
+        },
+        {
+          "id": "sicilian-najdorf:bg5-main:7",
+          "fenBefore": "rnbqk2r/1p2bppp/p2ppn2/6B1/3NPP2/2N2Q2/PPP3PP/R3KB1R b KQkq - 2 8",
+          "movesUci": [
+            "d8c7"
+          ],
+          "opponentReplies": [
+            "e1c1"
+          ],
+          "san": "Qc7",
+          "comment": "Develop the queen to the c-file and connect the idea of ...Nbd7."
+        },
+        {
+          "id": "sicilian-najdorf:bg5-main:8",
+          "fenBefore": "rnb1k2r/1pq1bppp/p2ppn2/6B1/3NPP2/2N2Q2/PPP3PP/2KR1B1R b kq - 4 9",
+          "movesUci": [
+            "b8d7"
+          ],
+          "opponentReplies": [
+            "g2g4"
+          ],
+          "san": "Nbd7",
+          "comment": "Develop. You will castle kingside and look for ...b5."
+        },
+        {
+          "id": "sicilian-najdorf:bg5-main:9",
+          "fenBefore": "r1b1k2r/1pqnbppp/p2ppn2/6B1/3NPPP1/2N2Q2/PPP4P/2KR1B1R b kq - 0 10",
+          "movesUci": [
+            "b7b5"
+          ],
+          "opponentReplies": [],
+          "san": "b5",
+          "comment": "Counter on the queenside as soon as White lunges."
+        }
+      ]
+    },
+    {
+      "id": "poisoned-pawn",
+      "name": "Poisoned Pawn — 7...Qb6",
+      "steps": [
+        {
+          "id": "sicilian-najdorf:poisoned-pawn:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "c7c5"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "c5",
+          "comment": "Sicilian."
+        },
+        {
+          "id": "sicilian-najdorf:poisoned-pawn:1",
+          "fenBefore": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "movesUci": [
+            "d7d6"
+          ],
+          "opponentReplies": [
+            "d2d4"
+          ],
+          "san": "d6",
+          "comment": "Structure."
+        },
+        {
+          "id": "sicilian-najdorf:poisoned-pawn:2",
+          "fenBefore": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "movesUci": [
+            "c5d4"
+          ],
+          "opponentReplies": [
+            "f3d4"
+          ],
+          "san": "cxd4",
+          "comment": "Open the c-file."
+        },
+        {
+          "id": "sicilian-najdorf:poisoned-pawn:3",
+          "fenBefore": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "Nf6",
+          "comment": "Attack e4."
+        },
+        {
+          "id": "sicilian-najdorf:poisoned-pawn:4",
+          "fenBefore": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+          "movesUci": [
+            "a7a6"
+          ],
+          "opponentReplies": [
+            "c1g5"
+          ],
+          "san": "a6",
+          "comment": "Najdorf."
+        },
+        {
+          "id": "sicilian-najdorf:poisoned-pawn:5",
+          "fenBefore": "rnbqkb1r/1p2pppp/p2p1n2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R b KQkq - 1 6",
+          "movesUci": [
+            "e7e6"
+          ],
+          "opponentReplies": [
+            "f2f4"
+          ],
+          "san": "e6",
+          "comment": "Solid structure first."
+        },
+        {
+          "id": "sicilian-najdorf:poisoned-pawn:6",
+          "fenBefore": "rnbqkb1r/1p3ppp/p2ppn2/6B1/3NPP2/2N5/PPP3PP/R2QKB1R b KQkq - 0 7",
+          "movesUci": [
+            "d8b6"
+          ],
+          "opponentReplies": [
+            "d1d2"
+          ],
+          "san": "Qb6",
+          "comment": "Attack b2 and d4. You grab a pawn and drag White's pieces forward."
+        },
+        {
+          "id": "sicilian-najdorf:poisoned-pawn:7",
+          "fenBefore": "rnb1kb1r/1p3ppp/pq1ppn2/6B1/3NPP2/2N5/PPPQ2PP/R3KB1R b KQkq - 2 8",
+          "movesUci": [
+            "b6b2"
+          ],
+          "opponentReplies": [
+            "a1b1"
+          ],
+          "san": "Qxb2",
+          "comment": "Take the poisoned pawn. The queen must get back via a3 or b6."
+        },
+        {
+          "id": "sicilian-najdorf:poisoned-pawn:8",
+          "fenBefore": "rnb1kb1r/1p3ppp/p2ppn2/6B1/3NPP2/2N5/PqPQ2PP/1R2KB1R b Kkq - 1 9",
+          "movesUci": [
+            "b2a3"
+          ],
+          "opponentReplies": [],
+          "san": "Qa3",
+          "comment": "Step off the file. Your counterplay is the extra pawn and the half-open c-file."
+        }
+      ]
+    },
+    {
+      "id": "bc4",
+      "name": "6.Bc4 — Fischer-Sozin",
+      "steps": [
+        {
+          "id": "sicilian-najdorf:bc4:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "c7c5"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "c5",
+          "comment": "Sicilian."
+        },
+        {
+          "id": "sicilian-najdorf:bc4:1",
+          "fenBefore": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "movesUci": [
+            "d7d6"
+          ],
+          "opponentReplies": [
+            "d2d4"
+          ],
+          "san": "d6",
+          "comment": "Structure."
+        },
+        {
+          "id": "sicilian-najdorf:bc4:2",
+          "fenBefore": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "movesUci": [
+            "c5d4"
+          ],
+          "opponentReplies": [
+            "f3d4"
+          ],
+          "san": "cxd4",
+          "comment": "Open the c-file."
+        },
+        {
+          "id": "sicilian-najdorf:bc4:3",
+          "fenBefore": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "Nf6",
+          "comment": "Attack e4."
+        },
+        {
+          "id": "sicilian-najdorf:bc4:4",
+          "fenBefore": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+          "movesUci": [
+            "a7a6"
+          ],
+          "opponentReplies": [
+            "f1c4"
+          ],
+          "san": "a6",
+          "comment": "Najdorf."
+        },
+        {
+          "id": "sicilian-najdorf:bc4:5",
+          "fenBefore": "rnbqkb1r/1p2pppp/p2p1n2/8/2BNP3/2N5/PPP2PPP/R1BQK2R b KQkq - 1 6",
+          "movesUci": [
+            "e7e6"
+          ],
+          "opponentReplies": [
+            "c4b3"
+          ],
+          "san": "e6",
+          "comment": "Blunt the bishop aimed at f7 and prepare ...b5."
+        },
+        {
+          "id": "sicilian-najdorf:bc4:6",
+          "fenBefore": "rnbqkb1r/1p3ppp/p2ppn2/8/3NP3/1BN5/PPP2PPP/R1BQK2R b KQkq - 1 7",
+          "movesUci": [
+            "b7b5"
+          ],
+          "opponentReplies": [
+            "e1g1"
+          ],
+          "san": "b5",
+          "comment": "Expand on the queenside with tempo against the bishop's diagonal."
+        },
+        {
+          "id": "sicilian-najdorf:bc4:7",
+          "fenBefore": "rnbqkb1r/5ppp/p2ppn2/1p6/3NP3/1BN5/PPP2PPP/R1BQ1RK1 b kq - 1 8",
+          "movesUci": [
+            "f8e7"
+          ],
+          "opponentReplies": [
+            "f2f4"
+          ],
+          "san": "Be7",
+          "comment": "Develop and get ready to castle."
+        },
+        {
+          "id": "sicilian-najdorf:bc4:8",
+          "fenBefore": "rnbqk2r/4bppp/p2ppn2/1p6/3NPP2/1BN5/PPP3PP/R1BQ1RK1 b kq - 0 9",
+          "movesUci": [
+            "e8g8"
+          ],
+          "opponentReplies": [
+            "f4f5"
+          ],
+          "san": "O-O",
+          "comment": "Castle, then ...Bb7 and ...Nbd7."
+        },
+        {
+          "id": "sicilian-najdorf:bc4:9",
+          "fenBefore": "rnbq1rk1/4bppp/p2ppn2/1p3P2/3NP3/1BN5/PPP3PP/R1BQ1RK1 b - - 0 10",
+          "movesUci": [
+            "e6e5"
+          ],
+          "opponentReplies": [],
+          "san": "e5",
+          "comment": "Close the center. The knight on d4 must move, and you keep a solid king."
+        }
+      ]
+    },
+    {
+      "id": "adams",
+      "name": "6.h3 — Adams Attack",
+      "steps": [
+        {
+          "id": "sicilian-najdorf:adams:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "c7c5"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "c5",
+          "comment": "Sicilian."
+        },
+        {
+          "id": "sicilian-najdorf:adams:1",
+          "fenBefore": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "movesUci": [
+            "d7d6"
+          ],
+          "opponentReplies": [
+            "d2d4"
+          ],
+          "san": "d6",
+          "comment": "Structure."
+        },
+        {
+          "id": "sicilian-najdorf:adams:2",
+          "fenBefore": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "movesUci": [
+            "c5d4"
+          ],
+          "opponentReplies": [
+            "f3d4"
+          ],
+          "san": "cxd4",
+          "comment": "Open the c-file."
+        },
+        {
+          "id": "sicilian-najdorf:adams:3",
+          "fenBefore": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "Nf6",
+          "comment": "Attack e4."
+        },
+        {
+          "id": "sicilian-najdorf:adams:4",
+          "fenBefore": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+          "movesUci": [
+            "a7a6"
+          ],
+          "opponentReplies": [
+            "h2h3"
+          ],
+          "san": "a6",
+          "comment": "Najdorf."
+        },
+        {
+          "id": "sicilian-najdorf:adams:5",
+          "fenBefore": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N4P/PPP2PP1/R1BQKB1R b KQkq - 0 6",
+          "movesUci": [
+            "e7e5"
+          ],
+          "opponentReplies": [
+            "d4e2"
+          ],
+          "san": "e5",
+          "comment": "Kick the knight before White plays g4."
+        },
+        {
+          "id": "sicilian-najdorf:adams:6",
+          "fenBefore": "rnbqkb1r/1p3ppp/p2p1n2/4p3/4P3/2N4P/PPP1NPP1/R1BQKB1R b KQkq - 1 7",
+          "movesUci": [
+            "h7h5"
+          ],
+          "opponentReplies": [
+            "g2g3"
+          ],
+          "san": "h5",
+          "comment": "Stop g4. The pawn on h5 is a hook you accept in return for king safety."
+        },
+        {
+          "id": "sicilian-najdorf:adams:7",
+          "fenBefore": "rnbqkb1r/1p3pp1/p2p1n2/4p2p/4P3/2N3PP/PPP1NP2/R1BQKB1R b KQkq - 0 8",
+          "movesUci": [
+            "c8e6"
+          ],
+          "opponentReplies": [
+            "f1g2"
+          ],
+          "san": "Be6",
+          "comment": "Develop and control d5."
+        },
+        {
+          "id": "sicilian-najdorf:adams:8",
+          "fenBefore": "rn1qkb1r/1p3pp1/p2pbn2/4p2p/4P3/2N3PP/PPP1NPB1/R1BQK2R b KQkq - 2 9",
+          "movesUci": [
+            "b8d7"
+          ],
+          "opponentReplies": [
+            "e1g1"
+          ],
+          "san": "Nbd7",
+          "comment": "Develop toward c5 or b6."
+        },
+        {
+          "id": "sicilian-najdorf:adams:9",
+          "fenBefore": "r2qkb1r/1p1n1pp1/p2pbn2/4p2p/4P3/2N3PP/PPP1NPB1/R1BQ1RK1 b kq - 4 10",
+          "movesUci": [
+            "f8e7"
+          ],
+          "opponentReplies": [],
+          "san": "Be7",
+          "comment": "Castle next. ...Rc8 and ...b5 are the plan."
+        }
+      ]
+    },
+    {
+      "id": "f4",
+      "name": "6.f4",
+      "steps": [
+        {
+          "id": "sicilian-najdorf:f4:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "c7c5"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "c5",
+          "comment": "Sicilian."
+        },
+        {
+          "id": "sicilian-najdorf:f4:1",
+          "fenBefore": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "movesUci": [
+            "d7d6"
+          ],
+          "opponentReplies": [
+            "d2d4"
+          ],
+          "san": "d6",
+          "comment": "Structure."
+        },
+        {
+          "id": "sicilian-najdorf:f4:2",
+          "fenBefore": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "movesUci": [
+            "c5d4"
+          ],
+          "opponentReplies": [
+            "f3d4"
+          ],
+          "san": "cxd4",
+          "comment": "Open the c-file."
+        },
+        {
+          "id": "sicilian-najdorf:f4:3",
+          "fenBefore": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "Nf6",
+          "comment": "Attack e4."
+        },
+        {
+          "id": "sicilian-najdorf:f4:4",
+          "fenBefore": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+          "movesUci": [
+            "a7a6"
+          ],
+          "opponentReplies": [
+            "f2f4"
+          ],
+          "san": "a6",
+          "comment": "Najdorf."
+        },
+        {
+          "id": "sicilian-najdorf:f4:5",
+          "fenBefore": "rnbqkb1r/1p2pppp/p2p1n2/8/3NPP2/2N5/PPP3PP/R1BQKB1R b KQkq - 0 6",
+          "movesUci": [
+            "e7e5"
+          ],
+          "opponentReplies": [
+            "d4f3"
+          ],
+          "san": "e5",
+          "comment": "Challenge the center at once."
+        },
+        {
+          "id": "sicilian-najdorf:f4:6",
+          "fenBefore": "rnbqkb1r/1p3ppp/p2p1n2/4p3/4PP2/2N2N2/PPP3PP/R1BQKB1R b KQkq - 1 7",
+          "movesUci": [
+            "b8d7"
+          ],
+          "opponentReplies": [
+            "a2a4"
+          ],
+          "san": "Nbd7",
+          "comment": "Develop and support ...e5. The knight can go to c5."
+        },
+        {
+          "id": "sicilian-najdorf:f4:7",
+          "fenBefore": "r1bqkb1r/1p1n1ppp/p2p1n2/4p3/P3PP2/2N2N2/1PP3PP/R1BQKB1R b KQkq - 0 8",
+          "movesUci": [
+            "f8e7"
+          ],
+          "opponentReplies": [
+            "f1d3"
+          ],
+          "san": "Be7",
+          "comment": "Develop. Do not allow White's space to turn into a bind."
+        },
+        {
+          "id": "sicilian-najdorf:f4:8",
+          "fenBefore": "r1bqk2r/1p1nbppp/p2p1n2/4p3/P3PP2/2NB1N2/1PP3PP/R1BQK2R b KQkq - 2 9",
+          "movesUci": [
+            "e8g8"
+          ],
+          "opponentReplies": [
+            "e1g1"
+          ],
+          "san": "O-O",
+          "comment": "Castle."
+        },
+        {
+          "id": "sicilian-najdorf:f4:9",
+          "fenBefore": "r1bq1rk1/1p1nbppp/p2p1n2/4p3/P3PP2/2NB1N2/1PP3PP/R1BQ1RK1 b - - 4 10",
+          "movesUci": [
+            "e5f4"
+          ],
+          "opponentReplies": [],
+          "san": "exf4",
+          "comment": "Open the e-file for your pieces and damage White's structure."
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "6.a4",
+      "steps": [
+        {
+          "id": "sicilian-najdorf:a4:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "c7c5"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "c5",
+          "comment": "Sicilian."
+        },
+        {
+          "id": "sicilian-najdorf:a4:1",
+          "fenBefore": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "movesUci": [
+            "d7d6"
+          ],
+          "opponentReplies": [
+            "d2d4"
+          ],
+          "san": "d6",
+          "comment": "Structure."
+        },
+        {
+          "id": "sicilian-najdorf:a4:2",
+          "fenBefore": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "movesUci": [
+            "c5d4"
+          ],
+          "opponentReplies": [
+            "f3d4"
+          ],
+          "san": "cxd4",
+          "comment": "Open the c-file."
+        },
+        {
+          "id": "sicilian-najdorf:a4:3",
+          "fenBefore": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "Nf6",
+          "comment": "Attack e4."
+        },
+        {
+          "id": "sicilian-najdorf:a4:4",
+          "fenBefore": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+          "movesUci": [
+            "a7a6"
+          ],
+          "opponentReplies": [
+            "a2a4"
+          ],
+          "san": "a6",
+          "comment": "Najdorf."
+        },
+        {
+          "id": "sicilian-najdorf:a4:5",
+          "fenBefore": "rnbqkb1r/1p2pppp/p2p1n2/8/P2NP3/2N5/1PP2PPP/R1BQKB1R b KQkq - 0 6",
+          "movesUci": [
+            "e7e5"
+          ],
+          "opponentReplies": [
+            "d4b3"
+          ],
+          "san": "e5",
+          "comment": "White stopped ...b5, so you take the center instead."
+        },
+        {
+          "id": "sicilian-najdorf:a4:6",
+          "fenBefore": "rnbqkb1r/1p3ppp/p2p1n2/4p3/P3P3/1NN5/1PP2PPP/R1BQKB1R b KQkq - 1 7",
+          "movesUci": [
+            "f8e7"
+          ],
+          "opponentReplies": [
+            "f1e2"
+          ],
+          "san": "Be7",
+          "comment": "Develop toward castling."
+        },
+        {
+          "id": "sicilian-najdorf:a4:7",
+          "fenBefore": "rnbqk2r/1p2bppp/p2p1n2/4p3/P3P3/1NN5/1PP1BPPP/R1BQK2R b KQkq - 3 8",
+          "movesUci": [
+            "e8g8"
+          ],
+          "opponentReplies": [
+            "e1g1"
+          ],
+          "san": "O-O",
+          "comment": "Castle."
+        },
+        {
+          "id": "sicilian-najdorf:a4:8",
+          "fenBefore": "rnbq1rk1/1p2bppp/p2p1n2/4p3/P3P3/1NN5/1PP1BPPP/R1BQ1RK1 b - - 5 9",
+          "movesUci": [
+            "c8e6"
+          ],
+          "opponentReplies": [
+            "c1e3"
+          ],
+          "san": "Be6",
+          "comment": "Fight for d5."
+        },
+        {
+          "id": "sicilian-najdorf:a4:9",
+          "fenBefore": "rn1q1rk1/1p2bppp/p2pbn2/4p3/P3P3/1NN1B3/1PP1BPPP/R2Q1RK1 b - - 7 10",
+          "movesUci": [
+            "b8d7"
+          ],
+          "opponentReplies": [],
+          "san": "Nbd7",
+          "comment": "Develop. ...Rc8 and ...Nc5 trade White's knight or occupy c4."
+        }
+      ]
+    },
+    {
+      "id": "g3",
+      "name": "6.g3 — Fianchetto",
+      "steps": [
+        {
+          "id": "sicilian-najdorf:g3:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "c7c5"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "c5",
+          "comment": "Sicilian."
+        },
+        {
+          "id": "sicilian-najdorf:g3:1",
+          "fenBefore": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "movesUci": [
+            "d7d6"
+          ],
+          "opponentReplies": [
+            "d2d4"
+          ],
+          "san": "d6",
+          "comment": "Structure."
+        },
+        {
+          "id": "sicilian-najdorf:g3:2",
+          "fenBefore": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "movesUci": [
+            "c5d4"
+          ],
+          "opponentReplies": [
+            "f3d4"
+          ],
+          "san": "cxd4",
+          "comment": "Open the c-file."
+        },
+        {
+          "id": "sicilian-najdorf:g3:3",
+          "fenBefore": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "Nf6",
+          "comment": "Attack e4."
+        },
+        {
+          "id": "sicilian-najdorf:g3:4",
+          "fenBefore": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+          "movesUci": [
+            "a7a6"
+          ],
+          "opponentReplies": [
+            "g2g3"
+          ],
+          "san": "a6",
+          "comment": "Najdorf."
+        },
+        {
+          "id": "sicilian-najdorf:g3:5",
+          "fenBefore": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N3P1/PPP2P1P/R1BQKB1R b KQkq - 0 6",
+          "movesUci": [
+            "e7e5"
+          ],
+          "opponentReplies": [
+            "d4e2"
+          ],
+          "san": "e5",
+          "comment": "Kick the knight. The fianchetto is slow, so you take space."
+        },
+        {
+          "id": "sicilian-najdorf:g3:6",
+          "fenBefore": "rnbqkb1r/1p3ppp/p2p1n2/4p3/4P3/2N3P1/PPP1NP1P/R1BQKB1R b KQkq - 1 7",
+          "movesUci": [
+            "c8e6"
+          ],
+          "opponentReplies": [
+            "f1g2"
+          ],
+          "san": "Be6",
+          "comment": "Control d5."
+        },
+        {
+          "id": "sicilian-najdorf:g3:7",
+          "fenBefore": "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/2N3P1/PPP1NPBP/R1BQK2R b KQkq - 3 8",
+          "movesUci": [
+            "f8e7"
+          ],
+          "opponentReplies": [
+            "e1g1"
+          ],
+          "san": "Be7",
+          "comment": "Develop."
+        },
+        {
+          "id": "sicilian-najdorf:g3:8",
+          "fenBefore": "rn1qk2r/1p2bppp/p2pbn2/4p3/4P3/2N3P1/PPP1NPBP/R1BQ1RK1 b kq - 5 9",
+          "movesUci": [
+            "e8g8"
+          ],
+          "opponentReplies": [
+            "h2h3"
+          ],
+          "san": "O-O",
+          "comment": "Castle."
+        },
+        {
+          "id": "sicilian-najdorf:g3:9",
+          "fenBefore": "rn1q1rk1/1p2bppp/p2pbn2/4p3/4P3/2N3PP/PPP1NPB1/R1BQ1RK1 b - - 0 10",
+          "movesUci": [
+            "b8d7"
+          ],
+          "opponentReplies": [],
+          "san": "Nbd7",
+          "comment": "Develop. ...Rc8, ...b5, and ...Nc5 are the queenside plan."
+        }
+      ]
+    },
+    {
+      "id": "ng4",
+      "name": "6.Be3 — 6...Ng4",
+      "steps": [
+        {
+          "id": "sicilian-najdorf:ng4:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "c7c5"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "c5",
+          "comment": "Sicilian."
+        },
+        {
+          "id": "sicilian-najdorf:ng4:1",
+          "fenBefore": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+          "movesUci": [
+            "d7d6"
+          ],
+          "opponentReplies": [
+            "d2d4"
+          ],
+          "san": "d6",
+          "comment": "Structure."
+        },
+        {
+          "id": "sicilian-najdorf:ng4:2",
+          "fenBefore": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+          "movesUci": [
+            "c5d4"
+          ],
+          "opponentReplies": [
+            "f3d4"
+          ],
+          "san": "cxd4",
+          "comment": "Open the c-file."
+        },
+        {
+          "id": "sicilian-najdorf:ng4:3",
+          "fenBefore": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "Nf6",
+          "comment": "Attack e4."
+        },
+        {
+          "id": "sicilian-najdorf:ng4:4",
+          "fenBefore": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+          "movesUci": [
+            "a7a6"
+          ],
+          "opponentReplies": [
+            "c1e3"
+          ],
+          "san": "a6",
+          "comment": "Najdorf."
+        },
+        {
+          "id": "sicilian-najdorf:ng4:5",
+          "fenBefore": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N1B3/PPP2PPP/R2QKB1R b KQkq - 1 6",
+          "movesUci": [
+            "f6g4"
+          ],
+          "opponentReplies": [
+            "e3c1"
+          ],
+          "san": "Ng4",
+          "comment": "Force the dark-squared bishop to declare itself before you play ...e5."
+        },
+        {
+          "id": "sicilian-najdorf:ng4:6",
+          "fenBefore": "rnbqkb1r/1p2pppp/p2p4/8/3NP1n1/2N5/PPP2PPP/R1BQKB1R b KQkq - 3 7",
+          "movesUci": [
+            "g4f6"
+          ],
+          "opponentReplies": [
+            "f2f3"
+          ],
+          "san": "Nf6",
+          "comment": "Retreat. You have gained a tempo and can now choose ...e5 or ...e6."
+        },
+        {
+          "id": "sicilian-najdorf:ng4:7",
+          "fenBefore": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N2P2/PPP3PP/R1BQKB1R b KQkq - 0 8",
+          "movesUci": [
+            "e7e5"
+          ],
+          "opponentReplies": [
+            "d4b3"
+          ],
+          "san": "e5",
+          "comment": "Now the kick, with White a move behind the English Attack."
+        },
+        {
+          "id": "sicilian-najdorf:ng4:8",
+          "fenBefore": "rnbqkb1r/1p3ppp/p2p1n2/4p3/4P3/1NN2P2/PPP3PP/R1BQKB1R b KQkq - 1 9",
+          "movesUci": [
+            "c8e6"
+          ],
+          "opponentReplies": [
+            "c1e3"
+          ],
+          "san": "Be6",
+          "comment": "Develop and hold d5."
+        },
+        {
+          "id": "sicilian-najdorf:ng4:9",
+          "fenBefore": "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1BP2/PPP3PP/R2QKB1R b KQkq - 3 10",
+          "movesUci": [
+            "b8d7"
+          ],
+          "opponentReplies": [],
+          "san": "Nbd7",
+          "comment": "Develop toward b6 and c4."
+        }
+      ]
+    }
+  ]
+}

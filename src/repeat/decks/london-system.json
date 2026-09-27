@@ -1,0 +1,797 @@
+{
+  "id": "london-system",
+  "slug": "london-system",
+  "name": "London System",
+  "color": "w",
+  "tags": [
+    "opening"
+  ],
+  "lines": [
+    {
+      "id": "classical",
+      "name": "Classical — ...d5 ...e6 ...c5",
+      "steps": [
+        {
+          "id": "london-system:classical:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "d7d5"
+          ],
+          "san": "d4",
+          "comment": "Claim the center without committing the e-pawn."
+        },
+        {
+          "id": "london-system:classical:1",
+          "fenBefore": "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "Nf3",
+          "comment": "Support d4 and keep the London bishop's diagonal open."
+        },
+        {
+          "id": "london-system:classical:2",
+          "fenBefore": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 2 3",
+          "movesUci": [
+            "c1f4"
+          ],
+          "opponentReplies": [
+            "e7e6"
+          ],
+          "san": "Bf4",
+          "comment": "The London bishop. It develops outside the pawn chain before e3."
+        },
+        {
+          "id": "london-system:classical:3",
+          "fenBefore": "rnbqkb1r/ppp2ppp/4pn2/3p4/3P1B2/5N2/PPP1PPPP/RN1QKB1R w KQkq - 0 4",
+          "movesUci": [
+            "e2e3"
+          ],
+          "opponentReplies": [
+            "c7c5"
+          ],
+          "san": "e3",
+          "comment": "Solidify d4 and open a path for the light-squared bishop."
+        },
+        {
+          "id": "london-system:classical:4",
+          "fenBefore": "rnbqkb1r/pp3ppp/4pn2/2pp4/3P1B2/4PN2/PPP2PPP/RN1QKB1R w KQkq - 0 5",
+          "movesUci": [
+            "c2c3"
+          ],
+          "opponentReplies": [
+            "b8c6"
+          ],
+          "san": "c3",
+          "comment": "Keep a pawn on d4 so the center does not disappear."
+        },
+        {
+          "id": "london-system:classical:5",
+          "fenBefore": "r1bqkb1r/pp3ppp/2n1pn2/2pp4/3P1B2/2P1PN2/PP3PPP/RN1QKB1R w KQkq - 1 6",
+          "movesUci": [
+            "b1d2"
+          ],
+          "opponentReplies": [
+            "f8d6"
+          ],
+          "san": "Nbd2",
+          "comment": "Develop without blocking the c-pawn or the dark-squared bishop."
+        },
+        {
+          "id": "london-system:classical:6",
+          "fenBefore": "r1bqk2r/pp3ppp/2nbpn2/2pp4/3P1B2/2P1PN2/PP1N1PPP/R2QKB1R w KQkq - 3 7",
+          "movesUci": [
+            "f4g3"
+          ],
+          "opponentReplies": [
+            "e8g8"
+          ],
+          "san": "Bg3",
+          "comment": "Keep the dark-squared bishop. Trading on d6 would help Black's structure."
+        },
+        {
+          "id": "london-system:classical:7",
+          "fenBefore": "r1bq1rk1/pp3ppp/2nbpn2/2pp4/3P4/2P1PNB1/PP1N1PPP/R2QKB1R w KQ - 5 8",
+          "movesUci": [
+            "f1d3"
+          ],
+          "opponentReplies": [
+            "d8c7"
+          ],
+          "san": "Bd3",
+          "comment": "Point at h7, the usual London attacking idea."
+        },
+        {
+          "id": "london-system:classical:8",
+          "fenBefore": "r1b2rk1/ppq2ppp/2nbpn2/2pp4/3P4/2PBPNB1/PP1N1PPP/R2QK2R w KQ - 7 9",
+          "movesUci": [
+            "e1g1"
+          ],
+          "opponentReplies": [
+            "b7b6"
+          ],
+          "san": "O-O",
+          "comment": "Castle, then look at Ne5 or Qe2 and e4."
+        }
+      ]
+    },
+    {
+      "id": "early-c5",
+      "name": "Early ...c5",
+      "steps": [
+        {
+          "id": "london-system:early-c5:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "d7d5"
+          ],
+          "san": "d4",
+          "comment": "Center."
+        },
+        {
+          "id": "london-system:early-c5:1",
+          "fenBefore": "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "c7c5"
+          ],
+          "san": "Nf3",
+          "comment": "Support d4."
+        },
+        {
+          "id": "london-system:early-c5:2",
+          "fenBefore": "rnbqkbnr/pp2pppp/8/2pp4/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 3",
+          "movesUci": [
+            "c2c3"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "c3",
+          "comment": "Do not let the center vanish. cxd4 will be met by cxd4."
+        },
+        {
+          "id": "london-system:early-c5:3",
+          "fenBefore": "rnbqkb1r/pp2pppp/5n2/2pp4/3P4/2P2N2/PP2PPPP/RNBQKB1R w KQkq - 1 4",
+          "movesUci": [
+            "c1f4"
+          ],
+          "opponentReplies": [
+            "b8c6"
+          ],
+          "san": "Bf4",
+          "comment": "Develop the London bishop before e3."
+        },
+        {
+          "id": "london-system:early-c5:4",
+          "fenBefore": "r1bqkb1r/pp2pppp/2n2n2/2pp4/3P1B2/2P2N2/PP2PPPP/RN1QKB1R w KQkq - 3 5",
+          "movesUci": [
+            "e2e3"
+          ],
+          "opponentReplies": [
+            "d8b6"
+          ],
+          "san": "e3",
+          "comment": "Solid pawn chain."
+        },
+        {
+          "id": "london-system:early-c5:5",
+          "fenBefore": "r1b1kb1r/pp2pppp/1qn2n2/2pp4/3P1B2/2P1PN2/PP3PPP/RN1QKB1R w KQkq - 1 6",
+          "movesUci": [
+            "d1b3"
+          ],
+          "opponentReplies": [
+            "c5c4"
+          ],
+          "san": "Qb3",
+          "comment": "Meet the pressure on b2 and d4 by offering a queen trade or defending both."
+        },
+        {
+          "id": "london-system:early-c5:6",
+          "fenBefore": "r1b1kb1r/pp2pppp/1qn2n2/3p4/2pP1B2/1QP1PN2/PP3PPP/RN2KB1R w KQkq - 0 7",
+          "movesUci": [
+            "b3c2"
+          ],
+          "opponentReplies": [
+            "c8f5"
+          ],
+          "san": "Qc2",
+          "comment": "Retreat, having gained a hook. You will undermine c4 with b3."
+        },
+        {
+          "id": "london-system:early-c5:7",
+          "fenBefore": "r3kb1r/pp2pppp/1qn2n2/3p1b2/2pP1B2/2P1PN2/PPQ2PPP/RN2KB1R w KQkq - 2 8",
+          "movesUci": [
+            "c2c1"
+          ],
+          "opponentReplies": [
+            "e7e6"
+          ],
+          "san": "Qc1",
+          "comment": "Step off the bishop's diagonal and keep the queen flexible."
+        },
+        {
+          "id": "london-system:early-c5:8",
+          "fenBefore": "r3kb1r/pp3ppp/1qn1pn2/3p1b2/2pP1B2/2P1PN2/PP3PPP/RNQ1KB1R w KQkq - 0 9",
+          "movesUci": [
+            "b1d2"
+          ],
+          "opponentReplies": [],
+          "san": "Nbd2",
+          "comment": "Develop and prepare b3."
+        }
+      ]
+    },
+    {
+      "id": "vs-bf5",
+      "name": "Against ...Bf5",
+      "steps": [
+        {
+          "id": "london-system:vs-bf5:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "d7d5"
+          ],
+          "san": "d4",
+          "comment": "Center."
+        },
+        {
+          "id": "london-system:vs-bf5:1",
+          "fenBefore": "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "Nf3",
+          "comment": "Support d4."
+        },
+        {
+          "id": "london-system:vs-bf5:2",
+          "fenBefore": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 2 3",
+          "movesUci": [
+            "c1f4"
+          ],
+          "opponentReplies": [
+            "c8f5"
+          ],
+          "san": "Bf4",
+          "comment": "London bishop."
+        },
+        {
+          "id": "london-system:vs-bf5:3",
+          "fenBefore": "rn1qkb1r/ppp1pppp/5n2/3p1b2/3P1B2/5N2/PPP1PPPP/RN1QKB1R w KQkq - 4 4",
+          "movesUci": [
+            "e2e3"
+          ],
+          "opponentReplies": [
+            "e7e6"
+          ],
+          "san": "e3",
+          "comment": "Open the light-squared bishop."
+        },
+        {
+          "id": "london-system:vs-bf5:4",
+          "fenBefore": "rn1qkb1r/ppp2ppp/4pn2/3p1b2/3P1B2/4PN2/PPP2PPP/RN1QKB1R w KQkq - 0 5",
+          "movesUci": [
+            "c2c4"
+          ],
+          "opponentReplies": [
+            "c7c6"
+          ],
+          "san": "c4",
+          "comment": "Challenge d5 before Black clamps the position."
+        },
+        {
+          "id": "london-system:vs-bf5:5",
+          "fenBefore": "rn1qkb1r/pp3ppp/2p1pn2/3p1b2/2PP1B2/4PN2/PP3PPP/RN1QKB1R w KQkq - 0 6",
+          "movesUci": [
+            "b1c3"
+          ],
+          "opponentReplies": [
+            "b8d7"
+          ],
+          "san": "Nc3",
+          "comment": "Develop with pressure on d5. This is sharper than the Nbd2 London."
+        },
+        {
+          "id": "london-system:vs-bf5:6",
+          "fenBefore": "r2qkb1r/pp1n1ppp/2p1pn2/3p1b2/2PP1B2/2N1PN2/PP3PPP/R2QKB1R w KQkq - 2 7",
+          "movesUci": [
+            "d1b3"
+          ],
+          "opponentReplies": [
+            "d8c8"
+          ],
+          "san": "Qb3",
+          "comment": "Attack b7, which the bishop on f5 has left."
+        },
+        {
+          "id": "london-system:vs-bf5:7",
+          "fenBefore": "r1q1kb1r/pp1n1ppp/2p1pn2/3p1b2/2PP1B2/1QN1PN2/PP3PPP/R3KB1R w KQkq - 4 8",
+          "movesUci": [
+            "f1e2"
+          ],
+          "opponentReplies": [
+            "f8e7"
+          ],
+          "san": "Be2",
+          "comment": "Finish development and castle."
+        },
+        {
+          "id": "london-system:vs-bf5:8",
+          "fenBefore": "r1q1k2r/pp1nbppp/2p1pn2/3p1b2/2PP1B2/1QN1PN2/PP2BPPP/R3K2R w KQkq - 6 9",
+          "movesUci": [
+            "e1g1"
+          ],
+          "opponentReplies": [],
+          "san": "O-O",
+          "comment": "Castle, then decide between cxd5 or Ne5."
+        }
+      ]
+    },
+    {
+      "id": "vs-kings-indian",
+      "name": "Against a King's Indian setup",
+      "steps": [
+        {
+          "id": "london-system:vs-kings-indian:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "d4",
+          "comment": "Center."
+        },
+        {
+          "id": "london-system:vs-kings-indian:1",
+          "fenBefore": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "g7g6"
+          ],
+          "san": "Nf3",
+          "comment": "Flexible. You are still heading for the London."
+        },
+        {
+          "id": "london-system:vs-kings-indian:2",
+          "fenBefore": "rnbqkb1r/pppppp1p/5np1/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 3",
+          "movesUci": [
+            "c1f4"
+          ],
+          "opponentReplies": [
+            "f8g7"
+          ],
+          "san": "Bf4",
+          "comment": "Develop before Black's bishop arrives on g7."
+        },
+        {
+          "id": "london-system:vs-kings-indian:3",
+          "fenBefore": "rnbqk2r/ppppppbp/5np1/8/3P1B2/5N2/PPP1PPPP/RN1QKB1R w KQkq - 2 4",
+          "movesUci": [
+            "e2e3"
+          ],
+          "opponentReplies": [
+            "d7d6"
+          ],
+          "san": "e3",
+          "comment": "Solid, and it blunts the long diagonal a bit."
+        },
+        {
+          "id": "london-system:vs-kings-indian:4",
+          "fenBefore": "rnbqk2r/ppp1ppbp/3p1np1/8/3P1B2/4PN2/PPP2PPP/RN1QKB1R w KQkq - 0 5",
+          "movesUci": [
+            "h2h3"
+          ],
+          "opponentReplies": [
+            "e8g8"
+          ],
+          "san": "h3",
+          "comment": "Give the dark-squared bishop a home on h2 against ...Nh5."
+        },
+        {
+          "id": "london-system:vs-kings-indian:5",
+          "fenBefore": "rnbq1rk1/ppp1ppbp/3p1np1/8/3P1B2/4PN1P/PPP2PP1/RN1QKB1R w KQ - 1 6",
+          "movesUci": [
+            "f1e2"
+          ],
+          "opponentReplies": [
+            "b8d7"
+          ],
+          "san": "Be2",
+          "comment": "A modest square. Bd3 is also fine if you want to eye h7."
+        },
+        {
+          "id": "london-system:vs-kings-indian:6",
+          "fenBefore": "r1bq1rk1/pppnppbp/3p1np1/8/3P1B2/4PN1P/PPP1BPP1/RN1QK2R w KQ - 3 7",
+          "movesUci": [
+            "e1g1"
+          ],
+          "opponentReplies": [
+            "b7b6"
+          ],
+          "san": "O-O",
+          "comment": "Castle."
+        },
+        {
+          "id": "london-system:vs-kings-indian:7",
+          "fenBefore": "r1bq1rk1/p1pnppbp/1p1p1np1/8/3P1B2/4PN1P/PPP1BPP1/RN1Q1RK1 w - - 0 8",
+          "movesUci": [
+            "c2c3"
+          ],
+          "opponentReplies": [
+            "c8b7"
+          ],
+          "san": "c3",
+          "comment": "Support d4 and keep the option of Nbd2."
+        },
+        {
+          "id": "london-system:vs-kings-indian:8",
+          "fenBefore": "r2q1rk1/pbpnppbp/1p1p1np1/8/3P1B2/2P1PN1P/PP2BPP1/RN1Q1RK1 w - - 1 9",
+          "movesUci": [
+            "b1d2"
+          ],
+          "opponentReplies": [],
+          "san": "Nbd2",
+          "comment": "Complete development. Later c4 or e4."
+        }
+      ]
+    },
+    {
+      "id": "vs-b6",
+      "name": "Against ...e6 and ...b6",
+      "steps": [
+        {
+          "id": "london-system:vs-b6:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "d4",
+          "comment": "Center."
+        },
+        {
+          "id": "london-system:vs-b6:1",
+          "fenBefore": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "e7e6"
+          ],
+          "san": "Nf3",
+          "comment": "Support d4."
+        },
+        {
+          "id": "london-system:vs-b6:2",
+          "fenBefore": "rnbqkb1r/pppp1ppp/4pn2/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 3",
+          "movesUci": [
+            "c1f4"
+          ],
+          "opponentReplies": [
+            "b7b6"
+          ],
+          "san": "Bf4",
+          "comment": "London bishop."
+        },
+        {
+          "id": "london-system:vs-b6:3",
+          "fenBefore": "rnbqkb1r/p1pp1ppp/1p2pn2/8/3P1B2/5N2/PPP1PPPP/RN1QKB1R w KQkq - 0 4",
+          "movesUci": [
+            "e2e3"
+          ],
+          "opponentReplies": [
+            "c8b7"
+          ],
+          "san": "e3",
+          "comment": "Solid."
+        },
+        {
+          "id": "london-system:vs-b6:4",
+          "fenBefore": "rn1qkb1r/pbpp1ppp/1p2pn2/8/3P1B2/4PN2/PPP2PPP/RN1QKB1R w KQkq - 1 5",
+          "movesUci": [
+            "b1d2"
+          ],
+          "opponentReplies": [
+            "f8e7"
+          ],
+          "san": "Nbd2",
+          "comment": "Develop. The knight can go to c4 or support e4."
+        },
+        {
+          "id": "london-system:vs-b6:5",
+          "fenBefore": "rn1qk2r/pbppbppp/1p2pn2/8/3P1B2/4PN2/PPPN1PPP/R2QKB1R w KQkq - 3 6",
+          "movesUci": [
+            "f1d3"
+          ],
+          "opponentReplies": [
+            "e8g8"
+          ],
+          "san": "Bd3",
+          "comment": "Eye h7 and control e4."
+        },
+        {
+          "id": "london-system:vs-b6:6",
+          "fenBefore": "rn1q1rk1/pbppbppp/1p2pn2/8/3P1B2/3BPN2/PPPN1PPP/R2QK2R w KQ - 5 7",
+          "movesUci": [
+            "c2c3"
+          ],
+          "opponentReplies": [
+            "d7d6"
+          ],
+          "san": "c3",
+          "comment": "A pawn anchor for d4 before you castle and push e4."
+        },
+        {
+          "id": "london-system:vs-b6:7",
+          "fenBefore": "rn1q1rk1/pbp1bppp/1p1ppn2/8/3P1B2/2PBPN2/PP1N1PPP/R2QK2R w KQ - 0 8",
+          "movesUci": [
+            "e1g1"
+          ],
+          "opponentReplies": [
+            "b8d7"
+          ],
+          "san": "O-O",
+          "comment": "Castle."
+        },
+        {
+          "id": "london-system:vs-b6:8",
+          "fenBefore": "r2q1rk1/pbpnbppp/1p1ppn2/8/3P1B2/2PBPN2/PP1N1PPP/R2Q1RK1 w - - 2 9",
+          "movesUci": [
+            "d1e2"
+          ],
+          "opponentReplies": [],
+          "san": "Qe2",
+          "comment": "Connect the rooks and prepare e4."
+        }
+      ]
+    },
+    {
+      "id": "vs-c6",
+      "name": "Slav-style ...c6",
+      "steps": [
+        {
+          "id": "london-system:vs-c6:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "d7d5"
+          ],
+          "san": "d4",
+          "comment": "Center."
+        },
+        {
+          "id": "london-system:vs-c6:1",
+          "fenBefore": "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "Nf3",
+          "comment": "Support d4."
+        },
+        {
+          "id": "london-system:vs-c6:2",
+          "fenBefore": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 2 3",
+          "movesUci": [
+            "c1f4"
+          ],
+          "opponentReplies": [
+            "c7c6"
+          ],
+          "san": "Bf4",
+          "comment": "London bishop."
+        },
+        {
+          "id": "london-system:vs-c6:3",
+          "fenBefore": "rnbqkb1r/pp2pppp/2p2n2/3p4/3P1B2/5N2/PPP1PPPP/RN1QKB1R w KQkq - 0 4",
+          "movesUci": [
+            "e2e3"
+          ],
+          "opponentReplies": [
+            "c8f5"
+          ],
+          "san": "e3",
+          "comment": "Solid."
+        },
+        {
+          "id": "london-system:vs-c6:4",
+          "fenBefore": "rn1qkb1r/pp2pppp/2p2n2/3p1b2/3P1B2/4PN2/PPP2PPP/RN1QKB1R w KQkq - 1 5",
+          "movesUci": [
+            "f1d3"
+          ],
+          "opponentReplies": [
+            "f5d3"
+          ],
+          "san": "Bd3",
+          "comment": "Offer the trade of light-squared bishops. Yours is the less active one."
+        },
+        {
+          "id": "london-system:vs-c6:5",
+          "fenBefore": "rn1qkb1r/pp2pppp/2p2n2/3p4/3P1B2/3bPN2/PPP2PPP/RN1QK2R w KQkq - 0 6",
+          "movesUci": [
+            "d1d3"
+          ],
+          "opponentReplies": [
+            "e7e6"
+          ],
+          "san": "Qxd3",
+          "comment": "Recapture and put the queen on a useful central square."
+        },
+        {
+          "id": "london-system:vs-c6:6",
+          "fenBefore": "rn1qkb1r/pp3ppp/2p1pn2/3p4/3P1B2/3QPN2/PPP2PPP/RN2K2R w KQkq - 0 7",
+          "movesUci": [
+            "b1d2"
+          ],
+          "opponentReplies": [
+            "b8d7"
+          ],
+          "san": "Nbd2",
+          "comment": "Develop."
+        },
+        {
+          "id": "london-system:vs-c6:7",
+          "fenBefore": "r2qkb1r/pp1n1ppp/2p1pn2/3p4/3P1B2/3QPN2/PPPN1PPP/R3K2R w KQkq - 2 8",
+          "movesUci": [
+            "e1g1"
+          ],
+          "opponentReplies": [
+            "f8e7"
+          ],
+          "san": "O-O",
+          "comment": "Castle."
+        },
+        {
+          "id": "london-system:vs-c6:8",
+          "fenBefore": "r2qk2r/pp1nbppp/2p1pn2/3p4/3P1B2/3QPN2/PPPN1PPP/R4RK1 w kq - 4 9",
+          "movesUci": [
+            "c2c4"
+          ],
+          "opponentReplies": [],
+          "san": "c4",
+          "comment": "Challenge the center now that development is finished."
+        }
+      ]
+    },
+    {
+      "id": "vs-grunfeld",
+      "name": "Against the Grünfeld setup",
+      "steps": [
+        {
+          "id": "london-system:vs-grunfeld:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "d4",
+          "comment": "Center."
+        },
+        {
+          "id": "london-system:vs-grunfeld:1",
+          "fenBefore": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "g7g6"
+          ],
+          "san": "Nf3",
+          "comment": "Support d4."
+        },
+        {
+          "id": "london-system:vs-grunfeld:2",
+          "fenBefore": "rnbqkb1r/pppppp1p/5np1/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 3",
+          "movesUci": [
+            "c1f4"
+          ],
+          "opponentReplies": [
+            "f8g7"
+          ],
+          "san": "Bf4",
+          "comment": "London bishop."
+        },
+        {
+          "id": "london-system:vs-grunfeld:3",
+          "fenBefore": "rnbqk2r/ppppppbp/5np1/8/3P1B2/5N2/PPP1PPPP/RN1QKB1R w KQkq - 2 4",
+          "movesUci": [
+            "e2e3"
+          ],
+          "opponentReplies": [
+            "d7d5"
+          ],
+          "san": "e3",
+          "comment": "Solid."
+        },
+        {
+          "id": "london-system:vs-grunfeld:4",
+          "fenBefore": "rnbqk2r/ppp1ppbp/5np1/3p4/3P1B2/4PN2/PPP2PPP/RN1QKB1R w KQkq - 0 5",
+          "movesUci": [
+            "c2c4"
+          ],
+          "opponentReplies": [
+            "c7c6"
+          ],
+          "san": "c4",
+          "comment": "Do not allow Black a free Grünfeld center. Challenge d5."
+        },
+        {
+          "id": "london-system:vs-grunfeld:5",
+          "fenBefore": "rnbqk2r/pp2ppbp/2p2np1/3p4/2PP1B2/4PN2/PP3PPP/RN1QKB1R w KQkq - 0 6",
+          "movesUci": [
+            "b1c3"
+          ],
+          "opponentReplies": [
+            "e8g8"
+          ],
+          "san": "Nc3",
+          "comment": "Develop with pressure."
+        },
+        {
+          "id": "london-system:vs-grunfeld:6",
+          "fenBefore": "rnbq1rk1/pp2ppbp/2p2np1/3p4/2PP1B2/2N1PN2/PP3PPP/R2QKB1R w KQ - 2 7",
+          "movesUci": [
+            "h2h3"
+          ],
+          "opponentReplies": [
+            "b8d7"
+          ],
+          "san": "h3",
+          "comment": "Air for the bishop against ...Nh5."
+        },
+        {
+          "id": "london-system:vs-grunfeld:7",
+          "fenBefore": "r1bq1rk1/pp1nppbp/2p2np1/3p4/2PP1B2/2N1PN1P/PP3PP1/R2QKB1R w KQ - 1 8",
+          "movesUci": [
+            "f1e2"
+          ],
+          "opponentReplies": [
+            "b7b6"
+          ],
+          "san": "Be2",
+          "comment": "Finish the kingside."
+        },
+        {
+          "id": "london-system:vs-grunfeld:8",
+          "fenBefore": "r1bq1rk1/p2nppbp/1pp2np1/3p4/2PP1B2/2N1PN1P/PP2BPP1/R2QK2R w KQ - 0 9",
+          "movesUci": [
+            "e1g1"
+          ],
+          "opponentReplies": [],
+          "san": "O-O",
+          "comment": "Castle, then look at cxd5 or Qc2 and Rad1."
+        }
+      ]
+    }
+  ]
+}

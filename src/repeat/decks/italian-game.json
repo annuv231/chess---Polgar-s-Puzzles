@@ -1,0 +1,1095 @@
+{
+  "id": "italian-game",
+  "slug": "italian-game",
+  "name": "Italian Game",
+  "color": "w",
+  "tags": [
+    "opening"
+  ],
+  "lines": [
+    {
+      "id": "giuoco-piano",
+      "name": "Giuoco Piano — 4.c3 and 5.d4",
+      "steps": [
+        {
+          "id": "italian-game:giuoco-piano:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Stake a claim in the center and open lines for the queen and bishop."
+        },
+        {
+          "id": "italian-game:giuoco-piano:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "b8c6"
+          ],
+          "san": "Nf3",
+          "comment": "Develop the knight and attack the e5-pawn."
+        },
+        {
+          "id": "italian-game:giuoco-piano:2",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "movesUci": [
+            "f1c4"
+          ],
+          "opponentReplies": [
+            "f8c5"
+          ],
+          "san": "Bc4",
+          "comment": "The Italian bishop eyes the weak f7-square."
+        },
+        {
+          "id": "italian-game:giuoco-piano:3",
+          "fenBefore": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+          "movesUci": [
+            "c2c3"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "c3",
+          "comment": "Prepare d4 so the pawn can recapture and keep a big center."
+        },
+        {
+          "id": "italian-game:giuoco-piano:4",
+          "fenBefore": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq - 1 5",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "e5d4"
+          ],
+          "san": "d4",
+          "comment": "Break in the center before Black castles comfortably."
+        },
+        {
+          "id": "italian-game:giuoco-piano:5",
+          "fenBefore": "r1bqk2r/pppp1ppp/2n2n2/2b5/2BpP3/2P2N2/PP3PPP/RNBQK2R w KQkq - 0 6",
+          "movesUci": [
+            "c3d4"
+          ],
+          "opponentReplies": [
+            "c5b4"
+          ],
+          "san": "cxd4",
+          "comment": "Recapture toward the center and open the c-file later."
+        },
+        {
+          "id": "italian-game:giuoco-piano:6",
+          "fenBefore": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/5N2/PP3PPP/RNBQK2R w KQkq - 1 7",
+          "movesUci": [
+            "c1d2"
+          ],
+          "opponentReplies": [
+            "b4d2"
+          ],
+          "san": "Bd2",
+          "comment": "Interpose and offer a trade that leaves you with the bishop pair's rival neutralized."
+        },
+        {
+          "id": "italian-game:giuoco-piano:7",
+          "fenBefore": "r1bqk2r/pppp1ppp/2n2n2/8/2BPP3/5N2/PP1b1PPP/RN1QK2R w KQkq - 0 8",
+          "movesUci": [
+            "b1d2"
+          ],
+          "opponentReplies": [
+            "d7d5"
+          ],
+          "san": "Nbxd2",
+          "comment": "Recapture with the knight, keeping the queen free for Qb3."
+        },
+        {
+          "id": "italian-game:giuoco-piano:8",
+          "fenBefore": "r1bqk2r/ppp2ppp/2n2n2/3p4/2BPP3/5N2/PP1N1PPP/R2QK2R w KQkq - 0 9",
+          "movesUci": [
+            "e4d5"
+          ],
+          "opponentReplies": [
+            "f6d5"
+          ],
+          "san": "exd5",
+          "comment": "Open the e-file and remove Black's central pawn."
+        },
+        {
+          "id": "italian-game:giuoco-piano:9",
+          "fenBefore": "r1bqk2r/ppp2ppp/2n5/3n4/2BP4/5N2/PP1N1PPP/R2QK2R w KQkq - 0 10",
+          "movesUci": [
+            "d1b3"
+          ],
+          "opponentReplies": [],
+          "san": "Qb3",
+          "comment": "Hit the d5-knight and the b7-pawn at the same time."
+        }
+      ]
+    },
+    {
+      "id": "pianissimo",
+      "name": "Giuoco Pianissimo — 4.d3",
+      "steps": [
+        {
+          "id": "italian-game:pianissimo:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open with the king's pawn."
+        },
+        {
+          "id": "italian-game:pianissimo:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "b8c6"
+          ],
+          "san": "Nf3",
+          "comment": "Attack e5 and develop."
+        },
+        {
+          "id": "italian-game:pianissimo:2",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "movesUci": [
+            "f1c4"
+          ],
+          "opponentReplies": [
+            "f8c5"
+          ],
+          "san": "Bc4",
+          "comment": "Point at f7."
+        },
+        {
+          "id": "italian-game:pianissimo:3",
+          "fenBefore": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+          "movesUci": [
+            "d2d3"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "d3",
+          "comment": "A quiet center. You keep the position closed and finish development first."
+        },
+        {
+          "id": "italian-game:pianissimo:4",
+          "fenBefore": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQkq - 1 5",
+          "movesUci": [
+            "c2c3"
+          ],
+          "opponentReplies": [
+            "d7d6"
+          ],
+          "san": "c3",
+          "comment": "Support a later d4 and give the light-squared bishop a retreat."
+        },
+        {
+          "id": "italian-game:pianissimo:5",
+          "fenBefore": "r1bqk2r/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQK2R w KQkq - 0 6",
+          "movesUci": [
+            "e1g1"
+          ],
+          "opponentReplies": [
+            "a7a6"
+          ],
+          "san": "O-O",
+          "comment": "King safety before opening the center."
+        },
+        {
+          "id": "italian-game:pianissimo:6",
+          "fenBefore": "r1bqk2r/1pp2ppp/p1np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w kq - 0 7",
+          "movesUci": [
+            "c4b3"
+          ],
+          "opponentReplies": [
+            "c5a7"
+          ],
+          "san": "Bb3",
+          "comment": "Step off the a2-g8 diagonal so ...Na5 does not trade your bishop."
+        },
+        {
+          "id": "italian-game:pianissimo:7",
+          "fenBefore": "r1bqk2r/bpp2ppp/p1np1n2/4p3/4P3/1BPP1N2/PP3PPP/RNBQ1RK1 w kq - 2 8",
+          "movesUci": [
+            "b1d2"
+          ],
+          "opponentReplies": [
+            "e8g8"
+          ],
+          "san": "Nbd2",
+          "comment": "Develop without blocking the c-pawn, heading toward f1 and g3 or e3."
+        },
+        {
+          "id": "italian-game:pianissimo:8",
+          "fenBefore": "r1bq1rk1/bpp2ppp/p1np1n2/4p3/4P3/1BPP1N2/PP1N1PPP/R1BQ1RK1 w - - 4 9",
+          "movesUci": [
+            "f1e1"
+          ],
+          "opponentReplies": [],
+          "san": "Re1",
+          "comment": "Put a rook behind the e4-pawn, ready for d4."
+        }
+      ]
+    },
+    {
+      "id": "evans",
+      "name": "Evans Gambit",
+      "steps": [
+        {
+          "id": "italian-game:evans:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "italian-game:evans:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "b8c6"
+          ],
+          "san": "Nf3",
+          "comment": "Attack e5."
+        },
+        {
+          "id": "italian-game:evans:2",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "movesUci": [
+            "f1c4"
+          ],
+          "opponentReplies": [
+            "f8c5"
+          ],
+          "san": "Bc4",
+          "comment": "Italian bishop."
+        },
+        {
+          "id": "italian-game:evans:3",
+          "fenBefore": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+          "movesUci": [
+            "b2b4"
+          ],
+          "opponentReplies": [
+            "c5b4"
+          ],
+          "san": "b4",
+          "comment": "Gambit a pawn to deflect the bishop and seize the center with c3 and d4."
+        },
+        {
+          "id": "italian-game:evans:4",
+          "fenBefore": "r1bqk1nr/pppp1ppp/2n5/4p3/1bB1P3/5N2/P1PP1PPP/RNBQK2R w KQkq - 0 5",
+          "movesUci": [
+            "c2c3"
+          ],
+          "opponentReplies": [
+            "b4a5"
+          ],
+          "san": "c3",
+          "comment": "Kick the bishop and prepare d4."
+        },
+        {
+          "id": "italian-game:evans:5",
+          "fenBefore": "r1bqk1nr/pppp1ppp/2n5/b3p3/2B1P3/2P2N2/P2P1PPP/RNBQK2R w KQkq - 1 6",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "e5d4"
+          ],
+          "san": "d4",
+          "comment": "Open the center while Black's king is still uncastled."
+        },
+        {
+          "id": "italian-game:evans:6",
+          "fenBefore": "r1bqk1nr/pppp1ppp/2n5/b7/2BpP3/2P2N2/P4PPP/RNBQK2R w KQkq - 0 7",
+          "movesUci": [
+            "e1g1"
+          ],
+          "opponentReplies": [
+            "d7d6"
+          ],
+          "san": "O-O",
+          "comment": "Sacrifice or regain the pawn later; development and the open center come first."
+        },
+        {
+          "id": "italian-game:evans:7",
+          "fenBefore": "r1bqk1nr/ppp2ppp/2np4/b7/2BpP3/2P2N2/P4PPP/RNBQ1RK1 w kq - 0 8",
+          "movesUci": [
+            "c3d4"
+          ],
+          "opponentReplies": [
+            "a5b6"
+          ],
+          "san": "cxd4",
+          "comment": "Restore a pawn center with two pawns abreast."
+        },
+        {
+          "id": "italian-game:evans:8",
+          "fenBefore": "r1bqk1nr/ppp2ppp/1bnp4/8/2BPP3/5N2/P4PPP/RNBQ1RK1 w kq - 1 9",
+          "movesUci": [
+            "b1c3"
+          ],
+          "opponentReplies": [],
+          "san": "Nc3",
+          "comment": "Develop with tempo against the center and prepare Be3 or Bg5."
+        }
+      ]
+    },
+    {
+      "id": "two-knights-ng5",
+      "name": "Two Knights — 4.Ng5",
+      "steps": [
+        {
+          "id": "italian-game:two-knights-ng5:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "italian-game:two-knights-ng5:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "b8c6"
+          ],
+          "san": "Nf3",
+          "comment": "Attack e5."
+        },
+        {
+          "id": "italian-game:two-knights-ng5:2",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "movesUci": [
+            "f1c4"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "Bc4",
+          "comment": "Italian bishop."
+        },
+        {
+          "id": "italian-game:two-knights-ng5:3",
+          "fenBefore": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+          "movesUci": [
+            "f3g5"
+          ],
+          "opponentReplies": [
+            "d7d5"
+          ],
+          "san": "Ng5",
+          "comment": "Immediate attack on f7, the weakest point in Black's camp."
+        },
+        {
+          "id": "italian-game:two-knights-ng5:4",
+          "fenBefore": "r1bqkb1r/ppp2ppp/2n2n2/3pp1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 0 5",
+          "movesUci": [
+            "e4d5"
+          ],
+          "opponentReplies": [
+            "c6a5"
+          ],
+          "san": "exd5",
+          "comment": "Open the center and force the knight on c6 to move."
+        },
+        {
+          "id": "italian-game:two-knights-ng5:5",
+          "fenBefore": "r1bqkb1r/ppp2ppp/5n2/n2Pp1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 1 6",
+          "movesUci": [
+            "c4b5"
+          ],
+          "opponentReplies": [
+            "c7c6"
+          ],
+          "san": "Bb5+",
+          "comment": "Check, so you do not lose the bishop for nothing, and disrupt Black's development."
+        },
+        {
+          "id": "italian-game:two-knights-ng5:6",
+          "fenBefore": "r1bqkb1r/pp3ppp/2p2n2/nB1Pp1N1/8/8/PPPP1PPP/RNBQK2R w KQkq - 0 7",
+          "movesUci": [
+            "d5c6"
+          ],
+          "opponentReplies": [
+            "b7c6"
+          ],
+          "san": "dxc6",
+          "comment": "Give the pawn back to damage Black's queenside structure."
+        },
+        {
+          "id": "italian-game:two-knights-ng5:7",
+          "fenBefore": "r1bqkb1r/p4ppp/2p2n2/nB2p1N1/8/8/PPPP1PPP/RNBQK2R w KQkq - 0 8",
+          "movesUci": [
+            "b5e2"
+          ],
+          "opponentReplies": [
+            "h7h6"
+          ],
+          "san": "Be2",
+          "comment": "Retreat to safety. You are a pawn down but Black's pawns are split."
+        },
+        {
+          "id": "italian-game:two-knights-ng5:8",
+          "fenBefore": "r1bqkb1r/p4pp1/2p2n1p/n3p1N1/8/8/PPPPBPPP/RNBQK2R w KQkq - 0 9",
+          "movesUci": [
+            "g5f3"
+          ],
+          "opponentReplies": [
+            "e5e4"
+          ],
+          "san": "Nf3",
+          "comment": "Bring the knight home. e4 is now a target you can blockade."
+        },
+        {
+          "id": "italian-game:two-knights-ng5:9",
+          "fenBefore": "r1bqkb1r/p4pp1/2p2n1p/n7/4p3/5N2/PPPPBPPP/RNBQK2R w KQkq - 0 10",
+          "movesUci": [
+            "f3e5"
+          ],
+          "opponentReplies": [],
+          "san": "Ne5",
+          "comment": "Central outpost. From e5 the knight eyes c6 and f7."
+        }
+      ]
+    },
+    {
+      "id": "fried-liver",
+      "name": "Fried Liver — 5...Nxd5",
+      "steps": [
+        {
+          "id": "italian-game:fried-liver:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "italian-game:fried-liver:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "b8c6"
+          ],
+          "san": "Nf3",
+          "comment": "Attack e5."
+        },
+        {
+          "id": "italian-game:fried-liver:2",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "movesUci": [
+            "f1c4"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "Bc4",
+          "comment": "Italian bishop."
+        },
+        {
+          "id": "italian-game:fried-liver:3",
+          "fenBefore": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+          "movesUci": [
+            "f3g5"
+          ],
+          "opponentReplies": [
+            "d7d5"
+          ],
+          "san": "Ng5",
+          "comment": "Attack f7."
+        },
+        {
+          "id": "italian-game:fried-liver:4",
+          "fenBefore": "r1bqkb1r/ppp2ppp/2n2n2/3pp1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 0 5",
+          "movesUci": [
+            "e4d5"
+          ],
+          "opponentReplies": [
+            "f6d5"
+          ],
+          "san": "exd5",
+          "comment": "Open lines."
+        },
+        {
+          "id": "italian-game:fried-liver:5",
+          "fenBefore": "r1bqkb1r/ppp2ppp/2n5/3np1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 0 6",
+          "movesUci": [
+            "g5f7"
+          ],
+          "opponentReplies": [
+            "e8f7"
+          ],
+          "san": "Nxf7",
+          "comment": "Sacrifice the knight to drag the king to e6 and open the f-file."
+        },
+        {
+          "id": "italian-game:fried-liver:6",
+          "fenBefore": "r1bq1b1r/ppp2kpp/2n5/3np3/2B5/8/PPPP1PPP/RNBQK2R w KQ - 0 7",
+          "movesUci": [
+            "d1f3"
+          ],
+          "opponentReplies": [
+            "f7e6"
+          ],
+          "san": "Qf3+",
+          "comment": "Check and attack the knight on d5 at the same time."
+        },
+        {
+          "id": "italian-game:fried-liver:7",
+          "fenBefore": "r1bq1b1r/ppp3pp/2n1k3/3np3/2B5/5Q2/PPPP1PPP/RNB1K2R w KQ - 2 8",
+          "movesUci": [
+            "b1c3"
+          ],
+          "opponentReplies": [],
+          "san": "Nc3",
+          "comment": "Develop with tempo against d5 and bring another attacker in."
+        }
+      ]
+    },
+    {
+      "id": "two-knights-d3",
+      "name": "Two Knights — quiet 4.d3",
+      "steps": [
+        {
+          "id": "italian-game:two-knights-d3:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "italian-game:two-knights-d3:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "b8c6"
+          ],
+          "san": "Nf3",
+          "comment": "Attack e5."
+        },
+        {
+          "id": "italian-game:two-knights-d3:2",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "movesUci": [
+            "f1c4"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "Bc4",
+          "comment": "Italian bishop."
+        },
+        {
+          "id": "italian-game:two-knights-d3:3",
+          "fenBefore": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+          "movesUci": [
+            "d2d3"
+          ],
+          "opponentReplies": [
+            "f8c5"
+          ],
+          "san": "d3",
+          "comment": "Decline the sharp Ng5 lines and build a solid center."
+        },
+        {
+          "id": "italian-game:two-knights-d3:4",
+          "fenBefore": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQkq - 1 5",
+          "movesUci": [
+            "c2c3"
+          ],
+          "opponentReplies": [
+            "d7d6"
+          ],
+          "san": "c3",
+          "comment": "Prepare d4 and a retreat square for the bishop."
+        },
+        {
+          "id": "italian-game:two-knights-d3:5",
+          "fenBefore": "r1bqk2r/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQK2R w KQkq - 0 6",
+          "movesUci": [
+            "e1g1"
+          ],
+          "opponentReplies": [
+            "e8g8"
+          ],
+          "san": "O-O",
+          "comment": "Castle before opening the position."
+        },
+        {
+          "id": "italian-game:two-knights-d3:6",
+          "fenBefore": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w - - 2 7",
+          "movesUci": [
+            "c4b3"
+          ],
+          "opponentReplies": [
+            "a7a6"
+          ],
+          "san": "Bb3",
+          "comment": "Avoid ...Na5 trading your attacking bishop."
+        },
+        {
+          "id": "italian-game:two-knights-d3:7",
+          "fenBefore": "r1bq1rk1/1pp2ppp/p1np1n2/2b1p3/4P3/1BPP1N2/PP3PPP/RNBQ1RK1 w - - 0 8",
+          "movesUci": [
+            "b1d2"
+          ],
+          "opponentReplies": [],
+          "san": "Nbd2",
+          "comment": "Flexible development toward f1-g3 or c4."
+        }
+      ]
+    },
+    {
+      "id": "hungarian",
+      "name": "Hungarian Defense — 3...Be7",
+      "steps": [
+        {
+          "id": "italian-game:hungarian:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "italian-game:hungarian:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "b8c6"
+          ],
+          "san": "Nf3",
+          "comment": "Attack e5."
+        },
+        {
+          "id": "italian-game:hungarian:2",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "movesUci": [
+            "f1c4"
+          ],
+          "opponentReplies": [
+            "f8e7"
+          ],
+          "san": "Bc4",
+          "comment": "Italian bishop."
+        },
+        {
+          "id": "italian-game:hungarian:3",
+          "fenBefore": "r1bqk1nr/ppppbppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "d7d6"
+          ],
+          "san": "d4",
+          "comment": "Strike immediately. Black's passive bishop does not fight for d4."
+        },
+        {
+          "id": "italian-game:hungarian:4",
+          "fenBefore": "r1bqk1nr/ppp1bppp/2np4/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R w KQkq - 0 5",
+          "movesUci": [
+            "d4e5"
+          ],
+          "opponentReplies": [
+            "d6e5"
+          ],
+          "san": "dxe5",
+          "comment": "Open the d-file and the center before Black is ready."
+        },
+        {
+          "id": "italian-game:hungarian:5",
+          "fenBefore": "r1bqk1nr/ppp1bppp/2n5/4p3/2B1P3/5N2/PPP2PPP/RNBQK2R w KQkq - 0 6",
+          "movesUci": [
+            "d1d8"
+          ],
+          "opponentReplies": [
+            "e7d8"
+          ],
+          "san": "Qxd8+",
+          "comment": "Trade queens into a pleasant endgame where your pieces come out faster."
+        },
+        {
+          "id": "italian-game:hungarian:6",
+          "fenBefore": "r1bbk1nr/ppp2ppp/2n5/4p3/2B1P3/5N2/PPP2PPP/RNB1K2R w KQkq - 0 7",
+          "movesUci": [
+            "b1c3"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "Nc3",
+          "comment": "Develop and eye d5."
+        },
+        {
+          "id": "italian-game:hungarian:7",
+          "fenBefore": "r1bbk2r/ppp2ppp/2n2n2/4p3/2B1P3/2N2N2/PPP2PPP/R1B1K2R w KQkq - 2 8",
+          "movesUci": [
+            "c1e3"
+          ],
+          "opponentReplies": [],
+          "san": "Be3",
+          "comment": "Develop the dark-squared bishop and prepare O-O-O."
+        }
+      ]
+    },
+    {
+      "id": "d6",
+      "name": "3...d6",
+      "steps": [
+        {
+          "id": "italian-game:d6:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "italian-game:d6:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "b8c6"
+          ],
+          "san": "Nf3",
+          "comment": "Attack e5."
+        },
+        {
+          "id": "italian-game:d6:2",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "movesUci": [
+            "f1c4"
+          ],
+          "opponentReplies": [
+            "d7d6"
+          ],
+          "san": "Bc4",
+          "comment": "Italian bishop."
+        },
+        {
+          "id": "italian-game:d6:3",
+          "fenBefore": "r1bqkbnr/ppp2ppp/2np4/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+          "movesUci": [
+            "c2c3"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "c3",
+          "comment": "Prepare d4 with a pawn behind it."
+        },
+        {
+          "id": "italian-game:d6:4",
+          "fenBefore": "r1bqkb1r/ppp2ppp/2np1n2/4p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq - 1 5",
+          "movesUci": [
+            "d2d3"
+          ],
+          "opponentReplies": [
+            "f8e7"
+          ],
+          "san": "d3",
+          "comment": "Solid. You can also play d4 at once; d3 keeps the center closed."
+        },
+        {
+          "id": "italian-game:d6:5",
+          "fenBefore": "r1bqk2r/ppp1bppp/2np1n2/4p3/2B1P3/2PP1N2/PP3PPP/RNBQK2R w KQkq - 1 6",
+          "movesUci": [
+            "e1g1"
+          ],
+          "opponentReplies": [
+            "e8g8"
+          ],
+          "san": "O-O",
+          "comment": "Castle."
+        },
+        {
+          "id": "italian-game:d6:6",
+          "fenBefore": "r1bq1rk1/ppp1bppp/2np1n2/4p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w - - 3 7",
+          "movesUci": [
+            "b1d2"
+          ],
+          "opponentReplies": [],
+          "san": "Nbd2",
+          "comment": "Develop toward f1 and g3, or c4 later."
+        }
+      ]
+    },
+    {
+      "id": "c3-d6",
+      "name": "4...d6 against c3",
+      "steps": [
+        {
+          "id": "italian-game:c3-d6:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "italian-game:c3-d6:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "b8c6"
+          ],
+          "san": "Nf3",
+          "comment": "Attack e5."
+        },
+        {
+          "id": "italian-game:c3-d6:2",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "movesUci": [
+            "f1c4"
+          ],
+          "opponentReplies": [
+            "f8c5"
+          ],
+          "san": "Bc4",
+          "comment": "Italian bishop."
+        },
+        {
+          "id": "italian-game:c3-d6:3",
+          "fenBefore": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+          "movesUci": [
+            "c2c3"
+          ],
+          "opponentReplies": [
+            "d7d6"
+          ],
+          "san": "c3",
+          "comment": "Prepare d4."
+        },
+        {
+          "id": "italian-game:c3-d6:4",
+          "fenBefore": "r1bqk1nr/ppp2ppp/2np4/2b1p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq - 0 5",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "e5d4"
+          ],
+          "san": "d4",
+          "comment": "Open the center anyway. Black's bishop will be hit."
+        },
+        {
+          "id": "italian-game:c3-d6:5",
+          "fenBefore": "r1bqk1nr/ppp2ppp/2np4/2b5/2BpP3/2P2N2/PP3PPP/RNBQK2R w KQkq - 0 6",
+          "movesUci": [
+            "c3d4"
+          ],
+          "opponentReplies": [
+            "c5b6"
+          ],
+          "san": "cxd4",
+          "comment": "Take with the c-pawn and gain space."
+        },
+        {
+          "id": "italian-game:c3-d6:6",
+          "fenBefore": "r1bqk1nr/ppp2ppp/1bnp4/8/2BPP3/5N2/PP3PPP/RNBQK2R w KQkq - 1 7",
+          "movesUci": [
+            "b1c3"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "Nc3",
+          "comment": "Develop and defend d4."
+        },
+        {
+          "id": "italian-game:c3-d6:7",
+          "fenBefore": "r1bqk2r/ppp2ppp/1bnp1n2/8/2BPP3/2N2N2/PP3PPP/R1BQK2R w KQkq - 3 8",
+          "movesUci": [
+            "e1g1"
+          ],
+          "opponentReplies": [
+            "e8g8"
+          ],
+          "san": "O-O",
+          "comment": "Castle and connect the rooks."
+        },
+        {
+          "id": "italian-game:c3-d6:8",
+          "fenBefore": "r1bq1rk1/ppp2ppp/1bnp1n2/8/2BPP3/2N2N2/PP3PPP/R1BQ1RK1 w - - 5 9",
+          "movesUci": [
+            "h2h3"
+          ],
+          "opponentReplies": [],
+          "san": "h3",
+          "comment": "Stop ...Bg4 pinning the knight that defends d4."
+        }
+      ]
+    },
+    {
+      "id": "moller",
+      "name": "Møller — 7.Nc3",
+      "steps": [
+        {
+          "id": "italian-game:moller:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "italian-game:moller:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "b8c6"
+          ],
+          "san": "Nf3",
+          "comment": "Attack e5."
+        },
+        {
+          "id": "italian-game:moller:2",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "movesUci": [
+            "f1c4"
+          ],
+          "opponentReplies": [
+            "f8c5"
+          ],
+          "san": "Bc4",
+          "comment": "Italian bishop."
+        },
+        {
+          "id": "italian-game:moller:3",
+          "fenBefore": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+          "movesUci": [
+            "c2c3"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "c3",
+          "comment": "Prepare d4."
+        },
+        {
+          "id": "italian-game:moller:4",
+          "fenBefore": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq - 1 5",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "e5d4"
+          ],
+          "san": "d4",
+          "comment": "Break."
+        },
+        {
+          "id": "italian-game:moller:5",
+          "fenBefore": "r1bqk2r/pppp1ppp/2n2n2/2b5/2BpP3/2P2N2/PP3PPP/RNBQK2R w KQkq - 0 6",
+          "movesUci": [
+            "c3d4"
+          ],
+          "opponentReplies": [
+            "c5b4"
+          ],
+          "san": "cxd4",
+          "comment": "Recapture."
+        },
+        {
+          "id": "italian-game:moller:6",
+          "fenBefore": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/5N2/PP3PPP/RNBQK2R w KQkq - 1 7",
+          "movesUci": [
+            "b1c3"
+          ],
+          "opponentReplies": [
+            "f6e4"
+          ],
+          "san": "Nc3",
+          "comment": "Gambit the e4-pawn for a lead in development and the d5 push."
+        },
+        {
+          "id": "italian-game:moller:7",
+          "fenBefore": "r1bqk2r/pppp1ppp/2n5/8/1bBPn3/2N2N2/PP3PPP/R1BQK2R w KQkq - 0 8",
+          "movesUci": [
+            "e1g1"
+          ],
+          "opponentReplies": [
+            "b4c3"
+          ],
+          "san": "O-O",
+          "comment": "Castle with a discovered attack once the knight on c3 moves."
+        },
+        {
+          "id": "italian-game:moller:8",
+          "fenBefore": "r1bqk2r/pppp1ppp/2n5/8/2BPn3/2b2N2/PP3PPP/R1BQ1RK1 w kq - 0 9",
+          "movesUci": [
+            "d4d5"
+          ],
+          "opponentReplies": [],
+          "san": "d5",
+          "comment": "Hit the knight on c6 and open the center against the uncastled king."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,919 @@
+{
+  "id": "scotch-gambit",
+  "slug": "scotch-gambit",
+  "name": "Scotch Gambit",
+  "color": "w",
+  "tags": [
+    "gambit"
+  ],
+  "lines": [
+    {
+      "id": "main",
+      "name": "Main line — 4...Bc5 5.c3",
+      "steps": [
+        {
+          "id": "scotch-gambit:main:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "scotch-gambit:main:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "b8c6"
+          ],
+          "san": "Nf3",
+          "comment": "Attack e5."
+        },
+        {
+          "id": "scotch-gambit:main:2",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "e5d4"
+          ],
+          "san": "d4",
+          "comment": "The Scotch break. You open the center immediately."
+        },
+        {
+          "id": "scotch-gambit:main:3",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "movesUci": [
+            "f1c4"
+          ],
+          "opponentReplies": [
+            "f8c5"
+          ],
+          "san": "Bc4",
+          "comment": "The gambit. You develop against f7 instead of taking the pawn back with Nxd4."
+        },
+        {
+          "id": "scotch-gambit:main:4",
+          "fenBefore": "r1bqk1nr/pppp1ppp/2n5/2b5/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 2 5",
+          "movesUci": [
+            "c2c3"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "c3",
+          "comment": "Offer the pawn for a pawn center. If Black takes, d4 follows."
+        },
+        {
+          "id": "scotch-gambit:main:5",
+          "fenBefore": "r1bqk2r/pppp1ppp/2n2n2/2b5/2BpP3/2P2N2/PP3PPP/RNBQK2R w KQkq - 1 6",
+          "movesUci": [
+            "c3d4"
+          ],
+          "opponentReplies": [
+            "c5b4"
+          ],
+          "san": "cxd4",
+          "comment": "Recapture with a full center."
+        },
+        {
+          "id": "scotch-gambit:main:6",
+          "fenBefore": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/5N2/PP3PPP/RNBQK2R w KQkq - 1 7",
+          "movesUci": [
+            "c1d2"
+          ],
+          "opponentReplies": [
+            "b4d2"
+          ],
+          "san": "Bd2",
+          "comment": "Interpose. You can also play Nc3."
+        },
+        {
+          "id": "scotch-gambit:main:7",
+          "fenBefore": "r1bqk2r/pppp1ppp/2n2n2/8/2BPP3/5N2/PP1b1PPP/RN1QK2R w KQkq - 0 8",
+          "movesUci": [
+            "b1d2"
+          ],
+          "opponentReplies": [
+            "d7d5"
+          ],
+          "san": "Nbxd2",
+          "comment": "Recapture and prepare O-O and e5."
+        },
+        {
+          "id": "scotch-gambit:main:8",
+          "fenBefore": "r1bqk2r/ppp2ppp/2n2n2/3p4/2BPP3/5N2/PP1N1PPP/R2QK2R w KQkq - 0 9",
+          "movesUci": [
+            "e4d5"
+          ],
+          "opponentReplies": [
+            "f6d5"
+          ],
+          "san": "exd5",
+          "comment": "Open lines."
+        },
+        {
+          "id": "scotch-gambit:main:9",
+          "fenBefore": "r1bqk2r/ppp2ppp/2n5/3n4/2BP4/5N2/PP1N1PPP/R2QK2R w KQkq - 0 10",
+          "movesUci": [
+            "e1g1"
+          ],
+          "opponentReplies": [],
+          "san": "O-O",
+          "comment": "Castle. The d-file and the bishop on c4 are your assets."
+        }
+      ]
+    },
+    {
+      "id": "castle",
+      "name": "4...Bc5 5.O-O",
+      "steps": [
+        {
+          "id": "scotch-gambit:castle:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "scotch-gambit:castle:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "b8c6"
+          ],
+          "san": "Nf3",
+          "comment": "Attack e5."
+        },
+        {
+          "id": "scotch-gambit:castle:2",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "e5d4"
+          ],
+          "san": "d4",
+          "comment": "Scotch break."
+        },
+        {
+          "id": "scotch-gambit:castle:3",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "movesUci": [
+            "f1c4"
+          ],
+          "opponentReplies": [
+            "f8c5"
+          ],
+          "san": "Bc4",
+          "comment": "Gambit bishop."
+        },
+        {
+          "id": "scotch-gambit:castle:4",
+          "fenBefore": "r1bqk1nr/pppp1ppp/2n5/2b5/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 2 5",
+          "movesUci": [
+            "e1g1"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "O-O",
+          "comment": "Castle first and keep c3 in reserve."
+        },
+        {
+          "id": "scotch-gambit:castle:5",
+          "fenBefore": "r1bqk2r/pppp1ppp/2n2n2/2b5/2BpP3/5N2/PPP2PPP/RNBQ1RK1 w kq - 4 6",
+          "movesUci": [
+            "e4e5"
+          ],
+          "opponentReplies": [
+            "d7d5"
+          ],
+          "san": "e5",
+          "comment": "Kick the knight."
+        },
+        {
+          "id": "scotch-gambit:castle:6",
+          "fenBefore": "r1bqk2r/ppp2ppp/2n2n2/2bpP3/2Bp4/5N2/PPP2PPP/RNBQ1RK1 w kq d6 0 7",
+          "movesUci": [
+            "e5f6"
+          ],
+          "opponentReplies": [
+            "d5c4"
+          ],
+          "san": "exf6",
+          "comment": "Take. The pawn on f6 is a wedge if Black recaptures the wrong way."
+        },
+        {
+          "id": "scotch-gambit:castle:7",
+          "fenBefore": "r1bqk2r/ppp2ppp/2n2P2/2b5/2pp4/5N2/PPP2PPP/RNBQ1RK1 w kq - 0 8",
+          "movesUci": [
+            "f6g7"
+          ],
+          "opponentReplies": [
+            "h8g8"
+          ],
+          "san": "fxg7",
+          "comment": "Open the king."
+        },
+        {
+          "id": "scotch-gambit:castle:8",
+          "fenBefore": "r1bqk1r1/ppp2pPp/2n5/2b5/2pp4/5N2/PPP2PPP/RNBQ1RK1 w q - 1 9",
+          "movesUci": [
+            "f1e1"
+          ],
+          "opponentReplies": [],
+          "san": "Re1+",
+          "comment": "Check down the open file before Black consolidates."
+        }
+      ]
+    },
+    {
+      "id": "nf6",
+      "name": "4...Nf6 — Two Knights",
+      "steps": [
+        {
+          "id": "scotch-gambit:nf6:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "scotch-gambit:nf6:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "b8c6"
+          ],
+          "san": "Nf3",
+          "comment": "Attack e5."
+        },
+        {
+          "id": "scotch-gambit:nf6:2",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "e5d4"
+          ],
+          "san": "d4",
+          "comment": "Scotch break."
+        },
+        {
+          "id": "scotch-gambit:nf6:3",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "movesUci": [
+            "f1c4"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "Bc4",
+          "comment": "Gambit bishop."
+        },
+        {
+          "id": "scotch-gambit:nf6:4",
+          "fenBefore": "r1bqkb1r/pppp1ppp/2n2n2/8/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 2 5",
+          "movesUci": [
+            "e4e5"
+          ],
+          "opponentReplies": [
+            "d7d5"
+          ],
+          "san": "e5",
+          "comment": "The thematic kick."
+        },
+        {
+          "id": "scotch-gambit:nf6:5",
+          "fenBefore": "r1bqkb1r/ppp2ppp/2n2n2/3pP3/2Bp4/5N2/PPP2PPP/RNBQK2R w KQkq d6 0 6",
+          "movesUci": [
+            "c4b5"
+          ],
+          "opponentReplies": [
+            "f6e4"
+          ],
+          "san": "Bb5",
+          "comment": "Pin the knight and keep the bishop. Retreating to b3 or e2 is also possible."
+        },
+        {
+          "id": "scotch-gambit:nf6:6",
+          "fenBefore": "r1bqkb1r/ppp2ppp/2n5/1B1pP3/3pn3/5N2/PPP2PPP/RNBQK2R w KQkq - 2 7",
+          "movesUci": [
+            "f3d4"
+          ],
+          "opponentReplies": [
+            "c8d7"
+          ],
+          "san": "Nxd4",
+          "comment": "Win the pawn back and centralize."
+        },
+        {
+          "id": "scotch-gambit:nf6:7",
+          "fenBefore": "r2qkb1r/pppb1ppp/2n5/1B1pP3/3Nn3/8/PPP2PPP/RNBQK2R w KQkq - 1 8",
+          "movesUci": [
+            "b5c6"
+          ],
+          "opponentReplies": [
+            "b7c6"
+          ],
+          "san": "Bxc6",
+          "comment": "Damage the queenside structure."
+        },
+        {
+          "id": "scotch-gambit:nf6:8",
+          "fenBefore": "r2qkb1r/p1pb1ppp/2p5/3pP3/3Nn3/8/PPP2PPP/RNBQK2R w KQkq - 0 9",
+          "movesUci": [
+            "e1g1"
+          ],
+          "opponentReplies": [],
+          "san": "O-O",
+          "comment": "Castle. c4 or f3 will challenge the knight on e4."
+        }
+      ]
+    },
+    {
+      "id": "max-lange",
+      "name": "Max Lange — 5.O-O Nxe4",
+      "steps": [
+        {
+          "id": "scotch-gambit:max-lange:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "scotch-gambit:max-lange:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "b8c6"
+          ],
+          "san": "Nf3",
+          "comment": "Attack e5."
+        },
+        {
+          "id": "scotch-gambit:max-lange:2",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "e5d4"
+          ],
+          "san": "d4",
+          "comment": "Scotch break."
+        },
+        {
+          "id": "scotch-gambit:max-lange:3",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "movesUci": [
+            "f1c4"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "Bc4",
+          "comment": "Gambit bishop."
+        },
+        {
+          "id": "scotch-gambit:max-lange:4",
+          "fenBefore": "r1bqkb1r/pppp1ppp/2n2n2/8/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 2 5",
+          "movesUci": [
+            "e1g1"
+          ],
+          "opponentReplies": [
+            "f6e4"
+          ],
+          "san": "O-O",
+          "comment": "The Max Lange move order. You castle before pushing e5."
+        },
+        {
+          "id": "scotch-gambit:max-lange:5",
+          "fenBefore": "r1bqkb1r/pppp1ppp/2n5/8/2Bpn3/5N2/PPP2PPP/RNBQ1RK1 w kq - 0 6",
+          "movesUci": [
+            "f1e1"
+          ],
+          "opponentReplies": [
+            "d7d5"
+          ],
+          "san": "Re1",
+          "comment": "Pin the knight to the king along the e-file."
+        },
+        {
+          "id": "scotch-gambit:max-lange:6",
+          "fenBefore": "r1bqkb1r/ppp2ppp/2n5/3p4/2Bpn3/5N2/PPP2PPP/RNBQR1K1 w kq - 0 7",
+          "movesUci": [
+            "c4d5"
+          ],
+          "opponentReplies": [
+            "d8d5"
+          ],
+          "san": "Bxd5",
+          "comment": "Take with check ideas and open the center."
+        },
+        {
+          "id": "scotch-gambit:max-lange:7",
+          "fenBefore": "r1b1kb1r/ppp2ppp/2n5/3q4/3pn3/5N2/PPP2PPP/RNBQR1K1 w kq - 0 8",
+          "movesUci": [
+            "b1c3"
+          ],
+          "opponentReplies": [
+            "d5a5"
+          ],
+          "san": "Nc3",
+          "comment": "Develop with tempo against the queen and the knight."
+        },
+        {
+          "id": "scotch-gambit:max-lange:8",
+          "fenBefore": "r1b1kb1r/ppp2ppp/2n5/q7/3pn3/2N2N2/PPP2PPP/R1BQR1K1 w kq - 2 9",
+          "movesUci": [
+            "c3e4"
+          ],
+          "opponentReplies": [],
+          "san": "Nxe4",
+          "comment": "Win the piece back. You are fully developed."
+        }
+      ]
+    },
+    {
+      "id": "bb4",
+      "name": "4...Bb4+",
+      "steps": [
+        {
+          "id": "scotch-gambit:bb4:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "scotch-gambit:bb4:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "b8c6"
+          ],
+          "san": "Nf3",
+          "comment": "Attack e5."
+        },
+        {
+          "id": "scotch-gambit:bb4:2",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "e5d4"
+          ],
+          "san": "d4",
+          "comment": "Scotch break."
+        },
+        {
+          "id": "scotch-gambit:bb4:3",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "movesUci": [
+            "f1c4"
+          ],
+          "opponentReplies": [
+            "f8b4"
+          ],
+          "san": "Bc4",
+          "comment": "Gambit bishop."
+        },
+        {
+          "id": "scotch-gambit:bb4:4",
+          "fenBefore": "r1bqk1nr/pppp1ppp/2n5/8/1bBpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 2 5",
+          "movesUci": [
+            "c2c3"
+          ],
+          "opponentReplies": [
+            "d4c3"
+          ],
+          "san": "c3",
+          "comment": "Interpose with a pawn that also attacks the bishop and supports d4."
+        },
+        {
+          "id": "scotch-gambit:bb4:5",
+          "fenBefore": "r1bqk1nr/pppp1ppp/2n5/8/1bB1P3/2p2N2/PP3PPP/RNBQK2R w KQkq - 0 6",
+          "movesUci": [
+            "e1g1"
+          ],
+          "opponentReplies": [
+            "c3b2"
+          ],
+          "san": "O-O",
+          "comment": "Sacrifice for development. The king is safe and Black's king is not."
+        },
+        {
+          "id": "scotch-gambit:bb4:6",
+          "fenBefore": "r1bqk1nr/pppp1ppp/2n5/8/1bB1P3/5N2/Pp3PPP/RNBQ1RK1 w kq - 0 7",
+          "movesUci": [
+            "c1b2"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "Bxb2",
+          "comment": "The dark-squared bishop arrives with tempo against g7."
+        },
+        {
+          "id": "scotch-gambit:bb4:7",
+          "fenBefore": "r1bqk2r/pppp1ppp/2n2n2/8/1bB1P3/5N2/PB3PPP/RN1Q1RK1 w kq - 1 8",
+          "movesUci": [
+            "e4e5"
+          ],
+          "opponentReplies": [
+            "d7d5"
+          ],
+          "san": "e5",
+          "comment": "Kick the knight and open the bishop."
+        },
+        {
+          "id": "scotch-gambit:bb4:8",
+          "fenBefore": "r1bqk2r/ppp2ppp/2n2n2/3pP3/1bB5/5N2/PB3PPP/RN1Q1RK1 w kq d6 0 9",
+          "movesUci": [
+            "e5f6"
+          ],
+          "opponentReplies": [
+            "d5c4"
+          ],
+          "san": "exf6",
+          "comment": "Open the center."
+        },
+        {
+          "id": "scotch-gambit:bb4:9",
+          "fenBefore": "r1bqk2r/ppp2ppp/2n2P2/8/1bp5/5N2/PB3PPP/RN1Q1RK1 w kq - 0 10",
+          "movesUci": [
+            "d1e2"
+          ],
+          "opponentReplies": [],
+          "san": "Qe2+",
+          "comment": "Check. The queen also eyes the loose pieces."
+        }
+      ]
+    },
+    {
+      "id": "be7",
+      "name": "4...Be7",
+      "steps": [
+        {
+          "id": "scotch-gambit:be7:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "scotch-gambit:be7:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "b8c6"
+          ],
+          "san": "Nf3",
+          "comment": "Attack e5."
+        },
+        {
+          "id": "scotch-gambit:be7:2",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "e5d4"
+          ],
+          "san": "d4",
+          "comment": "Scotch break."
+        },
+        {
+          "id": "scotch-gambit:be7:3",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "movesUci": [
+            "f1c4"
+          ],
+          "opponentReplies": [
+            "f8e7"
+          ],
+          "san": "Bc4",
+          "comment": "Gambit bishop."
+        },
+        {
+          "id": "scotch-gambit:be7:4",
+          "fenBefore": "r1bqk1nr/ppppbppp/2n5/8/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 2 5",
+          "movesUci": [
+            "c2c3"
+          ],
+          "opponentReplies": [
+            "d4c3"
+          ],
+          "san": "c3",
+          "comment": "Take the center. The passive bishop does not fight for d4."
+        },
+        {
+          "id": "scotch-gambit:be7:5",
+          "fenBefore": "r1bqk1nr/ppppbppp/2n5/8/2B1P3/2p2N2/PP3PPP/RNBQK2R w KQkq - 0 6",
+          "movesUci": [
+            "b1c3"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "Nxc3",
+          "comment": "Develop with the recapture. You can also play O-O."
+        },
+        {
+          "id": "scotch-gambit:be7:6",
+          "fenBefore": "r1bqk2r/ppppbppp/2n2n2/8/2B1P3/2N2N2/PP3PPP/R1BQK2R w KQkq - 1 7",
+          "movesUci": [
+            "e4e5"
+          ],
+          "opponentReplies": [
+            "f6g4"
+          ],
+          "san": "e5",
+          "comment": "Space and a kick."
+        },
+        {
+          "id": "scotch-gambit:be7:7",
+          "fenBefore": "r1bqk2r/ppppbppp/2n5/4P3/2B3n1/2N2N2/PP3PPP/R1BQK2R w KQkq - 1 8",
+          "movesUci": [
+            "e1g1"
+          ],
+          "opponentReplies": [],
+          "san": "O-O",
+          "comment": "Castle. h3 will collect the knight, and Qb3 eyes f7."
+        }
+      ]
+    },
+    {
+      "id": "d6",
+      "name": "4...d6",
+      "steps": [
+        {
+          "id": "scotch-gambit:d6:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "scotch-gambit:d6:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "b8c6"
+          ],
+          "san": "Nf3",
+          "comment": "Attack e5."
+        },
+        {
+          "id": "scotch-gambit:d6:2",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "e5d4"
+          ],
+          "san": "d4",
+          "comment": "Scotch break."
+        },
+        {
+          "id": "scotch-gambit:d6:3",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "movesUci": [
+            "f1c4"
+          ],
+          "opponentReplies": [
+            "d7d6"
+          ],
+          "san": "Bc4",
+          "comment": "Gambit bishop."
+        },
+        {
+          "id": "scotch-gambit:d6:4",
+          "fenBefore": "r1bqkbnr/ppp2ppp/2np4/8/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 0 5",
+          "movesUci": [
+            "c2c3"
+          ],
+          "opponentReplies": [
+            "d4c3"
+          ],
+          "san": "c3",
+          "comment": "Build the center."
+        },
+        {
+          "id": "scotch-gambit:d6:5",
+          "fenBefore": "r1bqkbnr/ppp2ppp/2np4/8/2B1P3/2p2N2/PP3PPP/RNBQK2R w KQkq - 0 6",
+          "movesUci": [
+            "b1c3"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "Nxc3",
+          "comment": "Develop."
+        },
+        {
+          "id": "scotch-gambit:d6:6",
+          "fenBefore": "r1bqkb1r/ppp2ppp/2np1n2/8/2B1P3/2N2N2/PP3PPP/R1BQK2R w KQkq - 1 7",
+          "movesUci": [
+            "e1g1"
+          ],
+          "opponentReplies": [
+            "f8e7"
+          ],
+          "san": "O-O",
+          "comment": "Castle."
+        },
+        {
+          "id": "scotch-gambit:d6:7",
+          "fenBefore": "r1bqk2r/ppp1bppp/2np1n2/8/2B1P3/2N2N2/PP3PPP/R1BQ1RK1 w kq - 3 8",
+          "movesUci": [
+            "d1b3"
+          ],
+          "opponentReplies": [
+            "e8g8"
+          ],
+          "san": "Qb3",
+          "comment": "Hit f7 and b7. Black's setup is cramped."
+        },
+        {
+          "id": "scotch-gambit:d6:8",
+          "fenBefore": "r1bq1rk1/ppp1bppp/2np1n2/8/2B1P3/1QN2N2/PP3PPP/R1B2RK1 w - - 5 9",
+          "movesUci": [
+            "f1d1"
+          ],
+          "opponentReplies": [],
+          "san": "Rd1",
+          "comment": "The d6-pawn is a target on the half-open file."
+        }
+      ]
+    },
+    {
+      "id": "takes",
+      "name": "4...Bc5 5.c3 dxc3",
+      "steps": [
+        {
+          "id": "scotch-gambit:takes:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "scotch-gambit:takes:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "b8c6"
+          ],
+          "san": "Nf3",
+          "comment": "Attack e5."
+        },
+        {
+          "id": "scotch-gambit:takes:2",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "e5d4"
+          ],
+          "san": "d4",
+          "comment": "Scotch break."
+        },
+        {
+          "id": "scotch-gambit:takes:3",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+          "movesUci": [
+            "f1c4"
+          ],
+          "opponentReplies": [
+            "f8c5"
+          ],
+          "san": "Bc4",
+          "comment": "Gambit bishop."
+        },
+        {
+          "id": "scotch-gambit:takes:4",
+          "fenBefore": "r1bqk1nr/pppp1ppp/2n5/2b5/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 2 5",
+          "movesUci": [
+            "c2c3"
+          ],
+          "opponentReplies": [
+            "d4c3"
+          ],
+          "san": "c3",
+          "comment": "Gambit."
+        },
+        {
+          "id": "scotch-gambit:takes:5",
+          "fenBefore": "r1bqk1nr/pppp1ppp/2n5/2b5/2B1P3/2p2N2/PP3PPP/RNBQK2R w KQkq - 0 6",
+          "movesUci": [
+            "b1c3"
+          ],
+          "opponentReplies": [
+            "d7d6"
+          ],
+          "san": "Nxc3",
+          "comment": "Develop. This is the Scotch Gambit accepted."
+        },
+        {
+          "id": "scotch-gambit:takes:6",
+          "fenBefore": "r1bqk1nr/ppp2ppp/2np4/2b5/2B1P3/2N2N2/PP3PPP/R1BQK2R w KQkq - 0 7",
+          "movesUci": [
+            "e1g1"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "O-O",
+          "comment": "Castle."
+        },
+        {
+          "id": "scotch-gambit:takes:7",
+          "fenBefore": "r1bqk2r/ppp2ppp/2np1n2/2b5/2B1P3/2N2N2/PP3PPP/R1BQ1RK1 w kq - 2 8",
+          "movesUci": [
+            "c1g5"
+          ],
+          "opponentReplies": [
+            "h7h6"
+          ],
+          "san": "Bg5",
+          "comment": "Pin the knight that defends against e5 and Ng5 ideas."
+        },
+        {
+          "id": "scotch-gambit:takes:8",
+          "fenBefore": "r1bqk2r/ppp2pp1/2np1n1p/2b3B1/2B1P3/2N2N2/PP3PPP/R2Q1RK1 w kq - 0 9",
+          "movesUci": [
+            "g5h4"
+          ],
+          "opponentReplies": [],
+          "san": "Bh4",
+          "comment": "Keep the pin. O-O for Black does not break it."
+        }
+      ]
+    }
+  ]
+}

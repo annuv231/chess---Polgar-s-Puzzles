@@ -29,6 +29,9 @@ resource-pdf/
 *.sln
 *.sw?
 
+# Nested source app — integrated into src/repeat
+chessrepeats/
+
 # Cloudflare / Wrangler
 .wrangler/
 .dev.vars

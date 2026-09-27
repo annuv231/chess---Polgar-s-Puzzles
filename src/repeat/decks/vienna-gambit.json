@@ -1,0 +1,798 @@
+{
+  "id": "vienna-gambit",
+  "slug": "vienna-gambit",
+  "name": "Vienna Gambit",
+  "color": "w",
+  "tags": [
+    "gambit"
+  ],
+  "lines": [
+    {
+      "id": "accepted",
+      "name": "Accepted — 3...exf4",
+      "steps": [
+        {
+          "id": "vienna-gambit:accepted:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "vienna-gambit:accepted:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "b1c3"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "Nc3",
+          "comment": "The Vienna. Develop and keep f4 available."
+        },
+        {
+          "id": "vienna-gambit:accepted:2",
+          "fenBefore": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+          "movesUci": [
+            "f2f4"
+          ],
+          "opponentReplies": [
+            "e5f4"
+          ],
+          "san": "f4",
+          "comment": "The gambit. You open the f-file and fight for the center."
+        },
+        {
+          "id": "vienna-gambit:accepted:3",
+          "fenBefore": "rnbqkb1r/pppp1ppp/5n2/8/4Pp2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4",
+          "movesUci": [
+            "e4e5"
+          ],
+          "opponentReplies": [
+            "f6g8"
+          ],
+          "san": "e5",
+          "comment": "Kick the knight."
+        },
+        {
+          "id": "vienna-gambit:accepted:4",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4P3/5p2/2N5/PPPP2PP/R1BQKBNR w KQkq - 1 5",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "d7d6"
+          ],
+          "san": "Nf3",
+          "comment": "Stop ...Qh4+ and prepare to win the f4-pawn back."
+        },
+        {
+          "id": "vienna-gambit:accepted:5",
+          "fenBefore": "rnbqkbnr/ppp2ppp/3p4/4P3/5p2/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 0 6",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "d6e5"
+          ],
+          "san": "d4",
+          "comment": "Take the center. The pawn on f4 is loose."
+        },
+        {
+          "id": "vienna-gambit:accepted:6",
+          "fenBefore": "rnbqkbnr/ppp2ppp/8/4p3/3P1p2/2N2N2/PPP3PP/R1BQKB1R w KQkq - 0 7",
+          "movesUci": [
+            "d1e2"
+          ],
+          "opponentReplies": [
+            "b8c6"
+          ],
+          "san": "Qe2",
+          "comment": "Develop and keep the option of taking on e5 with a piece."
+        },
+        {
+          "id": "vienna-gambit:accepted:7",
+          "fenBefore": "r1bqkbnr/ppp2ppp/2n5/4p3/3P1p2/2N2N2/PPP1Q1PP/R1B1KB1R w KQkq - 2 8",
+          "movesUci": [
+            "f3e5"
+          ],
+          "opponentReplies": [
+            "c6e5"
+          ],
+          "san": "Nxe5",
+          "comment": "Central knight, and it eyes f7."
+        },
+        {
+          "id": "vienna-gambit:accepted:8",
+          "fenBefore": "r1bqkbnr/ppp2ppp/8/4n3/3P1p2/2N5/PPP1Q1PP/R1B1KB1R w KQkq - 0 9",
+          "movesUci": [
+            "e2e5"
+          ],
+          "opponentReplies": [],
+          "san": "Qxe5+",
+          "comment": "Check and a centralized queen. Bxf4 completes development."
+        }
+      ]
+    },
+    {
+      "id": "accepted-nf3",
+      "name": "Accepted — 4.Nf3",
+      "steps": [
+        {
+          "id": "vienna-gambit:accepted-nf3:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "vienna-gambit:accepted-nf3:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "b1c3"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "Nc3",
+          "comment": "Vienna."
+        },
+        {
+          "id": "vienna-gambit:accepted-nf3:2",
+          "fenBefore": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+          "movesUci": [
+            "f2f4"
+          ],
+          "opponentReplies": [
+            "e5f4"
+          ],
+          "san": "f4",
+          "comment": "Gambit."
+        },
+        {
+          "id": "vienna-gambit:accepted-nf3:3",
+          "fenBefore": "rnbqkb1r/pppp1ppp/5n2/8/4Pp2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "d7d5"
+          ],
+          "san": "Nf3",
+          "comment": "A calmer move than 4.e5. You stop ...Qh4+ and develop."
+        },
+        {
+          "id": "vienna-gambit:accepted-nf3:4",
+          "fenBefore": "rnbqkb1r/ppp2ppp/5n2/3p4/4Pp2/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 0 5",
+          "movesUci": [
+            "e4d5"
+          ],
+          "opponentReplies": [
+            "f6d5"
+          ],
+          "san": "exd5",
+          "comment": "Open the center while Black's king is uncastled."
+        },
+        {
+          "id": "vienna-gambit:accepted-nf3:5",
+          "fenBefore": "rnbqkb1r/ppp2ppp/8/3n4/5p2/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 0 6",
+          "movesUci": [
+            "c3d5"
+          ],
+          "opponentReplies": [
+            "d8d5"
+          ],
+          "san": "Nxd5",
+          "comment": "Remove the centralized knight."
+        },
+        {
+          "id": "vienna-gambit:accepted-nf3:6",
+          "fenBefore": "rnb1kb1r/ppp2ppp/8/3q4/5p2/5N2/PPPP2PP/R1BQKB1R w KQkq - 0 7",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "f8e7"
+          ],
+          "san": "d4",
+          "comment": "Center, and it opens the dark-squared bishop toward the f4-pawn."
+        },
+        {
+          "id": "vienna-gambit:accepted-nf3:7",
+          "fenBefore": "rnb1k2r/ppp1bppp/8/3q4/3P1p2/5N2/PPP3PP/R1BQKB1R w KQkq - 1 8",
+          "movesUci": [
+            "c1f4"
+          ],
+          "opponentReplies": [],
+          "san": "Bxf4",
+          "comment": "Win the gambit pawn back with a developed piece."
+        }
+      ]
+    },
+    {
+      "id": "declined-d5",
+      "name": "Declined — 3...d5",
+      "steps": [
+        {
+          "id": "vienna-gambit:declined-d5:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "vienna-gambit:declined-d5:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "b1c3"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "Nc3",
+          "comment": "Vienna."
+        },
+        {
+          "id": "vienna-gambit:declined-d5:2",
+          "fenBefore": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+          "movesUci": [
+            "f2f4"
+          ],
+          "opponentReplies": [
+            "d7d5"
+          ],
+          "san": "f4",
+          "comment": "Gambit."
+        },
+        {
+          "id": "vienna-gambit:declined-d5:3",
+          "fenBefore": "rnbqkb1r/ppp2ppp/5n2/3pp3/4PP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4",
+          "movesUci": [
+            "f4e5"
+          ],
+          "opponentReplies": [
+            "f6e4"
+          ],
+          "san": "fxe5",
+          "comment": "Take the pawn. The knight on f6 is now attacked."
+        },
+        {
+          "id": "vienna-gambit:declined-d5:4",
+          "fenBefore": "rnbqkb1r/ppp2ppp/8/3pP3/4n3/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 5",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "f8e7"
+          ],
+          "san": "Nf3",
+          "comment": "Develop and prepare d4 or d3 against the knight."
+        },
+        {
+          "id": "vienna-gambit:declined-d5:5",
+          "fenBefore": "rnbqk2r/ppp1bppp/8/3pP3/4n3/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 2 6",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "e8g8"
+          ],
+          "san": "d4",
+          "comment": "Classic center."
+        },
+        {
+          "id": "vienna-gambit:declined-d5:6",
+          "fenBefore": "rnbq1rk1/ppp1bppp/8/3pP3/3Pn3/2N2N2/PPP3PP/R1BQKB1R w KQ - 1 7",
+          "movesUci": [
+            "f1d3"
+          ],
+          "opponentReplies": [
+            "f7f5"
+          ],
+          "san": "Bd3",
+          "comment": "Develop and eye the knight on e4."
+        },
+        {
+          "id": "vienna-gambit:declined-d5:7",
+          "fenBefore": "rnbq1rk1/ppp1b1pp/8/3pPp2/3Pn3/2NB1N2/PPP3PP/R1BQK2R w KQ f6 0 8",
+          "movesUci": [
+            "e5f6"
+          ],
+          "opponentReplies": [],
+          "san": "exf6",
+          "comment": "Open the e-file and remove the pawn wedge."
+        }
+      ]
+    },
+    {
+      "id": "declined-nc6",
+      "name": "Declined — 3...Nc6",
+      "steps": [
+        {
+          "id": "vienna-gambit:declined-nc6:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "vienna-gambit:declined-nc6:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "b1c3"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "Nc3",
+          "comment": "Vienna."
+        },
+        {
+          "id": "vienna-gambit:declined-nc6:2",
+          "fenBefore": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+          "movesUci": [
+            "f2f4"
+          ],
+          "opponentReplies": [
+            "b8c6"
+          ],
+          "san": "f4",
+          "comment": "Gambit."
+        },
+        {
+          "id": "vienna-gambit:declined-nc6:3",
+          "fenBefore": "r1bqkb1r/pppp1ppp/2n2n2/4p3/4PP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 1 4",
+          "movesUci": [
+            "f4e5"
+          ],
+          "opponentReplies": [
+            "c6e5"
+          ],
+          "san": "fxe5",
+          "comment": "Take."
+        },
+        {
+          "id": "vienna-gambit:declined-nc6:4",
+          "fenBefore": "r1bqkb1r/pppp1ppp/5n2/4n3/4P3/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 5",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "e5c6"
+          ],
+          "san": "d4",
+          "comment": "Kick the knight and seize the center."
+        },
+        {
+          "id": "vienna-gambit:declined-nc6:5",
+          "fenBefore": "r1bqkb1r/pppp1ppp/2n2n2/8/3PP3/2N5/PPP3PP/R1BQKBNR w KQkq - 1 6",
+          "movesUci": [
+            "e4e5"
+          ],
+          "opponentReplies": [
+            "f6g8"
+          ],
+          "san": "e5",
+          "comment": "The other knight must move too."
+        },
+        {
+          "id": "vienna-gambit:declined-nc6:6",
+          "fenBefore": "r1bqkbnr/pppp1ppp/2n5/4P3/3P4/2N5/PPP3PP/R1BQKBNR w KQkq - 1 7",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "d7d6"
+          ],
+          "san": "Nf3",
+          "comment": "Develop. Black has lost time with both knights."
+        },
+        {
+          "id": "vienna-gambit:declined-nc6:7",
+          "fenBefore": "r1bqkbnr/ppp2ppp/2np4/4P3/3P4/2N2N2/PPP3PP/R1BQKB1R w KQkq - 0 8",
+          "movesUci": [
+            "f1b5"
+          ],
+          "opponentReplies": [],
+          "san": "Bb5",
+          "comment": "Pin the knight on c6 and keep the pressure."
+        }
+      ]
+    },
+    {
+      "id": "declined-d6",
+      "name": "Declined — 3...d6",
+      "steps": [
+        {
+          "id": "vienna-gambit:declined-d6:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "vienna-gambit:declined-d6:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "b1c3"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "Nc3",
+          "comment": "Vienna."
+        },
+        {
+          "id": "vienna-gambit:declined-d6:2",
+          "fenBefore": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+          "movesUci": [
+            "f2f4"
+          ],
+          "opponentReplies": [
+            "d7d6"
+          ],
+          "san": "f4",
+          "comment": "Gambit."
+        },
+        {
+          "id": "vienna-gambit:declined-d6:3",
+          "fenBefore": "rnbqkb1r/ppp2ppp/3p1n2/4p3/4PP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "b8c6"
+          ],
+          "san": "Nf3",
+          "comment": "Develop and keep the option of fxe5 or d4."
+        },
+        {
+          "id": "vienna-gambit:declined-d6:4",
+          "fenBefore": "r1bqkb1r/ppp2ppp/2np1n2/4p3/4PP2/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 2 5",
+          "movesUci": [
+            "f1c4"
+          ],
+          "opponentReplies": [
+            "f8e7"
+          ],
+          "san": "Bc4",
+          "comment": "Point at f7, as in the Italian."
+        },
+        {
+          "id": "vienna-gambit:declined-d6:5",
+          "fenBefore": "r1bqk2r/ppp1bppp/2np1n2/4p3/2B1PP2/2N2N2/PPPP2PP/R1BQK2R w KQkq - 4 6",
+          "movesUci": [
+            "d2d3"
+          ],
+          "opponentReplies": [
+            "e8g8"
+          ],
+          "san": "d3",
+          "comment": "Solid. You can castle and then decide when to take on e5."
+        },
+        {
+          "id": "vienna-gambit:declined-d6:6",
+          "fenBefore": "r1bq1rk1/ppp1bppp/2np1n2/4p3/2B1PP2/2NP1N2/PPP3PP/R1BQK2R w KQ - 1 7",
+          "movesUci": [
+            "e1g1"
+          ],
+          "opponentReplies": [
+            "e5f4"
+          ],
+          "san": "O-O"
+        },
+        {
+          "id": "vienna-gambit:declined-d6:7",
+          "fenBefore": "r1bq1rk1/ppp1bppp/2np1n2/8/2B1Pp2/2NP1N2/PPP3PP/R1BQ1RK1 w - - 0 8",
+          "movesUci": [
+            "c1f4"
+          ],
+          "opponentReplies": [],
+          "san": "Bxf4",
+          "comment": "Developed piece, open f-file, and a pawn center still to come with d4."
+        }
+      ]
+    },
+    {
+      "id": "declined-bc5",
+      "name": "Declined — 3...Bc5",
+      "steps": [
+        {
+          "id": "vienna-gambit:declined-bc5:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "vienna-gambit:declined-bc5:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "b1c3"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "Nc3",
+          "comment": "Vienna."
+        },
+        {
+          "id": "vienna-gambit:declined-bc5:2",
+          "fenBefore": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+          "movesUci": [
+            "f2f4"
+          ],
+          "opponentReplies": [
+            "f8c5"
+          ],
+          "san": "f4",
+          "comment": "Gambit."
+        },
+        {
+          "id": "vienna-gambit:declined-bc5:3",
+          "fenBefore": "rnbqk2r/pppp1ppp/5n2/2b1p3/4PP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 1 4",
+          "movesUci": [
+            "f4e5"
+          ],
+          "opponentReplies": [
+            "f6e4"
+          ],
+          "san": "fxe5",
+          "comment": "Take. The bishop on c5 does not defend e5."
+        },
+        {
+          "id": "vienna-gambit:declined-bc5:4",
+          "fenBefore": "rnbqk2r/pppp1ppp/8/2b1P3/4n3/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 5",
+          "movesUci": [
+            "d1g4"
+          ],
+          "opponentReplies": [
+            "e8g8"
+          ],
+          "san": "Qg4",
+          "comment": "Attack g7 and the knight on e4 at the same time."
+        },
+        {
+          "id": "vienna-gambit:declined-bc5:5",
+          "fenBefore": "rnbq1rk1/pppp1ppp/8/2b1P3/4n1Q1/2N5/PPPP2PP/R1B1KBNR w KQ - 2 6",
+          "movesUci": [
+            "g4e4"
+          ],
+          "opponentReplies": [],
+          "san": "Qxe4",
+          "comment": "Win the piece. d4 will follow against the bishop."
+        }
+      ]
+    },
+    {
+      "id": "bc5-main",
+      "name": "3...Bc5 main line",
+      "steps": [
+        {
+          "id": "vienna-gambit:bc5-main:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "vienna-gambit:bc5-main:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "b1c3"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "Nc3",
+          "comment": "Vienna."
+        },
+        {
+          "id": "vienna-gambit:bc5-main:2",
+          "fenBefore": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+          "movesUci": [
+            "f2f4"
+          ],
+          "opponentReplies": [
+            "f8c5"
+          ],
+          "san": "f4",
+          "comment": "Gambit."
+        },
+        {
+          "id": "vienna-gambit:bc5-main:3",
+          "fenBefore": "rnbqk2r/pppp1ppp/5n2/2b1p3/4PP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 1 4",
+          "movesUci": [
+            "f4e5"
+          ],
+          "opponentReplies": [
+            "d7d5"
+          ],
+          "san": "fxe5",
+          "comment": "Take."
+        },
+        {
+          "id": "vienna-gambit:bc5-main:4",
+          "fenBefore": "rnbqk2r/ppp2ppp/5n2/2bpP3/4P3/2N5/PPPP2PP/R1BQKBNR w KQkq d6 0 5",
+          "movesUci": [
+            "e5d6"
+          ],
+          "opponentReplies": [
+            "e8g8"
+          ],
+          "san": "exd6",
+          "comment": "Open lines."
+        },
+        {
+          "id": "vienna-gambit:bc5-main:5",
+          "fenBefore": "rnbq1rk1/ppp2ppp/3P1n2/2b5/4P3/2N5/PPPP2PP/R1BQKBNR w KQ - 1 6",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "f8e8"
+          ],
+          "san": "Nf3",
+          "comment": "Develop and prepare d4."
+        },
+        {
+          "id": "vienna-gambit:bc5-main:6",
+          "fenBefore": "rnbqr1k1/ppp2ppp/3P1n2/2b5/4P3/2N2N2/PPPP2PP/R1BQKB1R w KQ - 3 7",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "c5b6"
+          ],
+          "san": "d4",
+          "comment": "Gain a tempo on the bishop and a full center."
+        },
+        {
+          "id": "vienna-gambit:bc5-main:7",
+          "fenBefore": "rnbqr1k1/ppp2ppp/1b1P1n2/8/3PP3/2N2N2/PPP3PP/R1BQKB1R w KQ - 1 8",
+          "movesUci": [
+            "f1c4"
+          ],
+          "opponentReplies": [],
+          "san": "Bc4",
+          "comment": "Develop against f7."
+        }
+      ]
+    },
+    {
+      "id": "steinitz",
+      "name": "Steinitz — 3...d5 4.fxe5 d4",
+      "steps": [
+        {
+          "id": "vienna-gambit:steinitz:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "vienna-gambit:steinitz:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "b1c3"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "Nc3",
+          "comment": "Vienna."
+        },
+        {
+          "id": "vienna-gambit:steinitz:2",
+          "fenBefore": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3",
+          "movesUci": [
+            "f2f4"
+          ],
+          "opponentReplies": [
+            "d7d5"
+          ],
+          "san": "f4",
+          "comment": "Gambit."
+        },
+        {
+          "id": "vienna-gambit:steinitz:3",
+          "fenBefore": "rnbqkb1r/ppp2ppp/5n2/3pp3/4PP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4",
+          "movesUci": [
+            "f4e5"
+          ],
+          "opponentReplies": [
+            "d5d4"
+          ],
+          "san": "fxe5",
+          "comment": "Take."
+        },
+        {
+          "id": "vienna-gambit:steinitz:4",
+          "fenBefore": "rnbqkb1r/ppp2ppp/5n2/4P3/3pP3/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 5",
+          "movesUci": [
+            "e5f6"
+          ],
+          "opponentReplies": [
+            "d4c3"
+          ],
+          "san": "exf6",
+          "comment": "The knight is attacked, so you take it. The pawn on f6 cramps Black."
+        },
+        {
+          "id": "vienna-gambit:steinitz:5",
+          "fenBefore": "rnbqkb1r/ppp2ppp/5P2/8/4P3/2p5/PPPP2PP/R1BQKBNR w KQkq - 0 6",
+          "movesUci": [
+            "f6g7"
+          ],
+          "opponentReplies": [
+            "c3d2"
+          ],
+          "san": "fxg7",
+          "comment": "Open the position against the uncastled king."
+        },
+        {
+          "id": "vienna-gambit:steinitz:6",
+          "fenBefore": "rnbqkb1r/ppp2pPp/8/8/4P3/8/PPPp2PP/R1BQKBNR w KQkq - 0 7",
+          "movesUci": [
+            "c1d2"
+          ],
+          "opponentReplies": [
+            "f8g7"
+          ],
+          "san": "Bxd2",
+          "comment": "Develop with the recapture."
+        },
+        {
+          "id": "vienna-gambit:steinitz:7",
+          "fenBefore": "rnbqk2r/ppp2pbp/8/8/4P3/8/PPPB2PP/R2QKBNR w KQkq - 0 8",
+          "movesUci": [
+            "d1f3"
+          ],
+          "opponentReplies": [],
+          "san": "Qf3",
+          "comment": "Central queen, and the dark-squared bishop is already out. O-O-O follows."
+        }
+      ]
+    }
+  ]
+}

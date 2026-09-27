@@ -38,7 +38,7 @@ export function PuzzlePage() {
   }, [slug, category])
 
   if (!category || failed) {
-    return <Navigate to="/" replace />
+    return <Navigate to="/puzzles" replace />
   }
 
   if (!puzzles) {
@@ -50,7 +50,7 @@ export function PuzzlePage() {
   }
 
   if (puzzles.length === 0) {
-    return <Navigate to="/" replace />
+    return <Navigate to="/puzzles" replace />
   }
 
   return <PuzzleTrainer puzzles={puzzles} slug={slug} />
@@ -181,7 +181,7 @@ function PuzzleTrainer({
   return (
     <div className="min-h-full px-4 py-6 md:px-8">
       <div className="mb-4 md:hidden">
-        <Link to="/" className="text-sm text-[var(--muted)] no-underline">
+        <Link to="/puzzles" className="text-sm text-[var(--muted)] no-underline">
           ← Back
         </Link>
       </div>

@@ -1,0 +1,823 @@
+{
+  "id": "caro-kann",
+  "slug": "caro-kann",
+  "name": "Caro-Kann Defense",
+  "color": "b",
+  "tags": [
+    "opening"
+  ],
+  "lines": [
+    {
+      "id": "classical-bf5",
+      "name": "Classical — 4...Bf5",
+      "steps": [
+        {
+          "id": "caro-kann:classical-bf5:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "c7c6"
+          ],
+          "opponentReplies": [
+            "d2d4"
+          ],
+          "san": "c6",
+          "comment": "Support d5. The c-pawn stays off the file your queen will use."
+        },
+        {
+          "id": "caro-kann:classical-bf5:1",
+          "fenBefore": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "movesUci": [
+            "d7d5"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "d5",
+          "comment": "Strike the center. You will take on e4 and develop the light-squared bishop outside the chain."
+        },
+        {
+          "id": "caro-kann:classical-bf5:2",
+          "fenBefore": "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 3",
+          "movesUci": [
+            "d5e4"
+          ],
+          "opponentReplies": [
+            "c3e4"
+          ],
+          "san": "dxe4",
+          "comment": "Remove White's central pawn before developing."
+        },
+        {
+          "id": "caro-kann:classical-bf5:3",
+          "fenBefore": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+          "movesUci": [
+            "c8f5"
+          ],
+          "opponentReplies": [
+            "e4g3"
+          ],
+          "san": "Bf5",
+          "comment": "The classical move. The bishop develops before ...e6 shuts it in."
+        },
+        {
+          "id": "caro-kann:classical-bf5:4",
+          "fenBefore": "rn1qkbnr/pp2pppp/2p5/5b2/3P4/6N1/PPP2PPP/R1BQKBNR b KQkq - 2 5",
+          "movesUci": [
+            "f5g6"
+          ],
+          "opponentReplies": [
+            "h2h4"
+          ],
+          "san": "Bg6",
+          "comment": "Keep the bishop. Retreating to g6 also eyes the h5 square later."
+        },
+        {
+          "id": "caro-kann:classical-bf5:5",
+          "fenBefore": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq - 0 6",
+          "movesUci": [
+            "h7h6"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "h6",
+          "comment": "Give the bishop air. ...h6 stops h5 from trapping it."
+        },
+        {
+          "id": "caro-kann:classical-bf5:6",
+          "fenBefore": "rn1qkbnr/pp2ppp1/2p3bp/8/3P3P/5NN1/PPP2PP1/R1BQKB1R b KQkq - 1 7",
+          "movesUci": [
+            "b8d7"
+          ],
+          "opponentReplies": [
+            "h4h5"
+          ],
+          "san": "Nd7",
+          "comment": "Develop toward ...Ngf6 and ...e6. The knight also covers e5."
+        },
+        {
+          "id": "caro-kann:classical-bf5:7",
+          "fenBefore": "r2qkbnr/pp1nppp1/2p3bp/7P/3P4/5NN1/PPP2PP1/R1BQKB1R b KQkq - 0 8",
+          "movesUci": [
+            "g6h7"
+          ],
+          "opponentReplies": [
+            "f1d3"
+          ],
+          "san": "Bh7",
+          "comment": "Tuck the bishop away. It stays on the long diagonal."
+        },
+        {
+          "id": "caro-kann:classical-bf5:8",
+          "fenBefore": "r2qkbnr/pp1npppb/2p4p/7P/3P4/3B1NN1/PPP2PP1/R1BQK2R b KQkq - 2 9",
+          "movesUci": [
+            "h7d3"
+          ],
+          "opponentReplies": [
+            "d1d3"
+          ],
+          "san": "Bxd3",
+          "comment": "Trade White's attacking bishop."
+        },
+        {
+          "id": "caro-kann:classical-bf5:9",
+          "fenBefore": "r2qkbnr/pp1nppp1/2p4p/7P/3P4/3Q1NN1/PPP2PP1/R1B1K2R b KQkq - 0 10",
+          "movesUci": [
+            "e7e6"
+          ],
+          "opponentReplies": [],
+          "san": "e6",
+          "comment": "Solid pawn center. ...Ngf6, ...Be7 and ...O-O follow."
+        }
+      ]
+    },
+    {
+      "id": "karpov",
+      "name": "Karpov — 4...Nd7",
+      "steps": [
+        {
+          "id": "caro-kann:karpov:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "c7c6"
+          ],
+          "opponentReplies": [
+            "d2d4"
+          ],
+          "san": "c6",
+          "comment": "Caro-Kann."
+        },
+        {
+          "id": "caro-kann:karpov:1",
+          "fenBefore": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "movesUci": [
+            "d7d5"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "d5",
+          "comment": "Center."
+        },
+        {
+          "id": "caro-kann:karpov:2",
+          "fenBefore": "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 3",
+          "movesUci": [
+            "d5e4"
+          ],
+          "opponentReplies": [
+            "c3e4"
+          ],
+          "san": "dxe4",
+          "comment": "Take."
+        },
+        {
+          "id": "caro-kann:karpov:3",
+          "fenBefore": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+          "movesUci": [
+            "b8d7"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "Nd7",
+          "comment": "The Karpov move. You challenge the knight on e4 without putting the bishop on f5."
+        },
+        {
+          "id": "caro-kann:karpov:4",
+          "fenBefore": "r1bqkbnr/pp1npppp/2p5/8/3PN3/5N2/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "e4f6"
+          ],
+          "san": "Ngf6",
+          "comment": "Develop and add a second attacker to e4."
+        },
+        {
+          "id": "caro-kann:karpov:5",
+          "fenBefore": "r1bqkb1r/pp1npppp/2p2N2/8/3P4/5N2/PPP2PPP/R1BQKB1R b KQkq - 0 6",
+          "movesUci": [
+            "d7f6"
+          ],
+          "opponentReplies": [
+            "f1c4"
+          ],
+          "san": "Nxf6",
+          "comment": "Recapture with the knight. Your structure stays clean."
+        },
+        {
+          "id": "caro-kann:karpov:6",
+          "fenBefore": "r1bqkb1r/pp2pppp/2p2n2/8/2BP4/5N2/PPP2PPP/R1BQK2R b KQkq - 1 7",
+          "movesUci": [
+            "c8f5"
+          ],
+          "opponentReplies": [
+            "e1g1"
+          ],
+          "san": "Bf5",
+          "comment": "Now the bishop comes out, with the knight already developed."
+        },
+        {
+          "id": "caro-kann:karpov:7",
+          "fenBefore": "r2qkb1r/pp2pppp/2p2n2/5b2/2BP4/5N2/PPP2PPP/R1BQ1RK1 b kq - 3 8",
+          "movesUci": [
+            "e7e6"
+          ],
+          "opponentReplies": [
+            "f1e1"
+          ],
+          "san": "e6",
+          "comment": "Blunt the bishop on c4 and prepare ...Be7."
+        },
+        {
+          "id": "caro-kann:karpov:8",
+          "fenBefore": "r2qkb1r/pp3ppp/2p1pn2/5b2/2BP4/5N2/PPP2PPP/R1BQR1K1 b kq - 1 9",
+          "movesUci": [
+            "f8e7"
+          ],
+          "opponentReplies": [],
+          "san": "Be7",
+          "comment": "Develop and castle."
+        }
+      ]
+    },
+    {
+      "id": "tartakower",
+      "name": "Tartakower — 4...Nf6",
+      "steps": [
+        {
+          "id": "caro-kann:tartakower:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "c7c6"
+          ],
+          "opponentReplies": [
+            "d2d4"
+          ],
+          "san": "c6",
+          "comment": "Caro-Kann."
+        },
+        {
+          "id": "caro-kann:tartakower:1",
+          "fenBefore": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "movesUci": [
+            "d7d5"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "d5",
+          "comment": "Center."
+        },
+        {
+          "id": "caro-kann:tartakower:2",
+          "fenBefore": "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 3",
+          "movesUci": [
+            "d5e4"
+          ],
+          "opponentReplies": [
+            "c3e4"
+          ],
+          "san": "dxe4",
+          "comment": "Take."
+        },
+        {
+          "id": "caro-kann:tartakower:3",
+          "fenBefore": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "e4f6"
+          ],
+          "san": "Nf6",
+          "comment": "Develop with tempo against the knight."
+        },
+        {
+          "id": "caro-kann:tartakower:4",
+          "fenBefore": "rnbqkb1r/pp2pppp/2p2N2/8/3P4/8/PPP2PPP/R1BQKBNR b KQkq - 0 5",
+          "movesUci": [
+            "g7f6"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "gxf6",
+          "comment": "Recapture toward the center. You accept doubled pawns for the half-open g-file and the bishop pair."
+        },
+        {
+          "id": "caro-kann:tartakower:5",
+          "fenBefore": "rnbqkb1r/pp2pp1p/2p2p2/8/3P4/5N2/PPP2PPP/R1BQKB1R b KQkq - 1 6",
+          "movesUci": [
+            "c8f5"
+          ],
+          "opponentReplies": [
+            "f1d3"
+          ],
+          "san": "Bf5",
+          "comment": "Develop the light-squared bishop before ...e6."
+        },
+        {
+          "id": "caro-kann:tartakower:6",
+          "fenBefore": "rn1qkb1r/pp2pp1p/2p2p2/5b2/3P4/3B1N2/PPP2PPP/R1BQK2R b KQkq - 3 7",
+          "movesUci": [
+            "f5g6"
+          ],
+          "opponentReplies": [
+            "e1g1"
+          ],
+          "san": "Bg6",
+          "comment": "Keep the bishop if White wants the trade."
+        },
+        {
+          "id": "caro-kann:tartakower:7",
+          "fenBefore": "rn1qkb1r/pp2pp1p/2p2pb1/8/3P4/3B1N2/PPP2PPP/R1BQ1RK1 b kq - 5 8",
+          "movesUci": [
+            "e7e6"
+          ],
+          "opponentReplies": [],
+          "san": "e6",
+          "comment": "Solid. ...Nd7, ...Qc7 and ...O-O-O are the usual plan."
+        }
+      ]
+    },
+    {
+      "id": "advance",
+      "name": "Advance — 3.e5",
+      "steps": [
+        {
+          "id": "caro-kann:advance:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "c7c6"
+          ],
+          "opponentReplies": [
+            "d2d4"
+          ],
+          "san": "c6",
+          "comment": "Caro-Kann."
+        },
+        {
+          "id": "caro-kann:advance:1",
+          "fenBefore": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "movesUci": [
+            "d7d5"
+          ],
+          "opponentReplies": [
+            "e4e5"
+          ],
+          "san": "d5",
+          "comment": "Center."
+        },
+        {
+          "id": "caro-kann:advance:2",
+          "fenBefore": "rnbqkbnr/pp2pppp/2p5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+          "movesUci": [
+            "c8f5"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "Bf5",
+          "comment": "The point of the Caro-Kann against the advance: the bishop is outside the chain."
+        },
+        {
+          "id": "caro-kann:advance:3",
+          "fenBefore": "rn1qkbnr/pp2pppp/2p5/3pPb2/3P4/5N2/PPP2PPP/RNBQKB1R b KQkq - 2 4",
+          "movesUci": [
+            "e7e6"
+          ],
+          "opponentReplies": [
+            "f1e2"
+          ],
+          "san": "e6",
+          "comment": "Support d5 and open a path for the dark-squared bishop."
+        },
+        {
+          "id": "caro-kann:advance:4",
+          "fenBefore": "rn1qkbnr/pp3ppp/2p1p3/3pPb2/3P4/5N2/PPP1BPPP/RNBQK2R b KQkq - 1 5",
+          "movesUci": [
+            "c6c5"
+          ],
+          "opponentReplies": [
+            "c1e3"
+          ],
+          "san": "c5",
+          "comment": "Chip at the d4-pawn, the base of White's wedge."
+        },
+        {
+          "id": "caro-kann:advance:5",
+          "fenBefore": "rn1qkbnr/pp3ppp/4p3/2ppPb2/3P4/4BN2/PPP1BPPP/RN1QK2R b KQkq - 1 6",
+          "movesUci": [
+            "b8d7"
+          ],
+          "opponentReplies": [
+            "e1g1"
+          ],
+          "san": "Nd7",
+          "comment": "Develop and prepare ...Ne7 and ...Nc6 or ...Qb6."
+        },
+        {
+          "id": "caro-kann:advance:6",
+          "fenBefore": "r2qkbnr/pp1n1ppp/4p3/2ppPb2/3P4/4BN2/PPP1BPPP/RN1Q1RK1 b kq - 3 7",
+          "movesUci": [
+            "g8e7"
+          ],
+          "opponentReplies": [],
+          "san": "Ne7",
+          "comment": "The knight heads for c6 or f5, and the king will castle kingside."
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "name": "Exchange — 3.exd5",
+      "steps": [
+        {
+          "id": "caro-kann:exchange:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "c7c6"
+          ],
+          "opponentReplies": [
+            "d2d4"
+          ],
+          "san": "c6",
+          "comment": "Caro-Kann."
+        },
+        {
+          "id": "caro-kann:exchange:1",
+          "fenBefore": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "movesUci": [
+            "d7d5"
+          ],
+          "opponentReplies": [
+            "e4d5"
+          ],
+          "san": "d5",
+          "comment": "Center."
+        },
+        {
+          "id": "caro-kann:exchange:2",
+          "fenBefore": "rnbqkbnr/pp2pppp/2p5/3P4/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+          "movesUci": [
+            "c6d5"
+          ],
+          "opponentReplies": [
+            "f1d3"
+          ],
+          "san": "cxd5",
+          "comment": "Recapture with the c-pawn. You have a solid central pawn and an open c-file is gone, but the position is easy to play."
+        },
+        {
+          "id": "caro-kann:exchange:3",
+          "fenBefore": "rnbqkbnr/pp2pppp/8/3p4/3P4/3B4/PPP2PPP/RNBQK1NR b KQkq - 1 4",
+          "movesUci": [
+            "b8c6"
+          ],
+          "opponentReplies": [
+            "c2c3"
+          ],
+          "san": "Nc6",
+          "comment": "Develop and pressure d4."
+        },
+        {
+          "id": "caro-kann:exchange:4",
+          "fenBefore": "r1bqkbnr/pp2pppp/2n5/3p4/3P4/2PB4/PP3PPP/RNBQK1NR b KQkq - 0 5",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "c1f4"
+          ],
+          "san": "Nf6",
+          "comment": "Develop. ...Bg4 or ...Bf5 comes next."
+        },
+        {
+          "id": "caro-kann:exchange:5",
+          "fenBefore": "r1bqkb1r/pp2pppp/2n2n2/3p4/3P1B2/2PB4/PP3PPP/RN1QK1NR b KQkq - 2 6",
+          "movesUci": [
+            "c8g4"
+          ],
+          "opponentReplies": [
+            "d1b3"
+          ],
+          "san": "Bg4",
+          "comment": "Pin the knight that wants to defend d4."
+        },
+        {
+          "id": "caro-kann:exchange:6",
+          "fenBefore": "r2qkb1r/pp2pppp/2n2n2/3p4/3P1Bb1/1QPB4/PP3PPP/RN2K1NR b KQkq - 4 7",
+          "movesUci": [
+            "d8c8"
+          ],
+          "opponentReplies": [
+            "b1d2"
+          ],
+          "san": "Qc8",
+          "comment": "Defend b7 and keep the queen off the d-file."
+        },
+        {
+          "id": "caro-kann:exchange:7",
+          "fenBefore": "r1q1kb1r/pp2pppp/2n2n2/3p4/3P1Bb1/1QPB4/PP1N1PPP/R3K1NR b KQkq - 6 8",
+          "movesUci": [
+            "e7e6"
+          ],
+          "opponentReplies": [],
+          "san": "e6",
+          "comment": "Solid. ...Be7 and ...O-O finish the setup."
+        }
+      ]
+    },
+    {
+      "id": "panov",
+      "name": "Panov — 4.c4",
+      "steps": [
+        {
+          "id": "caro-kann:panov:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "c7c6"
+          ],
+          "opponentReplies": [
+            "d2d4"
+          ],
+          "san": "c6",
+          "comment": "Caro-Kann."
+        },
+        {
+          "id": "caro-kann:panov:1",
+          "fenBefore": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "movesUci": [
+            "d7d5"
+          ],
+          "opponentReplies": [
+            "e4d5"
+          ],
+          "san": "d5",
+          "comment": "Center."
+        },
+        {
+          "id": "caro-kann:panov:2",
+          "fenBefore": "rnbqkbnr/pp2pppp/2p5/3P4/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+          "movesUci": [
+            "c6d5"
+          ],
+          "opponentReplies": [
+            "c2c4"
+          ],
+          "san": "cxd5",
+          "comment": "Recapture."
+        },
+        {
+          "id": "caro-kann:panov:3",
+          "fenBefore": "rnbqkbnr/pp2pppp/8/3p4/2PP4/8/PP3PPP/RNBQKBNR b KQkq - 0 4",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "Nf6",
+          "comment": "Develop and pressure the center. Do not take on c4 yet."
+        },
+        {
+          "id": "caro-kann:panov:4",
+          "fenBefore": "rnbqkb1r/pp2pppp/5n2/3p4/2PP4/2N5/PP3PPP/R1BQKBNR b KQkq - 2 5",
+          "movesUci": [
+            "e7e6"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "e6",
+          "comment": "Support d5. This is an isolated-pawn position if you trade, or a solid center if you hold."
+        },
+        {
+          "id": "caro-kann:panov:5",
+          "fenBefore": "rnbqkb1r/pp3ppp/4pn2/3p4/2PP4/2N2N2/PP3PPP/R1BQKB1R b KQkq - 1 6",
+          "movesUci": [
+            "f8e7"
+          ],
+          "opponentReplies": [
+            "c4d5"
+          ],
+          "san": "Be7",
+          "comment": "Develop toward castling."
+        },
+        {
+          "id": "caro-kann:panov:6",
+          "fenBefore": "rnbqk2r/pp2bppp/4pn2/3P4/3P4/2N2N2/PP3PPP/R1BQKB1R b KQkq - 0 7",
+          "movesUci": [
+            "f6d5"
+          ],
+          "opponentReplies": [
+            "f1d3"
+          ],
+          "san": "Nxd5",
+          "comment": "Take with the knight, heading for a clean piece setup."
+        },
+        {
+          "id": "caro-kann:panov:7",
+          "fenBefore": "rnbqk2r/pp2bppp/4p3/3n4/3P4/2NB1N2/PP3PPP/R1BQK2R b KQkq - 1 8",
+          "movesUci": [
+            "e8g8"
+          ],
+          "opponentReplies": [],
+          "san": "O-O",
+          "comment": "Castle. ...Nc6 and ...Bf6 or ...Nxc3 follow."
+        }
+      ]
+    },
+    {
+      "id": "two-knights",
+      "name": "Two Knights — 2.Nc3 d5 3.Nf3",
+      "steps": [
+        {
+          "id": "caro-kann:two-knights:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "c7c6"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "c6",
+          "comment": "Caro-Kann."
+        },
+        {
+          "id": "caro-kann:two-knights:1",
+          "fenBefore": "rnbqkbnr/pp1ppppp/2p5/8/4P3/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 2",
+          "movesUci": [
+            "d7d5"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "d5",
+          "comment": "Strike anyway. The knight on c3 does not stop the break."
+        },
+        {
+          "id": "caro-kann:two-knights:2",
+          "fenBefore": "rnbqkbnr/pp2pppp/2p5/3p4/4P3/2N2N2/PPPP1PPP/R1BQKB1R b KQkq - 1 3",
+          "movesUci": [
+            "c8g4"
+          ],
+          "opponentReplies": [
+            "h2h3"
+          ],
+          "san": "Bg4",
+          "comment": "Pin the knight before you close the center with ...e6."
+        },
+        {
+          "id": "caro-kann:two-knights:3",
+          "fenBefore": "rn1qkbnr/pp2pppp/2p5/3p4/4P1b1/2N2N1P/PPPP1PP1/R1BQKB1R b KQkq - 0 4",
+          "movesUci": [
+            "g4f3"
+          ],
+          "opponentReplies": [
+            "d1f3"
+          ],
+          "san": "Bxf3",
+          "comment": "Give up the bishop for the knight so White's kingside structure is touched, or retreat. Taking is the simple line."
+        },
+        {
+          "id": "caro-kann:two-knights:4",
+          "fenBefore": "rn1qkbnr/pp2pppp/2p5/3p4/4P3/2N2Q1P/PPPP1PP1/R1B1KB1R b KQkq - 0 5",
+          "movesUci": [
+            "e7e6"
+          ],
+          "opponentReplies": [
+            "d2d4"
+          ],
+          "san": "e6",
+          "comment": "Solid. The light squares are a bit soft, so keep the center closed."
+        },
+        {
+          "id": "caro-kann:two-knights:5",
+          "fenBefore": "rn1qkbnr/pp3ppp/2p1p3/3p4/3PP3/2N2Q1P/PPP2PP1/R1B1KB1R b KQkq - 0 6",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "f1d3"
+          ],
+          "san": "Nf6",
+          "comment": "Develop and attack e4."
+        },
+        {
+          "id": "caro-kann:two-knights:6",
+          "fenBefore": "rn1qkb1r/pp3ppp/2p1pn2/3p4/3PP3/2NB1Q1P/PPP2PP1/R1B1K2R b KQkq - 2 7",
+          "movesUci": [
+            "f8b4"
+          ],
+          "opponentReplies": [],
+          "san": "Bb4",
+          "comment": "Pin the knight on c3 and speed up development."
+        }
+      ]
+    },
+    {
+      "id": "fantasy",
+      "name": "Fantasy — 3.f3",
+      "steps": [
+        {
+          "id": "caro-kann:fantasy:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "c7c6"
+          ],
+          "opponentReplies": [
+            "d2d4"
+          ],
+          "san": "c6",
+          "comment": "Caro-Kann."
+        },
+        {
+          "id": "caro-kann:fantasy:1",
+          "fenBefore": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+          "movesUci": [
+            "d7d5"
+          ],
+          "opponentReplies": [
+            "f2f3"
+          ],
+          "san": "d5",
+          "comment": "Center."
+        },
+        {
+          "id": "caro-kann:fantasy:2",
+          "fenBefore": "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/5P2/PPP3PP/RNBQKBNR b KQkq - 0 3",
+          "movesUci": [
+            "e7e6"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "e6",
+          "comment": "Decline the pawn grab. You keep a solid center and develop normally."
+        },
+        {
+          "id": "caro-kann:fantasy:3",
+          "fenBefore": "rnbqkbnr/pp3ppp/2p1p3/3p4/3PP3/2N2P2/PPP3PP/R1BQKBNR b KQkq - 1 4",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "e4e5"
+          ],
+          "san": "Nf6",
+          "comment": "Develop and pressure e4, which f3 has slightly weakened."
+        },
+        {
+          "id": "caro-kann:fantasy:4",
+          "fenBefore": "rnbqkb1r/pp3ppp/2p1pn2/3pP3/3P4/2N2P2/PPP3PP/R1BQKBNR b KQkq - 0 5",
+          "movesUci": [
+            "f6d7"
+          ],
+          "opponentReplies": [
+            "f3f4"
+          ],
+          "san": "Nfd7",
+          "comment": "Retreat. From d7 the knight supports ...c5."
+        },
+        {
+          "id": "caro-kann:fantasy:5",
+          "fenBefore": "rnbqkb1r/pp1n1ppp/2p1p3/3pP3/3P1P2/2N5/PPP3PP/R1BQKBNR b KQkq - 0 6",
+          "movesUci": [
+            "c6c5"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "c5",
+          "comment": "The thematic break against the pawn wedge."
+        },
+        {
+          "id": "caro-kann:fantasy:6",
+          "fenBefore": "rnbqkb1r/pp1n1ppp/4p3/2ppP3/3P1P2/2N2N2/PPP3PP/R1BQKB1R b KQkq - 1 7",
+          "movesUci": [
+            "b8c6"
+          ],
+          "opponentReplies": [
+            "c1e3"
+          ],
+          "san": "Nc6",
+          "comment": "Develop against d4."
+        },
+        {
+          "id": "caro-kann:fantasy:7",
+          "fenBefore": "r1bqkb1r/pp1n1ppp/2n1p3/2ppP3/3P1P2/2N1BN2/PPP3PP/R2QKB1R b KQkq - 3 8",
+          "movesUci": [
+            "d8b6"
+          ],
+          "opponentReplies": [],
+          "san": "Qb6",
+          "comment": "Pressure b2 and d4 together."
+        }
+      ]
+    }
+  ]
+}

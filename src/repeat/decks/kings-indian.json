@@ -1,0 +1,907 @@
+{
+  "id": "kings-indian",
+  "slug": "kings-indian",
+  "name": "King's Indian Defense",
+  "color": "b",
+  "tags": [
+    "opening"
+  ],
+  "lines": [
+    {
+      "id": "mar-del-plata",
+      "name": "Classical — Mar del Plata ...e5",
+      "steps": [
+        {
+          "id": "kings-indian:mar-del-plata:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "c2c4"
+          ],
+          "san": "Nf6",
+          "comment": "Control e4 and prepare the fianchetto."
+        },
+        {
+          "id": "kings-indian:mar-del-plata:1",
+          "fenBefore": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "movesUci": [
+            "g7g6"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "g6",
+          "comment": "King's Indian. The bishop belongs on g7."
+        },
+        {
+          "id": "kings-indian:mar-del-plata:2",
+          "fenBefore": "rnbqkb1r/pppppp1p/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+          "movesUci": [
+            "f8g7"
+          ],
+          "opponentReplies": [
+            "e2e4"
+          ],
+          "san": "Bg7",
+          "comment": "Long diagonal. You will castle and then break with ...e5 or ...c5."
+        },
+        {
+          "id": "kings-indian:mar-del-plata:3",
+          "fenBefore": "rnbqk2r/ppppppbp/5np1/8/2PPP3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 4",
+          "movesUci": [
+            "d7d6"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "d6",
+          "comment": "Support e5."
+        },
+        {
+          "id": "kings-indian:mar-del-plata:4",
+          "fenBefore": "rnbqk2r/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP3PPP/R1BQKB1R b KQkq - 1 5",
+          "movesUci": [
+            "e8g8"
+          ],
+          "opponentReplies": [
+            "f1e2"
+          ],
+          "san": "O-O",
+          "comment": "King safety before the central break."
+        },
+        {
+          "id": "kings-indian:mar-del-plata:5",
+          "fenBefore": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 3 6",
+          "movesUci": [
+            "e7e5"
+          ],
+          "opponentReplies": [
+            "e1g1"
+          ],
+          "san": "e5",
+          "comment": "Claim a share of the center."
+        },
+        {
+          "id": "kings-indian:mar-del-plata:6",
+          "fenBefore": "rnbq1rk1/ppp2pbp/3p1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQ1RK1 b - - 1 7",
+          "movesUci": [
+            "b8c6"
+          ],
+          "opponentReplies": [
+            "d4d5"
+          ],
+          "san": "Nc6",
+          "comment": "The Mar del Plata knight. It eyes d4 and can go to a5 or e7 later."
+        },
+        {
+          "id": "kings-indian:mar-del-plata:7",
+          "fenBefore": "r1bq1rk1/ppp2pbp/2np1np1/3Pp3/2P1P3/2N2N2/PP2BPPP/R1BQ1RK1 b - - 0 8",
+          "movesUci": [
+            "c6e7"
+          ],
+          "opponentReplies": [
+            "f3e1"
+          ],
+          "san": "Ne7",
+          "comment": "Retreat. The knight will reroute to g6 or f5 after ...Nd7 and ...f5."
+        },
+        {
+          "id": "kings-indian:mar-del-plata:8",
+          "fenBefore": "r1bq1rk1/ppp1npbp/3p1np1/3Pp3/2P1P3/2N5/PP2BPPP/R1BQNRK1 b - - 2 9",
+          "movesUci": [
+            "f6d7"
+          ],
+          "opponentReplies": [],
+          "san": "Nd7",
+          "comment": "Free the f-pawn. ...f5 is the plan."
+        }
+      ]
+    },
+    {
+      "id": "nbd7",
+      "name": "Classical — 7...Nbd7",
+      "steps": [
+        {
+          "id": "kings-indian:nbd7:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "c2c4"
+          ],
+          "san": "Nf6",
+          "comment": "King's Indian start."
+        },
+        {
+          "id": "kings-indian:nbd7:1",
+          "fenBefore": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "movesUci": [
+            "g7g6"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "g6",
+          "comment": "Fianchetto."
+        },
+        {
+          "id": "kings-indian:nbd7:2",
+          "fenBefore": "rnbqkb1r/pppppp1p/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+          "movesUci": [
+            "f8g7"
+          ],
+          "opponentReplies": [
+            "e2e4"
+          ],
+          "san": "Bg7",
+          "comment": "Bishop."
+        },
+        {
+          "id": "kings-indian:nbd7:3",
+          "fenBefore": "rnbqk2r/ppppppbp/5np1/8/2PPP3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 4",
+          "movesUci": [
+            "d7d6"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "d6",
+          "comment": "Support."
+        },
+        {
+          "id": "kings-indian:nbd7:4",
+          "fenBefore": "rnbqk2r/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP3PPP/R1BQKB1R b KQkq - 1 5",
+          "movesUci": [
+            "e8g8"
+          ],
+          "opponentReplies": [
+            "f1e2"
+          ],
+          "san": "O-O",
+          "comment": "Castle."
+        },
+        {
+          "id": "kings-indian:nbd7:5",
+          "fenBefore": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 3 6",
+          "movesUci": [
+            "e7e5"
+          ],
+          "opponentReplies": [
+            "e1g1"
+          ],
+          "san": "e5",
+          "comment": "Break."
+        },
+        {
+          "id": "kings-indian:nbd7:6",
+          "fenBefore": "rnbq1rk1/ppp2pbp/3p1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQ1RK1 b - - 1 7",
+          "movesUci": [
+            "b8d7"
+          ],
+          "opponentReplies": [
+            "c1e3"
+          ],
+          "san": "Nbd7",
+          "comment": "A flexible knight. It supports e5 and can go to c5 after ...a5 or ...exd4."
+        },
+        {
+          "id": "kings-indian:nbd7:7",
+          "fenBefore": "r1bq1rk1/pppn1pbp/3p1np1/4p3/2PPP3/2N1BN2/PP2BPPP/R2Q1RK1 b - - 3 8",
+          "movesUci": [
+            "e5d4"
+          ],
+          "opponentReplies": [
+            "f3d4"
+          ],
+          "san": "exd4",
+          "comment": "Open the long diagonal for the bishop on g7."
+        },
+        {
+          "id": "kings-indian:nbd7:8",
+          "fenBefore": "r1bq1rk1/pppn1pbp/3p1np1/8/2PNP3/2N1B3/PP2BPPP/R2Q1RK1 b - - 0 9",
+          "movesUci": [
+            "f8e8"
+          ],
+          "opponentReplies": [
+            "f2f3"
+          ],
+          "san": "Re8",
+          "comment": "Put the rook on the half-open e-file against e4."
+        },
+        {
+          "id": "kings-indian:nbd7:9",
+          "fenBefore": "r1bqr1k1/pppn1pbp/3p1np1/8/2PNP3/2N1BP2/PP2B1PP/R2Q1RK1 b - - 0 10",
+          "movesUci": [
+            "d7c5"
+          ],
+          "opponentReplies": [],
+          "san": "Nc5",
+          "comment": "The knight eyes e4 and d3. ...c6 and ...a5 follow."
+        }
+      ]
+    },
+    {
+      "id": "samisch",
+      "name": "Sämisch — 5.f3",
+      "steps": [
+        {
+          "id": "kings-indian:samisch:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "c2c4"
+          ],
+          "san": "Nf6",
+          "comment": "King's Indian start."
+        },
+        {
+          "id": "kings-indian:samisch:1",
+          "fenBefore": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "movesUci": [
+            "g7g6"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "g6",
+          "comment": "Fianchetto."
+        },
+        {
+          "id": "kings-indian:samisch:2",
+          "fenBefore": "rnbqkb1r/pppppp1p/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+          "movesUci": [
+            "f8g7"
+          ],
+          "opponentReplies": [
+            "e2e4"
+          ],
+          "san": "Bg7",
+          "comment": "Bishop."
+        },
+        {
+          "id": "kings-indian:samisch:3",
+          "fenBefore": "rnbqk2r/ppppppbp/5np1/8/2PPP3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 4",
+          "movesUci": [
+            "d7d6"
+          ],
+          "opponentReplies": [
+            "f2f3"
+          ],
+          "san": "d6",
+          "comment": "Support."
+        },
+        {
+          "id": "kings-indian:samisch:4",
+          "fenBefore": "rnbqk2r/ppp1ppbp/3p1np1/8/2PPP3/2N2P2/PP4PP/R1BQKBNR b KQkq - 0 5",
+          "movesUci": [
+            "e8g8"
+          ],
+          "opponentReplies": [
+            "c1e3"
+          ],
+          "san": "O-O",
+          "comment": "Castle. f3 has slowed White's development, so you prepare ...c5 or ...e5."
+        },
+        {
+          "id": "kings-indian:samisch:5",
+          "fenBefore": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N1BP2/PP4PP/R2QKBNR b KQ - 2 6",
+          "movesUci": [
+            "c7c5"
+          ],
+          "opponentReplies": [
+            "d4d5"
+          ],
+          "san": "c5",
+          "comment": "Strike d4 before White castles queenside and storms your king."
+        },
+        {
+          "id": "kings-indian:samisch:6",
+          "fenBefore": "rnbq1rk1/pp2ppbp/3p1np1/2pP4/2P1P3/2N1BP2/PP4PP/R2QKBNR b KQ - 0 7",
+          "movesUci": [
+            "e7e6"
+          ],
+          "opponentReplies": [
+            "d1d2"
+          ],
+          "san": "e6",
+          "comment": "Chip at the wedge."
+        },
+        {
+          "id": "kings-indian:samisch:7",
+          "fenBefore": "rnbq1rk1/pp3pbp/3ppnp1/2pP4/2P1P3/2N1BP2/PP1Q2PP/R3KBNR b KQ - 1 8",
+          "movesUci": [
+            "e6d5"
+          ],
+          "opponentReplies": [
+            "c4d5"
+          ],
+          "san": "exd5",
+          "comment": "Open the e-file."
+        },
+        {
+          "id": "kings-indian:samisch:8",
+          "fenBefore": "rnbq1rk1/pp3pbp/3p1np1/2pP4/4P3/2N1BP2/PP1Q2PP/R3KBNR b KQ - 0 9",
+          "movesUci": [
+            "a7a6"
+          ],
+          "opponentReplies": [],
+          "san": "a6",
+          "comment": "Prepare ...b5, your queenside counterplay."
+        }
+      ]
+    },
+    {
+      "id": "fianchetto",
+      "name": "Fianchetto — 3.g3",
+      "steps": [
+        {
+          "id": "kings-indian:fianchetto:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "c2c4"
+          ],
+          "san": "Nf6",
+          "comment": "King's Indian start."
+        },
+        {
+          "id": "kings-indian:fianchetto:1",
+          "fenBefore": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "movesUci": [
+            "g7g6"
+          ],
+          "opponentReplies": [
+            "g2g3"
+          ],
+          "san": "g6",
+          "comment": "Fianchetto."
+        },
+        {
+          "id": "kings-indian:fianchetto:2",
+          "fenBefore": "rnbqkb1r/pppppp1p/5np1/8/2PP4/6P1/PP2PP1P/RNBQKBNR b KQkq - 0 3",
+          "movesUci": [
+            "f8g7"
+          ],
+          "opponentReplies": [
+            "f1g2"
+          ],
+          "san": "Bg7",
+          "comment": "Develop. White's bishop will also sit on g2, so you play for ...d6 and ...e5."
+        },
+        {
+          "id": "kings-indian:fianchetto:3",
+          "fenBefore": "rnbqk2r/ppppppbp/5np1/8/2PP4/6P1/PP2PPBP/RNBQK1NR b KQkq - 2 4",
+          "movesUci": [
+            "e8g8"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "O-O",
+          "comment": "Castle."
+        },
+        {
+          "id": "kings-indian:fianchetto:4",
+          "fenBefore": "rnbq1rk1/ppppppbp/5np1/8/2PP4/2N3P1/PP2PPBP/R1BQK1NR b KQ - 4 5",
+          "movesUci": [
+            "d7d6"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "d6",
+          "comment": "Support the break."
+        },
+        {
+          "id": "kings-indian:fianchetto:5",
+          "fenBefore": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PP4/2N2NP1/PP2PPBP/R1BQK2R b KQ - 1 6",
+          "movesUci": [
+            "b8d7"
+          ],
+          "opponentReplies": [
+            "e1g1"
+          ],
+          "san": "Nbd7",
+          "comment": "The knight supports e5 without blocking the bishop."
+        },
+        {
+          "id": "kings-indian:fianchetto:6",
+          "fenBefore": "r1bq1rk1/pppnppbp/3p1np1/8/2PP4/2N2NP1/PP2PPBP/R1BQ1RK1 b - - 3 7",
+          "movesUci": [
+            "e7e5"
+          ],
+          "opponentReplies": [
+            "e2e4"
+          ],
+          "san": "e5",
+          "comment": "Break."
+        },
+        {
+          "id": "kings-indian:fianchetto:7",
+          "fenBefore": "r1bq1rk1/pppn1pbp/3p1np1/4p3/2PPP3/2N2NP1/PP3PBP/R1BQ1RK1 b - - 0 8",
+          "movesUci": [
+            "e5d4"
+          ],
+          "opponentReplies": [
+            "f3d4"
+          ],
+          "san": "exd4",
+          "comment": "Open the long diagonal. You can also keep the tension with ...c6."
+        },
+        {
+          "id": "kings-indian:fianchetto:8",
+          "fenBefore": "r1bq1rk1/pppn1pbp/3p1np1/8/2PNP3/2N3P1/PP3PBP/R1BQ1RK1 b - - 0 9",
+          "movesUci": [
+            "f8e8"
+          ],
+          "opponentReplies": [],
+          "san": "Re8",
+          "comment": "Pressure e4."
+        }
+      ]
+    },
+    {
+      "id": "four-pawns",
+      "name": "Four Pawns Attack",
+      "steps": [
+        {
+          "id": "kings-indian:four-pawns:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "c2c4"
+          ],
+          "san": "Nf6",
+          "comment": "King's Indian start."
+        },
+        {
+          "id": "kings-indian:four-pawns:1",
+          "fenBefore": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "movesUci": [
+            "g7g6"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "g6",
+          "comment": "Fianchetto."
+        },
+        {
+          "id": "kings-indian:four-pawns:2",
+          "fenBefore": "rnbqkb1r/pppppp1p/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+          "movesUci": [
+            "f8g7"
+          ],
+          "opponentReplies": [
+            "e2e4"
+          ],
+          "san": "Bg7",
+          "comment": "Bishop."
+        },
+        {
+          "id": "kings-indian:four-pawns:3",
+          "fenBefore": "rnbqk2r/ppppppbp/5np1/8/2PPP3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 4",
+          "movesUci": [
+            "d7d6"
+          ],
+          "opponentReplies": [
+            "f2f4"
+          ],
+          "san": "d6",
+          "comment": "Support."
+        },
+        {
+          "id": "kings-indian:four-pawns:4",
+          "fenBefore": "rnbqk2r/ppp1ppbp/3p1np1/8/2PPPP2/2N5/PP4PP/R1BQKBNR b KQkq - 0 5",
+          "movesUci": [
+            "e8g8"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "O-O",
+          "comment": "Castle. White has a huge center and a slower development, so you break immediately."
+        },
+        {
+          "id": "kings-indian:four-pawns:5",
+          "fenBefore": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPPP2/2N2N2/PP4PP/R1BQKB1R b KQ - 2 6",
+          "movesUci": [
+            "c7c5"
+          ],
+          "opponentReplies": [
+            "d4d5"
+          ],
+          "san": "c5",
+          "comment": "Attack d4."
+        },
+        {
+          "id": "kings-indian:four-pawns:6",
+          "fenBefore": "rnbq1rk1/pp2ppbp/3p1np1/2pP4/2P1PP2/2N2N2/PP4PP/R1BQKB1R b KQ - 0 7",
+          "movesUci": [
+            "e7e6"
+          ],
+          "opponentReplies": [
+            "f1e2"
+          ],
+          "san": "e6",
+          "comment": "Undermine the pawn chain."
+        },
+        {
+          "id": "kings-indian:four-pawns:7",
+          "fenBefore": "rnbq1rk1/pp3pbp/3ppnp1/2pP4/2P1PP2/2N2N2/PP2B1PP/R1BQK2R b KQ - 1 8",
+          "movesUci": [
+            "e6d5"
+          ],
+          "opponentReplies": [
+            "c4d5"
+          ],
+          "san": "exd5",
+          "comment": "Open lines before White consolidates."
+        },
+        {
+          "id": "kings-indian:four-pawns:8",
+          "fenBefore": "rnbq1rk1/pp3pbp/3p1np1/2pP4/4PP2/2N2N2/PP2B1PP/R1BQK2R b KQ - 0 9",
+          "movesUci": [
+            "c8g4"
+          ],
+          "opponentReplies": [],
+          "san": "Bg4",
+          "comment": "Pin the knight that defends the center."
+        }
+      ]
+    },
+    {
+      "id": "averbakh",
+      "name": "Averbakh — 5.Be2 O-O 6.Bg5",
+      "steps": [
+        {
+          "id": "kings-indian:averbakh:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "c2c4"
+          ],
+          "san": "Nf6",
+          "comment": "King's Indian start."
+        },
+        {
+          "id": "kings-indian:averbakh:1",
+          "fenBefore": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "movesUci": [
+            "g7g6"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "g6",
+          "comment": "Fianchetto."
+        },
+        {
+          "id": "kings-indian:averbakh:2",
+          "fenBefore": "rnbqkb1r/pppppp1p/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+          "movesUci": [
+            "f8g7"
+          ],
+          "opponentReplies": [
+            "e2e4"
+          ],
+          "san": "Bg7",
+          "comment": "Bishop."
+        },
+        {
+          "id": "kings-indian:averbakh:3",
+          "fenBefore": "rnbqk2r/ppppppbp/5np1/8/2PPP3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 4",
+          "movesUci": [
+            "d7d6"
+          ],
+          "opponentReplies": [
+            "f1e2"
+          ],
+          "san": "d6",
+          "comment": "Support."
+        },
+        {
+          "id": "kings-indian:averbakh:4",
+          "fenBefore": "rnbqk2r/ppp1ppbp/3p1np1/8/2PPP3/2N5/PP2BPPP/R1BQK1NR b KQkq - 1 5",
+          "movesUci": [
+            "e8g8"
+          ],
+          "opponentReplies": [
+            "c1g5"
+          ],
+          "san": "O-O",
+          "comment": "Castle."
+        },
+        {
+          "id": "kings-indian:averbakh:5",
+          "fenBefore": "rnbq1rk1/ppp1ppbp/3p1np1/6B1/2PPP3/2N5/PP2BPPP/R2QK1NR b KQ - 3 6",
+          "movesUci": [
+            "h7h6"
+          ],
+          "opponentReplies": [
+            "g5e3"
+          ],
+          "san": "h6",
+          "comment": "Ask the bishop. You will follow with ...e5 or ...c5."
+        },
+        {
+          "id": "kings-indian:averbakh:6",
+          "fenBefore": "rnbq1rk1/ppp1ppb1/3p1npp/8/2PPP3/2N1B3/PP2BPPP/R2QK1NR b KQ - 1 7",
+          "movesUci": [
+            "e7e5"
+          ],
+          "opponentReplies": [
+            "d4d5"
+          ],
+          "san": "e5",
+          "comment": "Central break."
+        },
+        {
+          "id": "kings-indian:averbakh:7",
+          "fenBefore": "rnbq1rk1/ppp2pb1/3p1npp/3Pp3/2P1P3/2N1B3/PP2BPPP/R2QK1NR b KQ - 0 8",
+          "movesUci": [
+            "b8d7"
+          ],
+          "opponentReplies": [],
+          "san": "Nbd7",
+          "comment": "Develop. ...Ne8 and ...f5, or ...a5 and ...Nc5, are the plans."
+        }
+      ]
+    },
+    {
+      "id": "petrosian",
+      "name": "Petrosian — 7.d5",
+      "steps": [
+        {
+          "id": "kings-indian:petrosian:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "c2c4"
+          ],
+          "san": "Nf6",
+          "comment": "King's Indian start."
+        },
+        {
+          "id": "kings-indian:petrosian:1",
+          "fenBefore": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "movesUci": [
+            "g7g6"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "g6",
+          "comment": "Fianchetto."
+        },
+        {
+          "id": "kings-indian:petrosian:2",
+          "fenBefore": "rnbqkb1r/pppppp1p/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+          "movesUci": [
+            "f8g7"
+          ],
+          "opponentReplies": [
+            "e2e4"
+          ],
+          "san": "Bg7",
+          "comment": "Bishop."
+        },
+        {
+          "id": "kings-indian:petrosian:3",
+          "fenBefore": "rnbqk2r/ppppppbp/5np1/8/2PPP3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 4",
+          "movesUci": [
+            "d7d6"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "d6",
+          "comment": "Support."
+        },
+        {
+          "id": "kings-indian:petrosian:4",
+          "fenBefore": "rnbqk2r/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP3PPP/R1BQKB1R b KQkq - 1 5",
+          "movesUci": [
+            "e8g8"
+          ],
+          "opponentReplies": [
+            "f1e2"
+          ],
+          "san": "O-O",
+          "comment": "Castle."
+        },
+        {
+          "id": "kings-indian:petrosian:5",
+          "fenBefore": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 3 6",
+          "movesUci": [
+            "e7e5"
+          ],
+          "opponentReplies": [
+            "d4d5"
+          ],
+          "san": "e5",
+          "comment": "Break."
+        },
+        {
+          "id": "kings-indian:petrosian:6",
+          "fenBefore": "rnbq1rk1/ppp2pbp/3p1np1/3Pp3/2P1P3/2N2N2/PP2BPPP/R1BQK2R b KQ - 0 7",
+          "movesUci": [
+            "a7a5"
+          ],
+          "opponentReplies": [
+            "e1g1"
+          ],
+          "san": "a5",
+          "comment": "Stop b4 and prepare ...Na6-c5. The space is on the queenside for White, so you clamp it."
+        },
+        {
+          "id": "kings-indian:petrosian:7",
+          "fenBefore": "rnbq1rk1/1pp2pbp/3p1np1/p2Pp3/2P1P3/2N2N2/PP2BPPP/R1BQ1RK1 b - - 1 8",
+          "movesUci": [
+            "b8a6"
+          ],
+          "opponentReplies": [
+            "c1e3"
+          ],
+          "san": "Na6",
+          "comment": "The knight's route to c5."
+        },
+        {
+          "id": "kings-indian:petrosian:8",
+          "fenBefore": "r1bq1rk1/1pp2pbp/n2p1np1/p2Pp3/2P1P3/2N1BN2/PP2BPPP/R2Q1RK1 b - - 3 9",
+          "movesUci": [
+            "a6c5"
+          ],
+          "opponentReplies": [],
+          "san": "Nc5",
+          "comment": "Occupy c5. ...Ne8 and ...f5 is the kingside plan."
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "name": "Orthodox — 7.dxe5",
+      "steps": [
+        {
+          "id": "kings-indian:exchange:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+          "movesUci": [
+            "g8f6"
+          ],
+          "opponentReplies": [
+            "c2c4"
+          ],
+          "san": "Nf6",
+          "comment": "King's Indian start."
+        },
+        {
+          "id": "kings-indian:exchange:1",
+          "fenBefore": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+          "movesUci": [
+            "g7g6"
+          ],
+          "opponentReplies": [
+            "b1c3"
+          ],
+          "san": "g6",
+          "comment": "Fianchetto."
+        },
+        {
+          "id": "kings-indian:exchange:2",
+          "fenBefore": "rnbqkb1r/pppppp1p/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+          "movesUci": [
+            "f8g7"
+          ],
+          "opponentReplies": [
+            "e2e4"
+          ],
+          "san": "Bg7",
+          "comment": "Bishop."
+        },
+        {
+          "id": "kings-indian:exchange:3",
+          "fenBefore": "rnbqk2r/ppppppbp/5np1/8/2PPP3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 4",
+          "movesUci": [
+            "d7d6"
+          ],
+          "opponentReplies": [
+            "g1f3"
+          ],
+          "san": "d6",
+          "comment": "Support."
+        },
+        {
+          "id": "kings-indian:exchange:4",
+          "fenBefore": "rnbqk2r/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP3PPP/R1BQKB1R b KQkq - 1 5",
+          "movesUci": [
+            "e8g8"
+          ],
+          "opponentReplies": [
+            "f1e2"
+          ],
+          "san": "O-O",
+          "comment": "Castle."
+        },
+        {
+          "id": "kings-indian:exchange:5",
+          "fenBefore": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 3 6",
+          "movesUci": [
+            "e7e5"
+          ],
+          "opponentReplies": [
+            "d4e5"
+          ],
+          "san": "e5",
+          "comment": "Break."
+        },
+        {
+          "id": "kings-indian:exchange:6",
+          "fenBefore": "rnbq1rk1/ppp2pbp/3p1np1/4P3/2P1P3/2N2N2/PP2BPPP/R1BQK2R b KQ - 0 7",
+          "movesUci": [
+            "d6e5"
+          ],
+          "opponentReplies": [
+            "d1d8"
+          ],
+          "san": "dxe5",
+          "comment": "Recapture. The position is symmetrical and the d-file is open. Your bishop on g7 is the long-term asset."
+        },
+        {
+          "id": "kings-indian:exchange:7",
+          "fenBefore": "rnbQ1rk1/ppp2pbp/5np1/4p3/2P1P3/2N2N2/PP2BPPP/R1B1K2R b KQ - 0 8",
+          "movesUci": [
+            "f8d8"
+          ],
+          "opponentReplies": [
+            "c1g5"
+          ],
+          "san": "Rxd8",
+          "comment": "Put a rook on the open file."
+        },
+        {
+          "id": "kings-indian:exchange:8",
+          "fenBefore": "rnbr2k1/ppp2pbp/5np1/4p1B1/2P1P3/2N2N2/PP2BPPP/R3K2R b KQ - 1 9",
+          "movesUci": [
+            "d8e8"
+          ],
+          "opponentReplies": [],
+          "san": "Re8",
+          "comment": "Step off the pin and keep e5 defended. ...Nbd7 follows."
+        }
+      ]
+    }
+  ]
+}

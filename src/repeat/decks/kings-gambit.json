@@ -1,0 +1,1087 @@
+{
+  "id": "kings-gambit",
+  "slug": "kings-gambit",
+  "name": "King's Gambit",
+  "color": "w",
+  "tags": [
+    "gambit"
+  ],
+  "lines": [
+    {
+      "id": "fischer",
+      "name": "Accepted — Fischer Defense 3...d6",
+      "steps": [
+        {
+          "id": "kings-gambit:fischer:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "kings-gambit:fischer:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "f2f4"
+          ],
+          "opponentReplies": [
+            "e5f4"
+          ],
+          "san": "f4",
+          "comment": "The gambit. You open the f-file and fight for the center."
+        },
+        {
+          "id": "kings-gambit:fischer:2",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/8/4Pp2/8/PPPP2PP/RNBQKBNR w KQkq - 0 3",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "d7d6"
+          ],
+          "san": "Nf3",
+          "comment": "Stop ...Qh4+ and prepare d4."
+        },
+        {
+          "id": "kings-gambit:fischer:3",
+          "fenBefore": "rnbqkbnr/ppp2ppp/3p4/8/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "g7g5"
+          ],
+          "san": "d4",
+          "comment": "Take the center. The f4-pawn is a target you will collect later."
+        },
+        {
+          "id": "kings-gambit:fischer:4",
+          "fenBefore": "rnbqkbnr/ppp2p1p/3p4/6p1/3PPp2/5N2/PPP3PP/RNBQKB1R w KQkq - 0 5",
+          "movesUci": [
+            "h2h4"
+          ],
+          "opponentReplies": [
+            "g5g4"
+          ],
+          "san": "h4",
+          "comment": "Undermine the pawn chain before Black consolidates."
+        },
+        {
+          "id": "kings-gambit:fischer:5",
+          "fenBefore": "rnbqkbnr/ppp2p1p/3p4/8/3PPppP/5N2/PPP3P1/RNBQKB1R w KQkq - 0 6",
+          "movesUci": [
+            "f3g1"
+          ],
+          "opponentReplies": [
+            "f8h6"
+          ],
+          "san": "Ng1",
+          "comment": "The knight retreats, but Black's kingside is full of holes."
+        },
+        {
+          "id": "kings-gambit:fischer:6",
+          "fenBefore": "rnbqk1nr/ppp2p1p/3p3b/8/3PPppP/8/PPP3P1/RNBQKBNR w KQkq - 2 7",
+          "movesUci": [
+            "b1c3"
+          ],
+          "opponentReplies": [
+            "b8c6"
+          ],
+          "san": "Nc3",
+          "comment": "Develop and eye d5."
+        },
+        {
+          "id": "kings-gambit:fischer:7",
+          "fenBefore": "r1bqk1nr/ppp2p1p/2np3b/8/3PPppP/2N5/PPP3P1/R1BQKBNR w KQkq - 4 8",
+          "movesUci": [
+            "g1e2"
+          ],
+          "opponentReplies": [],
+          "san": "Nge2",
+          "comment": "The knight returns via e2, heading for g3 to win the f4-pawn."
+        }
+      ]
+    },
+    {
+      "id": "classical",
+      "name": "Accepted — Classical 3...g5 4.Bc4",
+      "steps": [
+        {
+          "id": "kings-gambit:classical:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "kings-gambit:classical:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "f2f4"
+          ],
+          "opponentReplies": [
+            "e5f4"
+          ],
+          "san": "f4",
+          "comment": "Gambit."
+        },
+        {
+          "id": "kings-gambit:classical:2",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/8/4Pp2/8/PPPP2PP/RNBQKBNR w KQkq - 0 3",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "g7g5"
+          ],
+          "san": "Nf3",
+          "comment": "Prevent ...Qh4+."
+        },
+        {
+          "id": "kings-gambit:classical:3",
+          "fenBefore": "rnbqkbnr/pppp1p1p/8/6p1/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
+          "movesUci": [
+            "f1c4"
+          ],
+          "opponentReplies": [
+            "g5g4"
+          ],
+          "san": "Bc4",
+          "comment": "Develop against f7, the point of the classical line."
+        },
+        {
+          "id": "kings-gambit:classical:4",
+          "fenBefore": "rnbqkbnr/pppp1p1p/8/8/2B1Ppp1/5N2/PPPP2PP/RNBQK2R w KQkq - 0 5",
+          "movesUci": [
+            "e1g1"
+          ],
+          "opponentReplies": [
+            "g4f3"
+          ],
+          "san": "O-O",
+          "comment": "Sacrifice the knight for a king attack. This is the Muzio-style idea."
+        },
+        {
+          "id": "kings-gambit:classical:5",
+          "fenBefore": "rnbqkbnr/pppp1p1p/8/8/2B1Pp2/5p2/PPPP2PP/RNBQ1RK1 w kq - 0 6",
+          "movesUci": [
+            "d1f3"
+          ],
+          "opponentReplies": [
+            "d8f6"
+          ],
+          "san": "Qxf3",
+          "comment": "Recapture and point the queen at f7."
+        },
+        {
+          "id": "kings-gambit:classical:6",
+          "fenBefore": "rnb1kbnr/pppp1p1p/5q2/8/2B1Pp2/5Q2/PPPP2PP/RNB2RK1 w kq - 1 7",
+          "movesUci": [
+            "e4e5"
+          ],
+          "opponentReplies": [
+            "f6e5"
+          ],
+          "san": "e5",
+          "comment": "Gain a tempo on the queen and open the center."
+        },
+        {
+          "id": "kings-gambit:classical:7",
+          "fenBefore": "rnb1kbnr/pppp1p1p/8/4q3/2B2p2/5Q2/PPPP2PP/RNB2RK1 w kq - 0 8",
+          "movesUci": [
+            "d2d3"
+          ],
+          "opponentReplies": [],
+          "san": "d3",
+          "comment": "Defend, develop, and keep the bishop's diagonal. Bh6 and Nc3 follow."
+        }
+      ]
+    },
+    {
+      "id": "kieseritzky",
+      "name": "Accepted — Kieseritzky 5.Ne5",
+      "steps": [
+        {
+          "id": "kings-gambit:kieseritzky:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "kings-gambit:kieseritzky:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "f2f4"
+          ],
+          "opponentReplies": [
+            "e5f4"
+          ],
+          "san": "f4",
+          "comment": "Gambit."
+        },
+        {
+          "id": "kings-gambit:kieseritzky:2",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/8/4Pp2/8/PPPP2PP/RNBQKBNR w KQkq - 0 3",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "g7g5"
+          ],
+          "san": "Nf3",
+          "comment": "Prevent ...Qh4+."
+        },
+        {
+          "id": "kings-gambit:kieseritzky:3",
+          "fenBefore": "rnbqkbnr/pppp1p1p/8/6p1/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
+          "movesUci": [
+            "h2h4"
+          ],
+          "opponentReplies": [
+            "g5g4"
+          ],
+          "san": "h4",
+          "comment": "Chip at the g5-pawn before committing the bishop."
+        },
+        {
+          "id": "kings-gambit:kieseritzky:4",
+          "fenBefore": "rnbqkbnr/pppp1p1p/8/8/4PppP/5N2/PPPP2P1/RNBQKB1R w KQkq - 0 5",
+          "movesUci": [
+            "f3e5"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "Ne5",
+          "comment": "Central knight. It eyes f7 and can drop back to d3 or g4 later."
+        },
+        {
+          "id": "kings-gambit:kieseritzky:5",
+          "fenBefore": "rnbqkb1r/pppp1p1p/5n2/4N3/4PppP/8/PPPP2P1/RNBQKB1R w KQkq - 2 6",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "d7d6"
+          ],
+          "san": "d4",
+          "comment": "Build the center behind the knight."
+        },
+        {
+          "id": "kings-gambit:kieseritzky:6",
+          "fenBefore": "rnbqkb1r/ppp2p1p/3p1n2/4N3/3PPppP/8/PPP3P1/RNBQKB1R w KQkq - 0 7",
+          "movesUci": [
+            "e5d3"
+          ],
+          "opponentReplies": [
+            "f6e4"
+          ],
+          "san": "Nd3",
+          "comment": "Attack the f4-pawn and get out of the way of your pieces."
+        },
+        {
+          "id": "kings-gambit:kieseritzky:7",
+          "fenBefore": "rnbqkb1r/ppp2p1p/3p4/8/3PnppP/3N4/PPP3P1/RNBQKB1R w KQkq - 0 8",
+          "movesUci": [
+            "c1f4"
+          ],
+          "opponentReplies": [],
+          "san": "Bxf4",
+          "comment": "Win the gambit pawn back with a developed bishop."
+        }
+      ]
+    },
+    {
+      "id": "cunningham",
+      "name": "Accepted — Cunningham 3...Be7",
+      "steps": [
+        {
+          "id": "kings-gambit:cunningham:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "kings-gambit:cunningham:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "f2f4"
+          ],
+          "opponentReplies": [
+            "e5f4"
+          ],
+          "san": "f4",
+          "comment": "Gambit."
+        },
+        {
+          "id": "kings-gambit:cunningham:2",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/8/4Pp2/8/PPPP2PP/RNBQKBNR w KQkq - 0 3",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "f8e7"
+          ],
+          "san": "Nf3",
+          "comment": "Prevent ...Qh4+."
+        },
+        {
+          "id": "kings-gambit:cunningham:3",
+          "fenBefore": "rnbqk1nr/ppppbppp/8/8/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq - 2 4",
+          "movesUci": [
+            "f1c4"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "Bc4",
+          "comment": "Develop against f7. If ...Bh4+ you can play Kf1 or g3."
+        },
+        {
+          "id": "kings-gambit:cunningham:4",
+          "fenBefore": "rnbqk2r/ppppbppp/5n2/8/2B1Pp2/5N2/PPPP2PP/RNBQK2R w KQkq - 4 5",
+          "movesUci": [
+            "e4e5"
+          ],
+          "opponentReplies": [
+            "f6g4"
+          ],
+          "san": "e5",
+          "comment": "Kick the knight and gain space."
+        },
+        {
+          "id": "kings-gambit:cunningham:5",
+          "fenBefore": "rnbqk2r/ppppbppp/8/4P3/2B2pn1/5N2/PPPP2PP/RNBQK2R w KQkq - 1 6",
+          "movesUci": [
+            "e1g1"
+          ],
+          "opponentReplies": [
+            "b8c6"
+          ],
+          "san": "O-O",
+          "comment": "Castle. The f-file is half open for your rook."
+        },
+        {
+          "id": "kings-gambit:cunningham:6",
+          "fenBefore": "r1bqk2r/ppppbppp/2n5/4P3/2B2pn1/5N2/PPPP2PP/RNBQ1RK1 w kq - 3 7",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "d7d5"
+          ],
+          "san": "d4",
+          "comment": "Classic pawn center."
+        },
+        {
+          "id": "kings-gambit:cunningham:7",
+          "fenBefore": "r1bqk2r/ppp1bppp/2n5/3pP3/2BP1pn1/5N2/PPP3PP/RNBQ1RK1 w kq d6 0 8",
+          "movesUci": [
+            "e5d6"
+          ],
+          "opponentReplies": [],
+          "san": "exd6",
+          "comment": "Open lines. You are ahead in development."
+        }
+      ]
+    },
+    {
+      "id": "schallopp",
+      "name": "Accepted — Schallopp 3...Nf6",
+      "steps": [
+        {
+          "id": "kings-gambit:schallopp:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "kings-gambit:schallopp:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "f2f4"
+          ],
+          "opponentReplies": [
+            "e5f4"
+          ],
+          "san": "f4",
+          "comment": "Gambit."
+        },
+        {
+          "id": "kings-gambit:schallopp:2",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/8/4Pp2/8/PPPP2PP/RNBQKBNR w KQkq - 0 3",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "Nf3",
+          "comment": "Prevent ...Qh4+."
+        },
+        {
+          "id": "kings-gambit:schallopp:3",
+          "fenBefore": "rnbqkb1r/pppp1ppp/5n2/8/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq - 2 4",
+          "movesUci": [
+            "e4e5"
+          ],
+          "opponentReplies": [
+            "f6h5"
+          ],
+          "san": "e5",
+          "comment": "The thematic kick. The knight must leave."
+        },
+        {
+          "id": "kings-gambit:schallopp:4",
+          "fenBefore": "rnbqkb1r/pppp1ppp/8/4P2n/5p2/5N2/PPPP2PP/RNBQKB1R w KQkq - 1 5",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "d7d5"
+          ],
+          "san": "d4",
+          "comment": "Center."
+        },
+        {
+          "id": "kings-gambit:schallopp:5",
+          "fenBefore": "rnbqkb1r/ppp2ppp/8/3pP2n/3P1p2/5N2/PPP3PP/RNBQKB1R w KQkq d6 0 6",
+          "movesUci": [
+            "f1e2"
+          ],
+          "opponentReplies": [
+            "g7g5"
+          ],
+          "san": "Be2",
+          "comment": "Develop and eye the knight on h5, which is stranded on the rim."
+        },
+        {
+          "id": "kings-gambit:schallopp:6",
+          "fenBefore": "rnbqkb1r/ppp2p1p/8/3pP1pn/3P1p2/5N2/PPP1B1PP/RNBQK2R w KQkq - 0 7",
+          "movesUci": [
+            "e1g1"
+          ],
+          "opponentReplies": [],
+          "san": "O-O",
+          "comment": "Castle and prepare c4 or Nc3 against the d5-pawn."
+        }
+      ]
+    },
+    {
+      "id": "modern-d5",
+      "name": "Accepted — Modern 3...d5",
+      "steps": [
+        {
+          "id": "kings-gambit:modern-d5:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "kings-gambit:modern-d5:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "f2f4"
+          ],
+          "opponentReplies": [
+            "e5f4"
+          ],
+          "san": "f4",
+          "comment": "Gambit."
+        },
+        {
+          "id": "kings-gambit:modern-d5:2",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/8/4Pp2/8/PPPP2PP/RNBQKBNR w KQkq - 0 3",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "d7d5"
+          ],
+          "san": "Nf3",
+          "comment": "Prevent ...Qh4+."
+        },
+        {
+          "id": "kings-gambit:modern-d5:3",
+          "fenBefore": "rnbqkbnr/ppp2ppp/8/3p4/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
+          "movesUci": [
+            "e4d5"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "exd5",
+          "comment": "Accept the central trade and open the e-file."
+        },
+        {
+          "id": "kings-gambit:modern-d5:4",
+          "fenBefore": "rnbqkb1r/ppp2ppp/5n2/3P4/5p2/5N2/PPPP2PP/RNBQKB1R w KQkq - 1 5",
+          "movesUci": [
+            "f1c4"
+          ],
+          "opponentReplies": [
+            "f6d5"
+          ],
+          "san": "Bc4",
+          "comment": "Develop and eye the pawn you just won on d5's neighbor, f7."
+        },
+        {
+          "id": "kings-gambit:modern-d5:5",
+          "fenBefore": "rnbqkb1r/ppp2ppp/8/3n4/2B2p2/5N2/PPPP2PP/RNBQK2R w KQkq - 0 6",
+          "movesUci": [
+            "e1g1"
+          ],
+          "opponentReplies": [
+            "f8e7"
+          ],
+          "san": "O-O",
+          "comment": "Castle. You will play d4 and c4 to bother the knight."
+        },
+        {
+          "id": "kings-gambit:modern-d5:6",
+          "fenBefore": "rnbqk2r/ppp1bppp/8/3n4/2B2p2/5N2/PPPP2PP/RNBQ1RK1 w kq - 2 7",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "e8g8"
+          ],
+          "san": "d4",
+          "comment": "Center, and it opens the dark-squared bishop."
+        },
+        {
+          "id": "kings-gambit:modern-d5:7",
+          "fenBefore": "rnbq1rk1/ppp1bppp/8/3n4/2BP1p2/5N2/PPP3PP/RNBQ1RK1 w - - 1 8",
+          "movesUci": [
+            "c4d5"
+          ],
+          "opponentReplies": [],
+          "san": "Bxd5",
+          "comment": "Remove the well-placed knight before Black consolidates."
+        }
+      ]
+    },
+    {
+      "id": "becker",
+      "name": "Accepted — Becker 3...h6",
+      "steps": [
+        {
+          "id": "kings-gambit:becker:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "kings-gambit:becker:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "f2f4"
+          ],
+          "opponentReplies": [
+            "e5f4"
+          ],
+          "san": "f4",
+          "comment": "Gambit."
+        },
+        {
+          "id": "kings-gambit:becker:2",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/8/4Pp2/8/PPPP2PP/RNBQKBNR w KQkq - 0 3",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "h7h6"
+          ],
+          "san": "Nf3",
+          "comment": "Prevent ...Qh4+."
+        },
+        {
+          "id": "kings-gambit:becker:3",
+          "fenBefore": "rnbqkbnr/pppp1pp1/7p/8/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "g7g5"
+          ],
+          "san": "d4",
+          "comment": "Take the center while Black spends a tempo on h6."
+        },
+        {
+          "id": "kings-gambit:becker:4",
+          "fenBefore": "rnbqkbnr/pppp1p2/7p/6p1/3PPp2/5N2/PPP3PP/RNBQKB1R w KQkq - 0 5",
+          "movesUci": [
+            "h2h4"
+          ],
+          "opponentReplies": [
+            "g5g4"
+          ],
+          "san": "h4",
+          "comment": "Break the pawn chain the same way as in the classical lines."
+        },
+        {
+          "id": "kings-gambit:becker:5",
+          "fenBefore": "rnbqkbnr/pppp1p2/7p/8/3PPppP/5N2/PPP3P1/RNBQKB1R w KQkq - 0 6",
+          "movesUci": [
+            "f3e5"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "Ne5",
+          "comment": "The knight belongs in the center, not on g1, because h6 has slightly weakened Black."
+        },
+        {
+          "id": "kings-gambit:becker:6",
+          "fenBefore": "rnbqkb1r/pppp1p2/5n1p/4N3/3PPppP/8/PPP3P1/RNBQKB1R w KQkq - 2 7",
+          "movesUci": [
+            "f1c4"
+          ],
+          "opponentReplies": [
+            "d7d5"
+          ],
+          "san": "Bc4",
+          "comment": "Develop against f7."
+        },
+        {
+          "id": "kings-gambit:becker:7",
+          "fenBefore": "rnbqkb1r/ppp2p2/5n1p/3pN3/2BPPppP/8/PPP3P1/RNBQK2R w KQkq - 0 8",
+          "movesUci": [
+            "e4d5"
+          ],
+          "opponentReplies": [],
+          "san": "exd5",
+          "comment": "Open the position. Black's king is still in the center."
+        }
+      ]
+    },
+    {
+      "id": "declined-bc5",
+      "name": "Declined — Classical 2...Bc5",
+      "steps": [
+        {
+          "id": "kings-gambit:declined-bc5:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "kings-gambit:declined-bc5:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "f2f4"
+          ],
+          "opponentReplies": [
+            "f8c5"
+          ],
+          "san": "f4",
+          "comment": "Gambit."
+        },
+        {
+          "id": "kings-gambit:declined-bc5:2",
+          "fenBefore": "rnbqk1nr/pppp1ppp/8/2b1p3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq - 1 3",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "d7d6"
+          ],
+          "san": "Nf3",
+          "comment": "Develop and defend against ...Bxf2 ideas later."
+        },
+        {
+          "id": "kings-gambit:declined-bc5:3",
+          "fenBefore": "rnbqk1nr/ppp2ppp/3p4/2b1p3/4PP2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
+          "movesUci": [
+            "c2c3"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "c3",
+          "comment": "Prepare d4, the point of declining the pawn."
+        },
+        {
+          "id": "kings-gambit:declined-bc5:4",
+          "fenBefore": "rnbqk2r/ppp2ppp/3p1n2/2b1p3/4PP2/2P2N2/PP1P2PP/RNBQKB1R w KQkq - 1 5",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "e5d4"
+          ],
+          "san": "d4",
+          "comment": "Gain the center with tempo on the bishop."
+        },
+        {
+          "id": "kings-gambit:declined-bc5:5",
+          "fenBefore": "rnbqk2r/ppp2ppp/3p1n2/2b5/3pPP2/2P2N2/PP4PP/RNBQKB1R w KQkq - 0 6",
+          "movesUci": [
+            "c3d4"
+          ],
+          "opponentReplies": [
+            "c5b6"
+          ],
+          "san": "cxd4",
+          "comment": "Recapture and keep the pawn center."
+        },
+        {
+          "id": "kings-gambit:declined-bc5:6",
+          "fenBefore": "rnbqk2r/ppp2ppp/1b1p1n2/8/3PPP2/5N2/PP4PP/RNBQKB1R w KQkq - 1 7",
+          "movesUci": [
+            "b1c3"
+          ],
+          "opponentReplies": [
+            "e8g8"
+          ],
+          "san": "Nc3",
+          "comment": "Develop."
+        },
+        {
+          "id": "kings-gambit:declined-bc5:7",
+          "fenBefore": "rnbq1rk1/ppp2ppp/1b1p1n2/8/3PPP2/2N2N2/PP4PP/R1BQKB1R w KQ - 3 8",
+          "movesUci": [
+            "f1c4"
+          ],
+          "opponentReplies": [],
+          "san": "Bc4",
+          "comment": "Italian-style bishop, now with f4 space as well."
+        }
+      ]
+    },
+    {
+      "id": "falkbeer",
+      "name": "Declined — Falkbeer 2...d5",
+      "steps": [
+        {
+          "id": "kings-gambit:falkbeer:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "kings-gambit:falkbeer:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "f2f4"
+          ],
+          "opponentReplies": [
+            "d7d5"
+          ],
+          "san": "f4",
+          "comment": "Gambit."
+        },
+        {
+          "id": "kings-gambit:falkbeer:2",
+          "fenBefore": "rnbqkbnr/ppp2ppp/8/3pp3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq - 0 3",
+          "movesUci": [
+            "e4d5"
+          ],
+          "opponentReplies": [
+            "e5e4"
+          ],
+          "san": "exd5",
+          "comment": "Take the offered pawn. The countergambit must be answered in the center."
+        },
+        {
+          "id": "kings-gambit:falkbeer:3",
+          "fenBefore": "rnbqkbnr/ppp2ppp/8/3P4/4pP2/8/PPPP2PP/RNBQKBNR w KQkq - 0 4",
+          "movesUci": [
+            "d2d3"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "d3",
+          "comment": "Undermine the advanced pawn before it cramps you."
+        },
+        {
+          "id": "kings-gambit:falkbeer:4",
+          "fenBefore": "rnbqkb1r/ppp2ppp/5n2/3P4/4pP2/3P4/PPP3PP/RNBQKBNR w KQkq - 1 5",
+          "movesUci": [
+            "d3e4"
+          ],
+          "opponentReplies": [
+            "f6e4"
+          ],
+          "san": "dxe4",
+          "comment": "Remove the wedge."
+        },
+        {
+          "id": "kings-gambit:falkbeer:5",
+          "fenBefore": "rnbqkb1r/ppp2ppp/8/3P4/4nP2/8/PPP3PP/RNBQKBNR w KQkq - 0 6",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "f8c5"
+          ],
+          "san": "Nf3",
+          "comment": "Develop and prepare Bd3 against the knight."
+        },
+        {
+          "id": "kings-gambit:falkbeer:6",
+          "fenBefore": "rnbqk2r/ppp2ppp/8/2bP4/4nP2/5N2/PPP3PP/RNBQKB1R w KQkq - 2 7",
+          "movesUci": [
+            "d1e2"
+          ],
+          "opponentReplies": [
+            "d8e7"
+          ],
+          "san": "Qe2",
+          "comment": "Pin the knight to the king along the e-file."
+        },
+        {
+          "id": "kings-gambit:falkbeer:7",
+          "fenBefore": "rnb1k2r/ppp1qppp/8/2bP4/4nP2/5N2/PPP1Q1PP/RNB1KB1R w KQkq - 4 8",
+          "movesUci": [
+            "b1c3"
+          ],
+          "opponentReplies": [],
+          "san": "Nc3",
+          "comment": "Add a second attacker to the pinned knight."
+        }
+      ]
+    },
+    {
+      "id": "declined-d6",
+      "name": "Declined — 2...d6",
+      "steps": [
+        {
+          "id": "kings-gambit:declined-d6:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "kings-gambit:declined-d6:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "f2f4"
+          ],
+          "opponentReplies": [
+            "d7d6"
+          ],
+          "san": "f4",
+          "comment": "Gambit."
+        },
+        {
+          "id": "kings-gambit:declined-d6:2",
+          "fenBefore": "rnbqkbnr/ppp2ppp/3p4/4p3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq - 0 3",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "e5f4"
+          ],
+          "san": "Nf3",
+          "comment": "Develop."
+        },
+        {
+          "id": "kings-gambit:declined-d6:3",
+          "fenBefore": "rnbqkbnr/ppp2ppp/3p4/8/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "g7g5"
+          ],
+          "san": "d4",
+          "comment": "You have the center and will pick up f4 with Bxf4."
+        },
+        {
+          "id": "kings-gambit:declined-d6:4",
+          "fenBefore": "rnbqkbnr/ppp2p1p/3p4/6p1/3PPp2/5N2/PPP3PP/RNBQKB1R w KQkq - 0 5",
+          "movesUci": [
+            "h2h4"
+          ],
+          "opponentReplies": [
+            "g5g4"
+          ],
+          "san": "h4",
+          "comment": "Break g5 before Black's king hides."
+        },
+        {
+          "id": "kings-gambit:declined-d6:5",
+          "fenBefore": "rnbqkbnr/ppp2p1p/3p4/8/3PPppP/5N2/PPP3P1/RNBQKB1R w KQkq - 0 6",
+          "movesUci": [
+            "f3g5"
+          ],
+          "opponentReplies": [
+            "h7h6"
+          ],
+          "san": "Ng5",
+          "comment": "The knight leaps in. f7 is the target."
+        },
+        {
+          "id": "kings-gambit:declined-d6:6",
+          "fenBefore": "rnbqkbnr/ppp2p2/3p3p/6N1/3PPppP/8/PPP3P1/RNBQKB1R w KQkq - 0 7",
+          "movesUci": [
+            "g5f7"
+          ],
+          "opponentReplies": [],
+          "san": "Nxf7",
+          "comment": "Fork the queen and the rook. This is why the knight went to g5."
+        }
+      ]
+    },
+    {
+      "id": "declined-nf6",
+      "name": "Declined — 2...Nf6",
+      "steps": [
+        {
+          "id": "kings-gambit:declined-nf6:0",
+          "fenBefore": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+          "movesUci": [
+            "e2e4"
+          ],
+          "opponentReplies": [
+            "e7e5"
+          ],
+          "san": "e4",
+          "comment": "Open game."
+        },
+        {
+          "id": "kings-gambit:declined-nf6:1",
+          "fenBefore": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "movesUci": [
+            "f2f4"
+          ],
+          "opponentReplies": [
+            "g8f6"
+          ],
+          "san": "f4",
+          "comment": "Gambit."
+        },
+        {
+          "id": "kings-gambit:declined-nf6:2",
+          "fenBefore": "rnbqkb1r/pppp1ppp/5n2/4p3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq - 1 3",
+          "movesUci": [
+            "f4e5"
+          ],
+          "opponentReplies": [
+            "f6e4"
+          ],
+          "san": "fxe5",
+          "comment": "Take. The knight attack on e4 is met by development."
+        },
+        {
+          "id": "kings-gambit:declined-nf6:3",
+          "fenBefore": "rnbqkb1r/pppp1ppp/8/4P3/4n3/8/PPPP2PP/RNBQKBNR w KQkq - 0 4",
+          "movesUci": [
+            "g1f3"
+          ],
+          "opponentReplies": [
+            "e4g5"
+          ],
+          "san": "Nf3",
+          "comment": "Develop and prepare d4 or d3."
+        },
+        {
+          "id": "kings-gambit:declined-nf6:4",
+          "fenBefore": "rnbqkb1r/pppp1ppp/8/4P1n1/8/5N2/PPPP2PP/RNBQKB1R w KQkq - 2 5",
+          "movesUci": [
+            "d2d4"
+          ],
+          "opponentReplies": [
+            "g5f3"
+          ],
+          "san": "d4",
+          "comment": "Center. The knight on g5 will be kicked by h4 or traded."
+        },
+        {
+          "id": "kings-gambit:declined-nf6:5",
+          "fenBefore": "rnbqkb1r/pppp1ppp/8/4P3/3P4/5n2/PPP3PP/RNBQKB1R w KQkq - 0 6",
+          "movesUci": [
+            "d1f3"
+          ],
+          "opponentReplies": [
+            "d8h4"
+          ],
+          "san": "Qxf3",
+          "comment": "Recapture with the queen, already centralized."
+        },
+        {
+          "id": "kings-gambit:declined-nf6:6",
+          "fenBefore": "rnb1kb1r/pppp1ppp/8/4P3/3P3q/5Q2/PPP3PP/RNB1KB1R w KQkq - 1 7",
+          "movesUci": [
+            "g2g3"
+          ],
+          "opponentReplies": [
+            "h4e7"
+          ],
+          "san": "g3",
+          "comment": "Kick the queen and open a path to castle kingside later."
+        },
+        {
+          "id": "kings-gambit:declined-nf6:7",
+          "fenBefore": "rnb1kb1r/ppppqppp/8/4P3/3P4/5QP1/PPP4P/RNB1KB1R w KQkq - 1 8",
+          "movesUci": [
+            "b1c3"
+          ],
+          "opponentReplies": [],
+          "san": "Nc3",
+          "comment": "Develop. You are a pawn up with the center."
+        }
+      ]
+    }
+  ]
+}

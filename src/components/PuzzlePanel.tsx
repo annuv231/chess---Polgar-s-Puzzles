@@ -39,7 +39,7 @@ export function PuzzlePanel({
     <aside className="flex w-full max-w-sm flex-col gap-3 rounded-md bg-[var(--panel)] p-4 shadow-lg">
       <div className="flex items-center justify-between gap-3">
         <Link
-          to="/"
+          to="/puzzles"
           className="text-sm text-[var(--muted)] no-underline hover:text-white"
         >
           ← Back

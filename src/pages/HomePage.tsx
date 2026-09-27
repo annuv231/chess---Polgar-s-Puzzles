@@ -14,8 +14,14 @@ export function HomePage() {
     <div className="min-h-full px-4 py-10 md:px-8">
       <div className="mx-auto max-w-4xl">
         <header className="mb-10">
-          <h1 className="text-4xl font-bold tracking-tight md:text-5xl">
-            Chess Puzzles
+          <Link
+            to="/"
+            className="text-sm text-[var(--muted)] no-underline hover:text-white"
+          >
+            ← Home
+          </Link>
+          <h1 className="mt-3 text-4xl font-bold tracking-tight md:text-5xl">
+            Chess Polgár&apos;s Puzzle
           </h1>
           <p className="mt-3 text-[var(--muted)]">
             {solvedTotal} / {total} solved
