@@ -16,6 +16,12 @@ export function SiteHeader() {
         </Link>
         <nav className="flex items-center gap-4 text-sm font-medium">
           <Link
+            to="/"
+            className="text-stone-600 hover:text-stone-900 dark:text-stone-400 dark:hover:text-stone-100"
+          >
+            Home
+          </Link>
+          <Link
             to="/repeat"
             className="text-stone-600 hover:text-stone-900 dark:text-stone-400 dark:hover:text-stone-100"
           >

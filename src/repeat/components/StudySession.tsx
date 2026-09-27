@@ -29,13 +29,6 @@ function findStep(deck: Deck, stepId: string): Step | undefined {
   }
 }
 
-function findLineName(deck: Deck, stepId: string): string {
-  for (const line of deck.lines) {
-    if (line.steps.some((s) => s.id === stepId)) return line.name;
-  }
-  return "";
-}
-
 function stepNumber(stepId: string): number {
   const raw = Number(stepId.split(":").at(-1));
   return Number.isFinite(raw) ? raw + 1 : 1;
@@ -365,8 +358,6 @@ function StudySessionLive({ deck, mode: initialMode, lineId }: StudySessionProps
     );
   }
 
-  const lineName = findLineName(deck, current.stepId);
-
   const lesson = showLesson ? (
     <div className="rounded-xl bg-white px-4 py-3 text-zinc-900 shadow-sm">
       {step.comment && <p className="text-sm leading-6">{step.comment}</p>}
@@ -388,7 +379,7 @@ function StudySessionLive({ deck, mode: initialMode, lineId }: StudySessionProps
                 <BookIcon />
                 {mode === "practice" ? "Learn" : "Train"}
               </span>
-              <span className="truncate text-zinc-200">{lineName}</span>
+              <span className="truncate text-zinc-200">{deck.name}</span>
               <span className="ml-auto shrink-0 text-zinc-400">
                 #{stepNumber(step.id)}
               </span>
@@ -433,7 +424,7 @@ function StudySessionLive({ deck, mode: initialMode, lineId }: StudySessionProps
             <BookIcon />
             {mode === "practice" ? "Learn" : "Train"}
           </span>
-          <span className="truncate text-zinc-300">{lineName}</span>
+          <span className="truncate text-zinc-300">{deck.name}</span>
           <span className="ml-auto text-zinc-500">#{stepNumber(step.id)}</span>
         </div>
 
